@@ -1,0 +1,355 @@
+{
+  "total_documents": 24,
+  "successful_documents": 24,
+  "failed_documents": 0,
+  "average_processing_time_ms": 7.8,
+  "minimum_processing_time_ms": 4.29,
+  "maximum_processing_time_ms": 17.79,
+  "processing_start_time": "2026-09-06T04:54:30.743343+00:00",
+  "processing_end_time": "2026-09-06T04:54:30.947797+00:00",
+  "total_processing_time_ms": 204.0,
+  "documents": [
+    {
+      "filename": "emails/email-01-safety-fall-report.txt",
+      "start_time": "2026-09-06T04:54:30.744368+00:00",
+      "end_time": "2026-09-06T04:54:30.748369+00:00",
+      "processing_duration_ms": 4.56,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT"
+      ],
+      "confidence": 0.75,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "emails/email-02-quality-complaint.txt",
+      "start_time": "2026-09-06T04:54:30.749373+00:00",
+      "end_time": "2026-09-06T04:54:30.757959+00:00",
+      "processing_duration_ms": 8.28,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "QUALITY_COMPLAINT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.7,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "emails/email-03-info-request.txt",
+      "start_time": "2026-09-06T04:54:30.758521+00:00",
+      "end_time": "2026-09-06T04:54:30.765540+00:00",
+      "processing_duration_ms": 6.64,
+      "classification": "INFO_REQUEST",
+      "all_categories": [
+        "INFO_REQUEST",
+        "NOT_RELEVANT",
+        "SAFETY_REPORT"
+      ],
+      "confidence": 0.75,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "emails/email-04-safety-device-recall.txt",
+      "start_time": "2026-09-06T04:54:30.765540+00:00",
+      "end_time": "2026-09-06T04:54:30.772072+00:00",
+      "processing_duration_ms": 6.27,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "QUALITY_COMPLAINT"
+      ],
+      "confidence": 0.99,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "emails/email-05-info-request-research.txt",
+      "start_time": "2026-09-06T04:54:30.773072+00:00",
+      "end_time": "2026-09-06T04:54:30.778325+00:00",
+      "processing_duration_ms": 5.27,
+      "classification": "INFO_REQUEST",
+      "all_categories": [
+        "INFO_REQUEST",
+        "SAFETY_REPORT"
+      ],
+      "confidence": 0.65,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "emails/email-06-quality-complaint-med-error.txt",
+      "start_time": "2026-09-06T04:54:30.778325+00:00",
+      "end_time": "2026-09-06T04:54:30.783275+00:00",
+      "processing_duration_ms": 4.76,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "QUALITY_COMPLAINT",
+        "NOT_RELEVANT"
+      ],
+      "confidence": 0.9,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "emails/email-07-marketing-irrelevant.txt",
+      "start_time": "2026-09-06T04:54:30.784279+00:00",
+      "end_time": "2026-09-06T04:54:30.789275+00:00",
+      "processing_duration_ms": 5.43,
+      "classification": "NOT_RELEVANT",
+      "all_categories": [
+        "NOT_RELEVANT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.75,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "emails/email-08-safety-adverse-event.txt",
+      "start_time": "2026-09-06T04:54:30.790281+00:00",
+      "end_time": "2026-09-06T04:54:30.794302+00:00",
+      "processing_duration_ms": 4.29,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT"
+      ],
+      "confidence": 0.9,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "emails/email-09-quality-recall.txt",
+      "start_time": "2026-09-06T04:54:30.795301+00:00",
+      "end_time": "2026-09-06T04:54:30.799294+00:00",
+      "processing_duration_ms": 4.72,
+      "classification": "INFO_REQUEST",
+      "all_categories": [
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.15,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "emails/email-10-mixed-multiple-topics.txt",
+      "start_time": "2026-09-06T04:54:30.800294+00:00",
+      "end_time": "2026-09-06T04:54:30.805297+00:00",
+      "processing_duration_ms": 4.76,
+      "classification": "QUALITY_COMPLAINT",
+      "all_categories": [
+        "QUALITY_COMPLAINT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.99,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/articles/article-01-fall-prevention.txt",
+      "start_time": "2026-09-06T04:54:30.805297+00:00",
+      "end_time": "2026-09-06T04:54:30.815866+00:00",
+      "processing_duration_ms": 10.28,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "INFO_REQUEST",
+        "NOT_RELEVANT"
+      ],
+      "confidence": 0.99,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/articles/article-02-medication-reconciliation.txt",
+      "start_time": "2026-09-06T04:54:30.816883+00:00",
+      "end_time": "2026-09-06T04:54:30.830870+00:00",
+      "processing_duration_ms": 13.86,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "QUALITY_COMPLAINT",
+        "NOT_RELEVANT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.9,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/articles/article-03-adverse-drug-reactions.txt",
+      "start_time": "2026-09-06T04:54:30.831822+00:00",
+      "end_time": "2026-09-06T04:54:30.849250+00:00",
+      "processing_duration_ms": 17.79,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "NOT_RELEVANT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.5,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/articles/article-04-antibiotic-stewardship.txt",
+      "start_time": "2026-09-06T04:54:30.850258+00:00",
+      "end_time": "2026-09-06T04:54:30.865011+00:00",
+      "processing_duration_ms": 15.12,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "NOT_RELEVANT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.85,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/articles/article-05-rare-adverse-event.txt",
+      "start_time": "2026-09-06T04:54:30.866010+00:00",
+      "end_time": "2026-09-06T04:54:30.879013+00:00",
+      "processing_duration_ms": 13.3,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.99,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/digital/digital-01-adverse-event-report.txt",
+      "start_time": "2026-09-06T04:54:30.879013+00:00",
+      "end_time": "2026-09-06T04:54:30.884011+00:00",
+      "processing_duration_ms": 4.98,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.25,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/digital/digital-02-discharge-summary.txt",
+      "start_time": "2026-09-06T04:54:30.885016+00:00",
+      "end_time": "2026-09-06T04:54:30.891016+00:00",
+      "processing_duration_ms": 5.49,
+      "classification": "QUALITY_COMPLAINT",
+      "all_categories": [
+        "QUALITY_COMPLAINT"
+      ],
+      "confidence": 0.15,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/digital/digital-03-medication-error.txt",
+      "start_time": "2026-09-06T04:54:30.891016+00:00",
+      "end_time": "2026-09-06T04:54:30.897067+00:00",
+      "processing_duration_ms": 5.54,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "NOT_RELEVANT"
+      ],
+      "confidence": 0.99,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/digital/digital-04-lab-results.txt",
+      "start_time": "2026-09-06T04:54:30.897067+00:00",
+      "end_time": "2026-09-06T04:54:30.905026+00:00",
+      "processing_duration_ms": 7.68,
+      "classification": "INFO_REQUEST",
+      "all_categories": [
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.35,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/digital/digital-05-quality-audit.txt",
+      "start_time": "2026-09-06T04:54:30.906026+00:00",
+      "end_time": "2026-09-06T04:54:30.915572+00:00",
+      "processing_duration_ms": 9.27,
+      "classification": "INFO_REQUEST",
+      "all_categories": [
+        "INFO_REQUEST",
+        "SAFETY_REPORT"
+      ],
+      "confidence": 0.3,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/non-english/non-english-01-spanish-patient-safety.txt",
+      "start_time": "2026-09-06T04:54:30.915572+00:00",
+      "end_time": "2026-09-06T04:54:30.922577+00:00",
+      "processing_duration_ms": 6.92,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT"
+      ],
+      "confidence": 0.1,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/non-english/non-english-02-german-pharmacy-report.txt",
+      "start_time": "2026-09-06T04:54:30.923567+00:00",
+      "end_time": "2026-09-06T04:54:30.932617+00:00",
+      "processing_duration_ms": 9.53,
+      "classification": "QUALITY_COMPLAINT",
+      "all_categories": [
+        "QUALITY_COMPLAINT",
+        "SAFETY_REPORT",
+        "NOT_RELEVANT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.6,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/scanned/scanned-01-handwritten-incident.txt",
+      "start_time": "2026-09-06T04:54:30.933612+00:00",
+      "end_time": "2026-09-06T04:54:30.939674+00:00",
+      "processing_duration_ms": 6.41,
+      "classification": "SAFETY_REPORT",
+      "all_categories": [
+        "SAFETY_REPORT",
+        "QUALITY_COMPLAINT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.5,
+      "success": true,
+      "error": null
+    },
+    {
+      "filename": "pdfs/scanned/scanned-02-faxed-complaint.txt",
+      "start_time": "2026-09-06T04:54:30.941642+00:00",
+      "end_time": "2026-09-06T04:54:30.947797+00:00",
+      "processing_duration_ms": 6.11,
+      "classification": "QUALITY_COMPLAINT",
+      "all_categories": [
+        "QUALITY_COMPLAINT",
+        "SAFETY_REPORT",
+        "INFO_REQUEST"
+      ],
+      "confidence": 0.6,
+      "success": true,
+      "error": null
+    }
+  ]
+}

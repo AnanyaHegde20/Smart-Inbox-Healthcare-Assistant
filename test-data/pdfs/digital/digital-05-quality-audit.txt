@@ -1,0 +1,105 @@
+[PDF PLACEHOLDER - DIGITAL DOCUMENT]
+File: digital-05-quality-audit-report.pdf
+Type: Digital quality audit with tables and findings
+Pages: 4
+OCR Required: No (digital text)
+
+=== PAGE 1 ===
+PHARMACURE LABORATORIES
+Internal Quality Audit Report
+
+Audit Reference: QA-2025-0078
+Audit Date: 2025-08-15 to 2025-08-16
+Audit Type: Annual GMP Compliance Audit
+Lead Auditor: Jennifer Wu, Quality Control Manager
+
+Scope:
+Manufacturing operations for solid oral dosage forms
+Building 2, Production Lines 1-4
+
+---- AUDIT TEAM ----
+| Name | Role | Department |
+|------|------|------------|
+| Jennifer Wu | Lead Auditor | Quality Control |
+| David Park | Auditor | Quality Assurance |
+| Maria Santos | Auditor | Manufacturing |
+| Thomas Lee | Auditor | Engineering |
+
+==== EXECUTIVE SUMMARY ====
+Overall Rating: SATISFACTORY with observations
+
+Total Findings: 12
+- Critical: 0
+- Major: 3
+- Minor: 9
+
+=== PAGE 2 ===
+==== DETAILED FINDINGS ====
+
+FINDING #1 (MAJOR)
+Category: Documentation
+Area: Packaging Department
+Description: Batch packaging records for Lot PC-2025-3201 show unsigned entries for in-process checks conducted on 2025-08-10.
+Requirement: 21 CFR 211.188 - Batch production and control records
+Corrective Action Required: Yes
+Due Date: 2025-09-15
+
+FINDING #2 (MAJOR)
+Category: Equipment
+Area: Tablet Press Line 2
+Description: Preventive maintenance log shows Tablet Press TP-02 was not calibrated per schedule. Last calibration: 2025-05-20 (due: 2025-08-01).
+Requirement: 21 CFR 211.68 - Automatic, mechanical, and electronic equipment
+Corrective Action Required: Yes
+Due Date: 2025-09-01
+
+FINDING #3 (MAJOR)
+Category: Personnel
+Area: Warehouse
+Description: 4 warehouse staff have expired forklift certification (expired 2025-07-31).
+Requirement: SOP-WH-003, OSHA 1910.178
+Corrective Action Required: Yes
+Due Date: 2025-08-31
+
+=== PAGE 3 ===
+FINDING #4 (MINOR)
+Category: Facility
+Area: HVAC System
+Description: Temperature monitoring chart for Room 204 shows excursion to 76°F on 2025-08-12 (specification: 68-72°F). Duration: 45 minutes.
+Corrective Action Required: Yes
+Due Date: 2025-09-30
+
+FINDING #5 (MINOR)
+Category: Documentation
+Area: Quality Control Lab
+Description: SOP-QC-012 revision 7 not yet distributed to all analysts. Three analysts still using revision 6.
+Corrective Action Required: Yes
+Due Date: 2025-09-15
+
+FINDING #6 (MINOR)
+Category: Material Control
+Area: Raw Material Storage
+Description: Two drums of Avicel PH-102 missing secondary labels indicating QC release status.
+Corrective Action Required: Yes
+Due Date: 2025-09-01
+
+FINDINGS #7-12: Minor documentation and labeling observations (not detailed in this summary)
+
+=== PAGE 4 ===
+==== CORRECTIVE ACTION SUMMARY ====
+| Finding | Type | Corrective Action | Owner | Due Date | Status |
+|---------|------|-------------------|-------|----------|--------|
+| #1 | Major | Implement secondary review for packaging records | QA Manager | 09/15 | Open |
+| #2 | Major | Calibrate TP-02, review PM schedule | Engineering Mgr | 09/01 | In Progress |
+| #3 | Major | Recertify all warehouse staff | HR/Training | 08/31 | In Progress |
+| #4 | Minor | HVAC system inspection | Facilities Mgr | 09/30 | Open |
+| #5 | Minor | Distribute current SOP revision | Doc Control | 09/15 | Open |
+| #6 | Minor | Relabel affected material | Warehouse Mgr | 09/01 | Open |
+
+==== CONCLUSION ====
+The facility demonstrates overall compliance with GMP requirements. The three major findings require immediate attention and corrective action plans should be submitted within 15 business days.
+
+Audit Report Approved By:
+Jennifer Wu
+Quality Control Manager
+PharmaCure Laboratories
+Date: 2025-08-20

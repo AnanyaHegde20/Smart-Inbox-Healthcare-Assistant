@@ -1,0 +1,33 @@
+From: pharmacy.info@riverside-medical.org
+To: info@clinicverse.com
+Subject: Information Request - Insulin Storage Requirements
+Date: 2025-09-01T08:45:00Z
+
+Dear Information Desk,
+
+I am writing to request clarification on storage requirements for the following insulin products currently stocked at our pharmacy:
+
+1. Lantus (insulin glargine) - opened vials
+2. Humalog (insulin lispro) - opened pens
+3. NovoLog (insulin aspart) - unopened cartridges
+
+Specific Questions:
+a) What is the maximum room temperature for storage after opening?
+b) What is the discard date after first use for each product?
+c) Are there any stability studies supporting extended use beyond manufacturer guidelines?
+d) How should we handle insulin that has been at room temperature for an unknown duration?
+
+Context:
+We are updating our pharmacy's cold chain management protocol and need authoritative guidance. Our current policy references USP <797> but we want to ensure alignment with latest manufacturer recommendations.
+
+Urgency: Medium
+Preferred Response Format: Written document or reference links
+
+Thank you for your assistance.
+
+Sincerely,
+Robert Chen, PharmD
+Clinical Pharmacist
+Riverside Medical Center
+Phone: (555) 234-5678
+Email: robert.chen@riverside-medical.org

@@ -1,0 +1,25 @@
+From: nora.kapoor@stanford.edu
+To: support@clinicverse.com
+Subject: Question about research study enrollment criteria
+Date: 2025-09-03T15:20:00Z
+
+Hello,
+
+I am a research coordinator at Stanford Medical Center working on a Phase III clinical trial for a new diabetes medication (Protocol #SC-2025-DIAB-001).
+
+I have a few questions about your system:
+
+1. Can your platform handle electronic informed consent documents?
+2. Do you support integration with REDCap for data capture?
+3. What formats do you accept for adverse event reports?
+
+We are evaluating vendor solutions for our upcoming trial and would appreciate any information you can provide.
+
+Timeline: We need to make a decision by October 15, 2025.
+
+Best regards,
+Nora Kapoor
+Research Coordinator
+Stanford Medical Center
+nora.kapoor@stanford.edu
+(650) 555-0142

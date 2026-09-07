@@ -1,0 +1,77 @@
+[PDF PLACEHOLDER - GERMAN DOCUMENT]
+File: non-english-02-german-pharmacy-report.pdf
+Type: Pharmacy quality report in German
+Pages: 2
+OCR Required: No (digital text)
+Language: German
+Expected Classification: QUALITY_COMPLAINT + INFO_REQUEST (translation needed)
+
+=== PAGE 1 ===
+QUALITATSMELDUNG
+Apotheke am Marktplatz
+Musterstadt, Deutschland
+
+Meldeummer: QM-2025-0892
+Datum: 20. August 2025
+Prioritat: Hoch
+
+MELDUNG EINER QUALITATSBESCHWERDE
+
+Beschwerdefuhrerin: Frau Schmidt, Claudia
+Organisation: Seniorenheim Musterblick
+Kontakt: tel. 0555-12345678
+
+Produktinformation:
+Produkt: Blutdruckmessgerat Model BP-200 Pro
+Hersteller: MedTech GmbH
+Chargennummer: MTC-BP-2025-078
+Lieferdatum: 15. Juli 2025
+
+Beschwerde:
+Das Blutdruckmessgerat liefert inkonsistente Messwerte.
+Vergleichsmessungen mit dem krankenhausigen Geraet ergeben
+Abweichungen von 15-20 mmHg (Systolisch).
+
+Betroffene Einheiten: 3 Geraete
+Einsatzort: Station 2, Zimmer 201-205
+Betroffene Patienten: 12
+
+Potenzielle Auswirkungen:
+- Falsche Behandlungsentscheidungen
+- Patientensicherheitsrisiko
+- Unzuverlassige Therapieanpassung
+
+=== PAGE 2 ===
+KATEGORIE: Geratequalitat / Leistungsabweichung
+
+SCHWEREGRAD: Mittel
+- Keine unmittelbaren Patientenschaeden gemeldet
+- Potenzielle Fehlbehandlung moeglich
+
+MASSNAHMEN:
+1. Alle betroffenen Geraete aus dem Verkehr gezogen
+2. Vergleichsmessungen mit Referenzgeraet durchgefuhrt
+3. Hersteller informiert (Ticket MT-2025-1234)
+4. Rueckrufbereitschaft hergestellt
+
+ANFORDERUNG:
+1. Ursachenanalyse innerhalb von 14 Tagen
+2. Korrekturmassnahmen vorschlagen
+3. Prufbericht vorlegen
+4. Ggf. Ruecknahme der Produkte
+
+Dokumentation:
+- Prufprotokoll beigefugt
+- Messdaten-Tabelle beigefugt
+- Fotos der betroffenen Geraete beigefugt
+
+Erstellt von: Claudia Schmidt
+Qualitaetsbeauftragte
+Seniorenheim Musterblick
+
+Gepruft von: Dr. Hans Mueller
+Apotheker
+Apotheke am Marktplatz
+
+--- ENGLISH TRANSLATION SUMMARY ---
+This is a quality complaint from a senior care facility about blood pressure monitors showing inconsistent readings compared to hospital-grade devices. Three affected units serving 12 patients have been quarantined. Root cause analysis requested within 14 days.

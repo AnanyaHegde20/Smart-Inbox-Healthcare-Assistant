@@ -1,0 +1,73 @@
+[PDF PLACEHOLDER - DIGITAL DOCUMENT]
+File: digital-02-patient-discharge-summary.pdf
+Type: Digital hospital discharge summary
+Pages: 3
+OCR Required: No (digital text)
+
+=== PAGE 1 ===
+RIVERSIDE GENERAL HOSPITAL
+DISCHARGE SUMMARY
+
+Patient: Margaret Chen
+DOB: 07/22/1945
+MRN: 890123
+Admission Date: 2025-08-10
+Discharge Date: 2025-08-17
+Attending Physician: Dr. Robert Anderson, MD
+
+---- ADMITTING DIAGNOSIS ----
+Acute exacerbation of chronic heart failure (NYHA Class III)
+
+---- DISCHARGE DIAGNOSIS ----
+Acute exacerbation of chronic heart failure, improved
+
+=== PAGE 2 ===
+---- HOSPITAL COURSE ----
+Patient presented with 3-day history of progressive dyspnea, lower extremity edema, and weight gain of 4 kg over 2 weeks.
+
+Echocardiogram showed EF 30% (baseline 35% 6 months ago).
+BNP: 2,840 pg/mL on admission.
+
+Treatment:
+- IV Furosemide 40mg BID for 4 days
+- Daily weight monitoring
+- Fluid restriction (1.5L/day)
+- Sodium restriction (<2g/day)
+- Carvedilol continued at 25mg BID
+- Lisinopril uptitrated from 10mg to 20mg daily
+
+Response:
+- Weight decreased from 78 kg to 73 kg
+- Dyspnea resolved by day 5
+- BNP decreased to 890 pg/mL at discharge
+
+---- DISCHARGE MEDICATIONS ----
+1. Furosemide 40mg PO daily (morning)
+2. Carvedilol 25mg PO BID
+3. Lisinopril 20mg PO daily
+4. Spironolactone 25mg PO daily
+5. Aspirin 81mg PO daily
+
+=== PAGE 3 ===
+---- DISCHARGE INSTRUCTIONS ----
+- Weigh yourself daily, same time, same scale
+- Call doctor if weight increases >2 kg in 24 hours or >4 kg in 1 week
+- Low sodium diet (<2g daily)
+- Fluid restriction: 1.5L daily
+- No NSAIDs
+- Resume cardiac rehabilitation in 2 weeks
+
+---- FOLLOW-UP ----
+- Cardiology: Dr. Anderson, 2 weeks post-discharge
+- Primary Care: Dr. Williams, 1 week post-discharge
+- Labs: BMP in 1 week
+
+---- CONDITION AT DISCHARGE ----
+Stable, ambulatory, tolerating oral intake
+SpO2 96% on room air
+Vital Signs: BP 118/72, HR 68, RR 16, Temp 98.4°F
+
+Electronically signed by:
+Dr. Robert Anderson, MD
+Cardiology Department
+Riverside General Hospital

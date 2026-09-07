@@ -1,0 +1,53 @@
+From: pharmacovigilance@globalpharma.com
+To: safety@clinicverse.com
+Subject: Adverse Event Report - Anaphylaxis to Amoxicillin
+Date: 2025-08-28T16:30:00Z
+
+INDIVIDUAL CASE SAFETY REPORT (ICSR)
+
+Report ID: AE-2025-2847
+Report Type: Initial
+Date of Report: 2025-08-28
+
+Patient Information:
+Name: Elena Rodriguez (pseudonym)
+DOB: 11/08/1982
+Sex: Female
+Weight: 62 kg
+Height: 165 cm
+
+Medical History:
+- Penicillin allergy (childhood, details unknown)
+- No other known allergies
+
+Event Description:
+Patient developed anaphylaxis approximately 15 minutes after receiving first oral dose of Amoxicillin 500mg for dental prophylaxis.
+
+Symptoms:
+- Immediate onset urticaria (widespread)
+- Angioedema of lips and tongue
+- Bronchospasm
+- Hypotension (BP dropped from 120/80 to 85/50)
+- Tachycardia (HR 110 bpm)
+
+Product Information:
+Drug: Amoxicillin
+Manufacturer: Global Pharma Inc.
+Lot: GP-AMX-2025-112
+NDC: 98765-432-10
+Dose: 500mg oral
+Route: Oral
+Indication: Dental prophylaxis
+
+Treatment of Event:
+- Epinephrine 0.3mg IM administered immediately
+- Diphenhydramine 50mg IV
+- Methylprednisolone 125mg IV
+- Normal saline 1L IV bolus
+- Supplemental oxygen
+
+Outcome: Recovered with sequelae (respiratory symptoms resolved within 4 hours, mild fatigue persisted for 3 days)
+
+Reporter: Dr. Michael Chen, DDS
+Facility: Bright Smile Dental Clinic
+Contact: dr.chen@brightsmile-dental.com

@@ -1,0 +1,448 @@
+{
+  "version": "1.0",
+  "description": "Synthetic test data for Smart Inbox Assistant Healthcare project",
+  "lastUpdated": "2025-09-04",
+  "totalFiles": 22,
+  "categories": {
+    "SAFETY_REPORT": "Documents involving patient safety incidents, adverse events, recalls",
+    "QUALITY_COMPLAINT": "Documents reporting product/service quality issues",
+    "INFO_REQUEST": "Documents requesting information or clarification",
+    "NOT_RELEVANT": "Documents not related to healthcare safety/quality/information"
+  },
+  "emails": [
+    {
+      "id": "email-01",
+      "filename": "emails/email-01-safety-fall-report.txt",
+      "sender": "dr.elena.vasquez@meridian-general.org",
+      "subject": "URGENT: Patient Fall Incident Report - Ward 3B",
+      "date": "2025-08-12T09:15:00Z",
+      "expectedCategories": ["SAFETY_REPORT"],
+      "primaryCategory": "SAFETY_REPORT",
+      "confidence": 0.95,
+      "description": "Patient fall incident report with complete information",
+      "hasAttachment": false,
+      "notes": "Complete incident report with patient details, witness, and corrective actions"
+    },
+    {
+      "id": "email-02",
+      "filename": "emails/email-02-quality-complaint.txt",
+      "sender": "quality.dept@pharma-cure-labs.com",
+      "subject": "Quality Complaint - Inconsistent Tablet Coating - Lot PC-2025-3391",
+      "date": "2025-08-20T14:30:00Z",
+      "expectedCategories": ["QUALITY_COMPLAINT"],
+      "primaryCategory": "QUALITY_COMPLAINT",
+      "confidence": 0.92,
+      "description": "Manufacturing quality complaint with technical details",
+      "hasAttachment": true,
+      "attachments": ["Inspection_Report_PC2025_3391.pdf", "Tablet_Measurement_Data.xlsx"],
+      "notes": "Detailed quality complaint with lot numbers, specifications, and impact assessment"
+    },
+    {
+      "id": "email-03",
+      "filename": "emails/email-03-info-request.txt",
+      "sender": "pharmacy.info@riverside-medical.org",
+      "subject": "Information Request - Insulin Storage Requirements",
+      "date": "2025-09-01T08:45:00Z",
+      "expectedCategories": ["INFO_REQUEST"],
+      "primaryCategory": "INFO_REQUEST",
+      "confidence": 0.88,
+      "description": "Pharmacy requesting storage guidelines for insulin products",
+      "hasAttachment": false,
+      "notes": "Clear information request with specific questions about medication storage"
+    },
+    {
+      "id": "email-04",
+      "filename": "emails/email-04-safety-device-recall.txt",
+      "sender": "alerts@medwatch-systems.com",
+      "subject": "MedWatch Alert: Device Recall - Pulse Oximeter Model PX-500",
+      "date": "2025-08-25T11:00:00Z",
+      "expectedCategories": ["SAFETY_REPORT"],
+      "primaryCategory": "SAFETY_REPORT",
+      "confidence": 0.94,
+      "description": "FDA recall notification for pulse oximeter device",
+      "hasAttachment": false,
+      "notes": "Official recall notice with affected units, issue description, and required actions"
+    },
+    {
+      "id": "email-05",
+      "filename": "emails/email-05-info-request-research.txt",
+      "sender": "nora.kapoor@stanford.edu",
+      "subject": "Question about research study enrollment criteria",
+      "date": "2025-09-03T15:20:00Z",
+      "expectedCategories": ["INFO_REQUEST"],
+      "primaryCategory": "INFO_REQUEST",
+      "confidence": 0.72,
+      "description": "Research coordinator asking about system capabilities",
+      "hasAttachment": false,
+      "notes": "Information request about platform features, may be ambiguous for healthcare categorization"
+    },
+    {
+      "id": "email-06",
+      "filename": "emails/email-06-quality-complaint-med-error.txt",
+      "sender": "james.omalley@cityhospital.org",
+      "subject": "Complaint: Medication Dispensing Error",
+      "date": "2025-08-18T10:45:00Z",
+      "expectedCategories": ["QUALITY_COMPLAINT", "SAFETY_REPORT"],
+      "primaryCategory": "QUALITY_COMPLAINT",
+      "confidence": 0.85,
+      "description": "Medication error report with root cause analysis",
+      "hasAttachment": false,
+      "notes": "Multiple categories - quality complaint about process failure, also a safety event"
+    },
+    {
+      "id": "email-07",
+      "filename": "emails/email-07-marketing-irrelevant.txt",
+      "sender": "marketing@healthtech-solutions.com",
+      "subject": "Revolutionary AI-Powered Healthcare Management - Special Offer!",
+      "date": "2025-09-05T09:00:00Z",
+      "expectedCategories": ["NOT_RELEVANT"],
+      "primaryCategory": "NOT_RELEVANT",
+      "confidence": 0.96,
+      "description": "Marketing email for healthcare software product",
+      "hasAttachment": false,
+      "notes": "Clearly irrelevant - promotional marketing content with sales language"
+    },
+    {
+      "id": "email-08",
+      "filename": "emails/email-08-safety-adverse-event.txt",
+      "sender": "pharmacovigilance@globalpharma.com",
+      "subject": "Adverse Event Report - Anaphylaxis to Amoxicillin",
+      "date": "2025-08-28T16:30:00Z",
+      "expectedCategories": ["SAFETY_REPORT"],
+      "primaryCategory": "SAFETY_REPORT",
+      "confidence": 0.97,
+      "description": "ICSR report for anaphylactic reaction to antibiotic",
+      "hasAttachment": false,
+      "notes": "Complete adverse event report with patient history, treatment, and outcome"
+    },
+    {
+      "id": "email-09",
+      "filename": "emails/email-09-quality-recall.txt",
+      "sender": "supply.chain@medequip-solutions.com",
+      "subject": "Product Recall Notice - Surgical Gloves",
+      "date": "2025-09-02T13:15:00Z",
+      "expectedCategories": ["QUALITY_COMPLAINT"],
+      "primaryCategory": "QUALITY_COMPLAINT",
+      "confidence": 0.90,
+      "description": "Product recall for surgical gloves failing quality standards",
+      "hasAttachment": false,
+      "notes": "Formal recall notice with affected lots and required actions"
+    },
+    {
+      "id": "email-10",
+      "filename": "emails/email-10-mixed-multiple-topics.txt",
+      "sender": "office.manager@wellness-clinic.com",
+      "subject": "Mixed inquiries - multiple topics",
+      "date": "2025-09-04T11:30:00Z",
+      "expectedCategories": ["QUALITY_COMPLAINT", "INFO_REQUEST"],
+      "primaryCategory": "QUALITY_COMPLAINT",
+      "confidence": 0.65,
+      "description": "Mixed inquiries covering complaints, questions, and general topics",
+      "hasAttachment": false,
+      "notes": "Ambiguous - contains multiple topics requiring different categorizations"
+    }
+  ],
+  "pdfs": {
+    "digital": [
+      {
+        "id": "digital-01",
+        "filename": "pdfs/digital/digital-01-adverse-event-report.pdf",
+        "type": "digital",
+        "pages": 2,
+        "ocrRequired": false,
+        "expectedCategories": ["SAFETY_REPORT"],
+        "primaryCategory": "SAFETY_REPORT",
+        "confidence": 0.95,
+        "description": "ICSR form for drug-induced myopathy",
+        "notes": "Complete digital form with structured fields"
+      },
+      {
+        "id": "digital-02",
+        "filename": "pdfs/digital/digital-02-discharge-summary.pdf",
+        "type": "digital",
+        "pages": 3,
+        "ocrRequired": false,
+        "expectedCategories": ["SAFETY_REPORT", "INFO_REQUEST"],
+        "primaryCategory": "INFO_REQUEST",
+        "confidence": 0.70,
+        "description": "Hospital discharge summary for heart failure patient",
+        "notes": "Clinical document - may be informational rather than incident-related"
+      },
+      {
+        "id": "digital-03",
+        "filename": "pdfs/digital/digital-03-medication-error.pdf",
+        "type": "digital",
+        "pages": 2,
+        "ocrRequired": false,
+        "expectedCategories": ["QUALITY_COMPLAINT", "SAFETY_REPORT"],
+        "primaryCategory": "QUALITY_COMPLAINT",
+        "confidence": 0.88,
+        "description": "Medication error report with corrective actions table",
+        "notes": "Quality improvement document with structured data"
+      },
+      {
+        "id": "digital-04",
+        "filename": "pdfs/digital/digital-04-lab-results.pdf",
+        "type": "digital",
+        "pages": 1,
+        "ocrRequired": false,
+        "expectedCategories": ["INFO_REQUEST"],
+        "primaryCategory": "INFO_REQUEST",
+        "confidence": 0.60,
+        "description": "Laboratory test results with reference ranges",
+        "notes": "Clinical data - informational, may not fit standard categories"
+      },
+      {
+        "id": "digital-05",
+        "filename": "pdfs/digital/digital-05-quality-audit.pdf",
+        "type": "digital",
+        "pages": 4,
+        "ocrRequired": false,
+        "expectedCategories": ["QUALITY_COMPLAINT"],
+        "primaryCategory": "QUALITY_COMPLAINT",
+        "confidence": 0.91,
+        "description": "GMP compliance audit report with findings",
+        "notes": "Quality audit with documented non-conformances"
+      }
+    ],
+    "scanned": [
+      {
+        "id": "scanned-01",
+        "filename": "pdfs/scanned/scanned-01-handwritten-incident.pdf",
+        "type": "scanned",
+        "pages": 2,
+        "ocrRequired": true,
+        "ocrQuality": "low",
+        "expectedCategories": ["SAFETY_REPORT"],
+        "primaryCategory": "SAFETY_REPORT",
+        "confidence": 0.80,
+        "description": "Handwritten incident report form (scanned)",
+        "notes": "Low OCR confidence due to handwriting, some ambiguous fields"
+      },
+      {
+        "id": "scanned-02",
+        "filename": "pdfs/scanned/scanned-02-faxed-complaint.pdf",
+        "type": "scanned",
+        "pages": 1,
+        "ocrRequired": true,
+        "ocrQuality": "medium",
+        "expectedCategories": ["QUALITY_COMPLAINT"],
+        "primaryCategory": "QUALITY_COMPLAINT",
+        "confidence": 0.82,
+        "description": "Faxed quality complaint form with degradation",
+        "notes": "Fax artifacts reduce OCR quality, some character loss"
+      }
+    ],
+    "articles": [
+      {
+        "id": "article-01",
+        "filename": "pdfs/articles/article-01-patient-fall-prevention.pdf",
+        "type": "article",
+        "pages": 8,
+        "ocrRequired": false,
+        "expectedCategories": ["SAFETY_REPORT", "INFO_REQUEST"],
+        "primaryCategory": "INFO_REQUEST",
+        "confidence": 0.75,
+        "description": "Academic article on fall prevention strategies",
+        "notes": "Educational content - informational with safety relevance"
+      },
+      {
+        "id": "article-02",
+        "filename": "pdfs/articles/article-02-medication-reconciliation.pdf",
+        "type": "article",
+        "pages": 6,
+        "ocrRequired": false,
+        "expectedCategories": ["INFO_REQUEST", "QUALITY_COMPLAINT"],
+        "primaryCategory": "INFO_REQUEST",
+        "confidence": 0.78,
+        "description": "Clinical practice guideline for medication reconciliation",
+        "notes": "Guidance document - informational with compliance implications"
+      },
+      {
+        "id": "article-03",
+        "filename": "pdfs/articles/article-03-adverse-drug-reactions.pdf",
+        "type": "article",
+        "pages": 10,
+        "ocrRequired": false,
+        "expectedCategories": ["SAFETY_REPORT"],
+        "primaryCategory": "SAFETY_REPORT",
+        "confidence": 0.85,
+        "description": "Research study on ADR incidence in elderly patients",
+        "notes": "Safety-focused research with clinical data"
+      },
+      {
+        "id": "article-04",
+        "filename": "pdfs/articles/article-04-antibiotic-stewardship.pdf",
+        "type": "article",
+        "pages": 7,
+        "ocrRequired": false,
+        "expectedCategories": ["INFO_REQUEST", "SAFETY_REPORT"],
+        "primaryCategory": "INFO_REQUEST",
+        "confidence": 0.72,
+        "description": "Review article on antibiotic stewardship programs",
+        "notes": "Educational content with safety implications"
+      },
+      {
+        "id": "article-05",
+        "filename": "pdfs/articles/article-05-rare-adverse-event.pdf",
+        "type": "article",
+        "pages": 5,
+        "ocrRequired": false,
+        "expectedCategories": ["SAFETY_REPORT"],
+        "primaryCategory": "SAFETY_REPORT",
+        "confidence": 0.88,
+        "description": "Case report of drug-induced hemolytic anemia",
+        "notes": "Safety case report with literature review"
+      }
+    ],
+    "nonEnglish": [
+      {
+        "id": "non-english-01",
+        "filename": "pdfs/non-english/non-english-01-spanish-patient-safety.pdf",
+        "type": "non-english",
+        "pages": 2,
+        "ocrRequired": false,
+        "language": "es",
+        "expectedCategories": ["SAFETY_REPORT"],
+        "primaryCategory": "SAFETY_REPORT",
+        "confidence": 0.85,
+        "description": "Patient safety incident report in Spanish",
+        "notes": "Requires translation, complete incident details"
+      },
+      {
+        "id": "non-english-02",
+        "filename": "pdfs/non-english/non-english-02-german-pharmacy-report.pdf",
+        "type": "non-english",
+        "pages": 2,
+        "ocrRequired": false,
+        "language": "de",
+        "expectedCategories": ["QUALITY_COMPLAINT"],
+        "primaryCategory": "QUALITY_COMPLAINT",
+        "confidence": 0.87,
+        "description": "Quality complaint report in German with English summary",
+        "notes": "Includes English translation summary at bottom"
+      }
+    ],
+    "qualityComplaints": [
+      {
+        "id": "qc-01",
+        "filename": "pdfs/quality-complaints/qc-01-tablet-coating.pdf",
+        "type": "quality-complaint",
+        "pages": 3,
+        "ocrRequired": false,
+        "expectedCategories": ["QUALITY_COMPLAINT"],
+        "primaryCategory": "QUALITY_COMPLAINT",
+        "confidence": 0.93,
+        "description": "Detailed tablet coating defect complaint with measurements",
+        "notes": "Complete quality complaint with specifications and impact assessment"
+      },
+      {
+        "id": "qc-02",
+        "filename": "pdfs/quality-complaints/qc-02-device-malfunction.pdf",
+        "type": "quality-complaint",
+        "pages": 2,
+        "ocrRequired": false,
+        "expectedCategories": ["QUALITY_COMPLAINT"],
+        "primaryCategory": "QUALITY_COMPLAINT",
+        "confidence": 0.89,
+        "description": "Medical device malfunction report",
+        "notes": "Device complaint with patient impact assessment"
+      }
+    ],
+    "infoRequests": [
+      {
+        "id": "ir-01",
+        "filename": "pdfs/info-requests/ir-01-storage-guidelines.pdf",
+        "type": "info-request",
+        "pages": 1,
+        "ocrRequired": false,
+        "expectedCategories": ["INFO_REQUEST"],
+        "primaryCategory": "INFO_REQUEST",
+        "confidence": 0.90,
+        "description": "Request for medication storage guidelines",
+        "notes": "Clear information request with specific questions"
+      },
+      {
+        "id": "ir-02",
+        "filename": "pdfs/info-requests/ir-02-system-capabilities.pdf",
+        "type": "info-request",
+        "pages": 1,
+        "ocrRequired": false,
+        "expectedCategories": ["INFO_REQUEST"],
+        "primaryCategory": "INFO_REQUEST",
+        "confidence": 0.75,
+        "description": "Inquiry about system capabilities and integration",
+        "notes": "May be ambiguous - vendor inquiry rather than clinical"
+      }
+    ],
+    "irrelevant": [
+      {
+        "id": "irr-01",
+        "filename": "pdfs/irrelevant/irr-01-marketing-flyer.pdf",
+        "type": "irrelevant",
+        "pages": 1,
+        "ocrRequired": false,
+        "expectedCategories": ["NOT_RELEVANT"],
+        "primaryCategory": "NOT_RELEVANT",
+        "confidence": 0.95,
+        "description": "Marketing flyer for healthcare conference",
+        "notes": "Promotional content unrelated to safety/quality"
+      }
+    ]
+  },
+  "testScenarios": [
+    {
+      "name": "Complete Information",
+      "description": "Documents with all required fields present",
+      "files": ["email-01", "email-02", "email-08", "digital-01", "qc-01"]
+    },
+    {
+      "name": "Incomplete Information",
+      "description": "Documents missing key fields or details",
+      "files": ["email-10", "digital-04", "scanned-01"]
+    },
+    {
+      "name": "Ambiguous Classification",
+      "description": "Documents that could fit multiple categories",
+      "files": ["email-06", "email-10", "article-01", "article-02"]
+    },
+    {
+      "name": "Multiple Categories",
+      "description": "Documents matching multiple category criteria",
+      "files": ["email-06", "article-01", "article-02", "article-04"]
+    },
+    {
+      "name": "OCR Required",
+      "description": "Scanned documents requiring text extraction",
+      "files": ["scanned-01", "scanned-02"]
+    },
+    {
+      "name": "Non-English",
+      "description": "Documents requiring translation",
+      "files": ["non-english-01", "non-english-02"]
+    },
+    {
+      "name": "Tables and Structured Data",
+      "description": "Documents containing tabular information",
+      "files": ["digital-03", "digital-05", "article-03"]
+    },
+    {
+      "name": "Safety Critical",
+      "description": "Documents with urgent safety implications",
+      "files": ["email-01", "email-04", "email-08", "digital-01"]
+    }
+  ],
+  "categoryDistribution": {
+    "SAFETY_REPORT": 12,
+    "QUALITY_COMPLAINT": 9,
+    "INFO_REQUEST": 8,
+    "NOT_RELEVANT": 2
+  },
+  "usageNotes": {
+    "emailProcessing": "Load email files as plain text, extract sender/subject/date/body",
+    "pdfProcessing": "Text-based PDFs can be processed directly; scanned PDFs require OCR",
+    "nonEnglish": "Use language detection, route to translation service if available",
+    "testing": "Use manifest to validate categorization accuracy against expected values",
+    "confidenceThresholds": "High: >0.85, Medium: 0.65-0.85, Low: <0.65"
+  }
+}

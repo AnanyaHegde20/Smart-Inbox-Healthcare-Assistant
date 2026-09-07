@@ -1,0 +1,38 @@
+From: james.omalley@cityhospital.org
+To: quality@clinicverse.com
+Subject: Complaint: Medication Dispensing Error
+Date: 2025-08-18T10:45:00Z
+
+Incident Report - Medication Error
+
+Date of Incident: 2025-08-17
+Location: City Hospital, Pharmacy Department
+
+Details:
+Patient Jane Smith (DOB: 05/22/1975, MRN: 789012) was dispensed Warfarin 5mg instead of the prescribed Warfarin 2.5mg.
+
+The error was discovered during the second dose administration by nurse Patricia Lee.
+The patient had received one incorrect dose (5mg instead of 2.5mg) before the error was caught.
+
+Patient Impact:
+- INR checked immediately: 3.2 (therapeutic range 2.0-3.0)
+- No bleeding events observed
+- Vitamin K administered prophylactically
+- Patient monitored for 24 hours
+
+Root Cause Analysis:
+- Look-alike/sound-alike medications stored adjacent
+- Barcode scanning was bypassed due to scanner malfunction
+- Pharmacist was covering two stations simultaneously
+
+Corrective Actions:
+1. Barcode scanner replaced immediately
+2. Staff retrained on look-alike medication protocols
+3. Independent double-check for high-alert medications reinforced
+4. Physical separation of Warfarin strengths implemented
+
+This incident has been reported to the hospital's Quality Improvement Committee.
+
+Submitted by: James O'Malley, PharmD
+Director of Pharmacy
+City Hospital

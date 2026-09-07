@@ -1,0 +1,48 @@
+From: quality.dept@pharma-cure-labs.com
+To: complaints@clinicverse.com
+Subject: Quality Complaint - Inconsistent Tablet Coating - Lot PC-2025-3391
+Date: 2025-08-20T14:30:00Z
+
+QUALITY COMPLAINT REPORT
+
+Complaint Reference: QC-2025-1204
+Date Received: 2025-08-20
+Priority: High
+
+Reporter Information:
+Name: Jennifer Wu
+Title: Quality Control Manager
+Organization: PharmaCure Laboratories
+Phone: (555) 987-6543
+Email: jennifer.wu@pharma-cure-labs.com
+
+Product Information:
+Product: Neurocalm 25mg Tablets
+NDC: 12345-678-90
+Lot Number: PC-2025-3391
+Manufacturing Date: 2025-07-01
+Expiry: 2027-06-30
+
+Complaint Description:
+During routine quality inspection, we identified that approximately 15% of tablets in Lot PC-2025-3391 exhibit uneven coating. The coating appears thinner on one side of the tablet. This may affect dissolution rates and bioequivalence.
+
+Visual inspection shows mottled appearance on affected tablets.
+Standard coating thickness specification: 50-80 microns
+Affected tablets measured: 25-45 microns (below specification)
+
+Impact Assessment:
+- Product distributed to: 3 hospital pharmacies, 12 retail outlets
+- No patient adverse events reported to date
+- Remaining inventory under quarantine
+
+Category: Manufacturing Defect / Product Quality
+Severity: Moderate (potential efficacy impact)
+
+Requested Action:
+1. Root cause investigation
+2. Recall assessment
+3. Corrective action plan within 30 days
+
+Attachments:
+- Inspection_Report_PC2025_3391.pdf
+- Tablet_Measurement_Data.xlsx

@@ -1,0 +1,15 @@
+# Angular Frontend - .dockerignore
+node_modules/
+dist/
+.angular/
+coverage/
+.git/
+.gitignore
+.vscode/
+.idea/
+*.log
+*.md
+Dockerfile
+docker-compose.yml
+.proxy.conf.json
+karma.conf.js

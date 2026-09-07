@@ -1,0 +1,72 @@
+[PDF PLACEHOLDER - SPANISH DOCUMENT]
+File: non-english-01-spanish-patient-safety.pdf
+Type: Patient safety report in Spanish
+Pages: 2
+OCR Required: No (digital text)
+Language: Spanish
+Expected Classification: SAFETY_REPORT + INFO_REQUEST (translation needed)
+
+=== PAGE 1 ===
+INFORME DE INCIDENTE DE SEGURIDAD DEL PACIENTE
+Hospital General Metropolitano
+Departamento de Calidad y Seguridad
+
+Numero de Reporte: IS-2025-0456
+Fecha del Incidente: 2025-08-14
+Fecha del Reporte: 2025-08-15
+
+INFORMACION DEL PACIENTE:
+Nombre: Maria Garcia Lopez (seudonimo)
+Fecha de Nacimiento: 22/03/1970
+Numero de Expediente: EXP-890123
+Servicio: Medicina Interna
+Cama: 412-B
+
+DESCRIPCION DEL INCIDENTE:
+El paciente fue encontrado en el suelo junto a la cama a las 14:30 horas. La enfermera de guardia, Ana Martinez, Rc, fue alertada por el sistema de monitoreo.
+
+Detalles:
+- Paciente intentaba ir al bano sin asistencia
+- Barandal de la cama estaba en posicion arriba
+- Timbre de llamada estaba al alcance pero no fue utilizado
+- Paciente reporta que se resbalo al intentar levantarse de la silla
+
+Evaluacion Inicial:
+- Sin lesiones visibles
+- Signos vitales estables
+- Conciencia intacta
+- Movilidad reducida temporalmente
+
+Medicamentos del Paciente:
+1. Metoprolol 50mg dos veces al dia
+2. Diazepam 5mg antes de dormir
+3. Lisinopril 20mg una vez al dia
+
+=== PAGE 2 ===
+ASISTENCIA PROPORCIONADA:
+1. Paciente asistido de vuelta a la cama
+2. Evaluacion post-caida completada
+3. Monitoreo neurologico cada 4 horas por 24 horas
+4. Notificado al Dr. Vasquez (medico tratante)
+5. Familia contactada: telefono (555) 012-7890
+
+EVALUACION DE RIESGO DE CAIDA:
+- Escala Morse: 45 (riesgo alto)
+- Factores de riesgo: Medicamentos sedantes, movilidad reducida
+- Precauciones intensificadas implementadas
+
+PLAN DE ACCION:
+1. Revisar medicamentos que contribuyen a caidas
+2. Evaluar necesidad de asistencia para movilidad
+3. Enseñar uso correcto del timbre de llamada
+4. Considerar alarma de cama si es necesario
+5. Seguimiento diario hasta alta
+
+Resultado: Paciente se recupero sin lesiones. Monitoreo continua.
+
+Reportado por: Ana Martinez, RC
+Firmado: Dr. Roberto Vasquez, MD
+Departamento de Medicina Interna
+Hospital General Metropolitano
+
+NOTA: Este reporte debe ser traducido al ingles para el sistema de gestion de incidentes de la organizacion.

@@ -1,0 +1,75 @@
+[SCANNED PDF PLACEHOLDER - FAXED DOCUMENT]
+File: scanned-02-faxed-complaint-form.pdf
+Type: Scanned fax transmission
+Pages: 1
+OCR Required: Yes
+OCR Quality: Medium (fax quality, some degradation)
+
+=== PAGE 1 (SCANNED FAX IMAGE) ===
+[This would be a scanned image of a faxed quality complaint form]
+
+ATTACHED IMAGE DESCRIPTION:
+A faxed document with typical fax artifacts:
+- Dark vertical line on left margin from fax roller
+- Slight skew (approximately 2 degrees)
+- Reduced contrast from fax transmission
+- Some character bleeding at edges
+
+--- FAX HEADER (clear, machine-printed) ---
+FAX TRANSMISSION
+From: PharmaCure Laboratories Quality Dept
+To: ClinicVerse Complaints Department
+Date: 08/20/2025 14:32
+Pages: 1/1
+Re: Quality Complaint QC-2025-1204
+
+--- FORM CONTENT (mixed quality) ---
+
+QUALITY COMPLAINT FORM
+
+Complaint #: QC-2025-1204
+Date Received: 08/20/2025
+Priority: [ ] Low [X] High [ ] Critical
+
+Reporter: Jennifer Wu
+Title: QC Manager
+Company: PharmaCure Labs
+Phone: (555) 987-6543
+Email: j.wu@pharma-cure.com (partially faded)
+
+Product: Neurocalm 25mg Tablets
+Lot #: PC-2025-3391
+NDC: 12345-678-90 (some digits unclear from fax)
+
+Description of Problem:
+[Fax quality text, some characters partially filled in]
+"Approximately 15% of tablets show uneven coating.
+Coating measured 25-45 microns vs spec of 50-80.
+Mottled appearance on affected tablets."
+
+[ ] Visual defect only
+[X] Performance impact suspected
+[ ] Patient complaint
+[ ] Other
+
+Impact:
+[X] Product quarantined
+[ ] Product recalled
+[ ] Patient injury reported
+
+Attachments Referenced:
+[1] Inspection_Report.pdf
+[2] Measurement_Data.xlsx
+
+--- BOTTOM OF FAX (heavily degraded) ---
+[Fax confirmation stamp: TRANSMISSION SUCCESSFUL]
+[Fax number visible: (555) 987-6599]
+[Handwritten note: "Follow up needed - J.W."]
+
+--- OCR CONFIDENCE NOTES ---
+- Form headers: HIGH confidence (pre-printed)
+- Reporter info: MEDIUM-HIGH confidence
+- Product details: MEDIUM confidence (fax degradation)
+- Description text: MEDIUM confidence (some character loss)
+- Phone numbers: MEDIUM confidence (partially faded)
+- Handwritten note: LOW confidence

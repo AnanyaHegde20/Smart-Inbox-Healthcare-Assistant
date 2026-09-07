@@ -1,0 +1,126 @@
+# ============================================================
+# Docker Compose - Clinevo Technologies Smart Inbox Assistant
+# ============================================================
+# Usage:
+#   Start:    docker-compose up -d
+#   Stop:     docker-compose down
+#   Logs:     docker-compose logs -f [service]
+#   Rebuild:  docker-compose up -d --build
+#   Status:   docker-compose ps
+# ============================================================
+
+version: '3.8'
+
+services:
+  # ============================================================
+  # Python AI Service
+  # ============================================================
+  ai-service:
+    build:
+      context: ./ai-service
+      dockerfile: Dockerfile
+    container_name: smart-inbox-ai
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    environment:
+      # LLM Configuration
+      - LLM_PROVIDER=${LLM_PROVIDER:-mock}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      # LLM Settings (optional)
+      - LLM_MODEL=${LLM_MODEL:-}
+      - LLM_TEMPERATURE=${LLM_TEMPERATURE:-}
+      - LLM_MAX_TOKENS=${LLM_MAX_TOKENS:-}
+      - LLM_TIMEOUT_SECONDS=${LLM_TIMEOUT_SECONDS:-}
+    volumes:
+      - ai-service-data:/app/data
+    networks:
+      - smart-inbox-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  # ============================================================
+  # Spring Boot Backend
+  # ============================================================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: smart-inbox-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      # Database Configuration (H2 default)
+      - DB_DRIVER=${DB_DRIVER:-org.h2.Driver}
+      - DB_URL=${DB_URL:-jdbc:h2:mem:inboxdb}
+      - DB_USERNAME=${DB_USERNAME:-sa}
+      - DB_PASSWORD=${DB_PASSWORD:-}
+      - DB_DIALECT=${DB_DIALECT:-org.hibernate.dialect.H2Dialect}
+      - DB_DDL_AUTO=${DB_DDL_AUTO:-create-drop}
+      - DB_SHOW_SQL=${DB_SHOW_SQL:-false}
+      - H2_CONSOLE_ENABLED=${H2_CONSOLE_ENABLED:-true}
+      # AI Service URL
+      - AI_SERVICE_BASE_URL=http://ai-service:8001
+      - AI_SERVICE_TIMEOUT_MS=${AI_SERVICE_TIMEOUT_MS:-30000}
+      # IMAP Configuration
+      - IMAP_HOST=${IMAP_HOST:-imap.gmail.com}
+      - IMAP_PORT=${IMAP_PORT:-993}
+      - IMAP_USERNAME=${IMAP_USERNAME:-}
+      - IMAP_PASSWORD=${IMAP_PASSWORD:-}
+      - IMAP_FOLDER=${IMAP_FOLDER:-INBOX}
+      - IMAP_SSL=${IMAP_SSL:-true}
+    depends_on:
+      ai-service:
+        condition: service_healthy
+    networks:
+      - smart-inbox-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/actuator/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  # ============================================================
+  # Angular Frontend (Nginx)
+  # ============================================================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: smart-inbox-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - smart-inbox-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:80/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+# ============================================================
+# Volumes
+# ============================================================
+volumes:
+  ai-service-data:
+    driver: local
+
+# ============================================================
+# Networks
+# ============================================================
+networks:
+  smart-inbox-network:
+    driver: bridge
+    name: smart-inbox-network

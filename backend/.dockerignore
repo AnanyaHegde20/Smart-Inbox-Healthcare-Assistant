@@ -1,0 +1,23 @@
+# Spring Boot Backend - .dockerignore
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.mvn/
+mvnw
+mvnw.cmd
+*.iml
+.idea/
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+*.log
+.git/
+.gitignore
+*.md
+Dockerfile
+docker-compose.yml

@@ -1,0 +1,290 @@
+<div class="dashboard">
+  <!-- Header -->
+  <header class="dashboard-header">
+    <div class="header-content">
+      <div class="logo">
+        <span class="logo-icon">&#9878;</span>
+        <h1>Smart Inbox Assistant</h1>
+      </div>
+      <div class="header-subtitle">Healthcare Document Review</div>
+    </div>
+  </header>
+
+  <!-- Filters -->
+  <div class="filter-bar">
+    <button
+      *ngFor="let filter of filters"
+      class="filter-btn"
+      [class.active]="activeFilter === filter.key"
+      (click)="applyFilter(filter.key)">
+      {{ filter.label }}
+    </button>
+    <span class="email-count">{{ filteredEmails.length }} items</span>
+  </div>
+
+  <!-- Main Layout -->
+  <div class="main-layout">
+    <!-- Email Queue -->
+    <div class="email-queue">
+      <div class="queue-header">
+        <h2>Incoming Documents</h2>
+        <button class="refresh-btn" (click)="loadEmails()">Refresh</button>
+      </div>
+
+      <div *ngIf="isLoading" class="loading">Loading...</div>
+
+      <div class="email-list">
+        <div
+          *ngFor="let email of filteredEmails"
+          class="email-card"
+          [class.selected]="selectedEmail?.id === email.id"
+          [class.reviewed]="email.reviewStatus"
+          (click)="selectEmail(email)">
+          <div class="email-header">
+            <span class="email-id">#{{ email.id }}</span>
+            <span class="email-status" [class]="getStatusClass(email.status)">
+              {{ email.status }}
+            </span>
+            <span *ngIf="email.reviewStatus" class="review-badge"
+                  [class.review-accepted]="email.reviewStatus === 'ACCEPTED'"
+                  [class.review-overridden]="email.reviewStatus === 'OVERRIDDEN'">
+              {{ email.reviewStatus === 'ACCEPTED' ? '&#10003; Reviewed' : '&#9998; Overridden' }}
+            </span>
+          </div>
+          <div class="email-sender">{{ email.sender }}</div>
+          <div class="email-subject">{{ email.subject }}</div>
+
+          <div *ngIf="classifications.get(email.id) as classification" class="email-classification">
+            <span class="category-badge"
+                  [style.background-color]="getCategoryColor(classification.primaryCategory)">
+              {{ getCategoryLabel(classification.primaryCategory) }}
+            </span>
+            <span class="confidence"
+                  [style.color]="getConfidenceColor(classification.primaryConfidence)">
+              {{ (classification.primaryConfidence * 100).toFixed(0) }}%
+            </span>
+          </div>
+
+          <div *ngIf="classifications.get(email.id) as classification" class="email-summary">
+            {{ classification.summary }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Detail Panel -->
+    <div class="detail-panel" *ngIf="selectedEmail">
+      <div class="detail-header">
+        <h2>Email #{{ selectedEmail.id }}</h2>
+        <button class="close-btn" (click)="selectedEmail = null">&times;</button>
+      </div>
+
+      <!-- Email Info -->
+      <div class="detail-section">
+        <div class="info-row">
+          <label>From:</label>
+          <span>{{ selectedEmail.sender }}</span>
+        </div>
+        <div class="info-row">
+          <label>Subject:</label>
+          <span>{{ selectedEmail.subject }}</span>
+        </div>
+        <div class="info-row">
+          <label>Date:</label>
+          <span>{{ formatDate(selectedEmail.receivedAt) }}</span>
+        </div>
+      </div>
+
+      <!-- Classification -->
+      <div class="detail-section" *ngIf="selectedClassification">
+        <h3>AI Classification</h3>
+        <div class="classification-card">
+          <div class="category-display">
+            <span class="category-badge large"
+                  [style.background-color]="getCategoryColor(selectedClassification.primaryCategory)">
+              {{ getCategoryLabel(selectedClassification.primaryCategory) }}
+            </span>
+            <div class="confidence-display">
+              <span class="confidence-value"
+                    [style.color]="getConfidenceColor(selectedClassification.primaryConfidence)">
+                {{ (selectedClassification.primaryConfidence * 100).toFixed(1) }}%
+              </span>
+              <span class="confidence-label">Confidence</span>
+            </div>
+          </div>
+          <div *ngIf="selectedClassification.isRelevant !== null" class="relevance-info">
+            <span [class]="selectedClassification.isRelevant ? 'relevant' : 'not-relevant'">
+              {{ selectedClassification.isRelevant ? 'Relevant' : 'Not Relevant' }}
+            </span>
+            <span *ngIf="selectedClassification.relevanceConfidence" class="relevance-conf">
+              ({{ (selectedClassification.relevanceConfidence * 100).toFixed(0) }}%)
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review Status (shown if reviewed) -->
+      <div class="detail-section review-status-section" *ngIf="selectedReview">
+        <h3>Review Status</h3>
+        <div class="review-status-card" [class]="getReviewStatusClass()">
+          <div class="review-status-header">
+            <span class="review-action-badge" [class]="getReviewStatusClass()">
+              {{ selectedReview.action === 'ACCEPTED' ? '&#10003; Accepted' : '&#9998; Overridden' }}
+            </span>
+            <span class="review-timestamp">by {{ selectedReview.reviewerId }} at {{ formatDate(selectedReview.reviewedAt) }}</span>
+          </div>
+          <div class="review-details">
+            <div class="review-detail-row" *ngIf="selectedReview.originalCategory">
+              <label>Original:</label>
+              <span>
+                <span class="category-badge small"
+                      [style.background-color]="getCategoryColor(selectedReview.originalCategory)">
+                  {{ getCategoryLabel(selectedReview.originalCategory) }}
+                </span>
+                <span class="confidence-small">({{ (selectedReview.originalConfidence * 100).toFixed(1) }}%)</span>
+              </span>
+            </div>
+            <div class="review-detail-row" *ngIf="selectedReview.action === 'OVERRIDDEN' && selectedReview.overriddenCategory">
+              <label>Overridden to:</label>
+              <span class="category-badge small"
+                    [style.background-color]="getCategoryColor(selectedReview.overriddenCategory)">
+                {{ getCategoryLabel(selectedReview.overriddenCategory) }}
+              </span>
+            </div>
+            <div class="review-detail-row">
+              <label>Final Category:</label>
+              <span class="category-badge small"
+                    [style.background-color]="getCategoryColor(selectedReview.finalCategory)">
+                {{ getCategoryLabel(selectedReview.finalCategory) }}
+              </span>
+            </div>
+            <div class="review-detail-row" *ngIf="selectedReview.notes">
+              <label>Notes:</label>
+              <span class="review-notes">{{ selectedReview.notes }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="detail-section" *ngIf="selectedClassification?.summary">
+        <h3>Summary</h3>
+        <p class="summary-text">{{ selectedClassification!.summary }}</p>
+      </div>
+
+      <!-- Body Preview -->
+      <div class="detail-section">
+        <h3>Email Body</h3>
+        <div class="body-preview">{{ selectedEmail.body }}</div>
+      </div>
+
+      <!-- Documents -->
+      <div class="detail-section" *ngIf="selectedEmail.documents.length">
+        <h3>Documents ({{ selectedEmail.documents.length }})</h3>
+        <div class="document-list">
+          <div *ngFor="let doc of selectedEmail.documents" class="document-item">
+            <span class="doc-icon">&#128196;</span>
+            <span class="doc-name">{{ doc.filename }}</span>
+            <span class="doc-size">{{ (doc.fileSize / 1024).toFixed(1) }} KB</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Extracted Fields -->
+      <div class="detail-section" *ngIf="selectedExtraction">
+        <h3>
+          Extracted Fields
+          <span class="extraction-type">{{ selectedExtraction.extractionType }}</span>
+        </h3>
+        <div class="extraction-data">
+          <div *ngFor="let key of getObjectKeys(parseExtractedData(selectedExtraction.extractedData))"
+               class="field-row">
+            <span class="field-key">{{ key }}</span>
+            <span class="field-value">{{ parseExtractedData(selectedExtraction.extractedData)[key] }}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review Actions (only shown if not yet reviewed) -->
+      <div class="detail-section review-actions" *ngIf="!hasReview()">
+        <h3>Review AI Classification</h3>
+        <div class="review-messages">
+          <div *ngIf="reviewSuccess" class="review-success">{{ reviewSuccess }}</div>
+          <div *ngIf="reviewError" class="review-error">{{ reviewError }}</div>
+        </div>
+        <div class="action-buttons">
+          <button class="btn btn-accept"
+                  [disabled]="isReviewing"
+                  (click)="acceptClassification()">
+            {{ isReviewing ? 'Processing...' : '&#10003; Accept' }}
+          </button>
+          <button class="btn btn-override"
+                  [disabled]="isReviewing || !overrideCategory"
+                  (click)="overrideClassification()">
+            {{ isReviewing ? 'Processing...' : '&#9998; Override' }}
+          </button>
+        </div>
+        <div class="override-form">
+          <label class="override-label">Override to:</label>
+          <select [(ngModel)]="overrideCategory" class="override-select">
+            <option value="">Select category...</option>
+            <option *ngFor="let cat of validCategories" [value]="cat">
+              {{ getCategoryLabel(cat) }}
+            </option>
+          </select>
+          <input
+            type="text"
+            [(ngModel)]="reviewNotes"
+            placeholder="Review notes (optional)"
+            class="review-input" />
+        </div>
+      </div>
+
+      <!-- Already Reviewed Notice -->
+      <div class="detail-section review-notice" *ngIf="hasReview()">
+        <div class="review-notice-text">
+          &#10003; This document has already been reviewed
+        </div>
+      </div>
+
+      <!-- Audit History -->
+      <div class="detail-section audit-section">
+        <button class="toggle-btn" (click)="toggleAuditHistory()">
+          {{ showAuditHistory ? 'Hide' : 'Show' }} Audit History
+          <span class="audit-count">({{ selectedAuditLogs.length }})</span>
+        </button>
+        <div *ngIf="showAuditHistory" class="audit-history">
+          <div *ngFor="let log of selectedAuditLogs" class="audit-item"
+               [class.audit-failed]="log.action === 'PROCESSING_FAILED'"
+               [class.audit-review]="log.action === 'REVIEW_ACCEPTED' || log.action === 'REVIEW_OVERRIDDEN'">
+            <div class="audit-item-header">
+              <span class="audit-action-badge"
+                    [style.background-color]="getSourceColor(log.source)">
+                {{ getAuditActionLabel(log.action) }}
+              </span>
+              <span class="audit-source-badge"
+                    [style.background-color]="getSourceColor(log.source)">
+                {{ log.source }}
+              </span>
+              <span class="audit-time">{{ formatDate(log.timestamp) }}</span>
+            </div>
+            <div class="audit-item-body">
+              <span class="audit-details">{{ log.details }}</span>
+              <span class="audit-actor" *ngIf="log.actorId">by {{ log.actorId }}</span>
+            </div>
+          </div>
+          <div *ngIf="selectedAuditLogs.length === 0" class="no-audit">
+            No audit records yet
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Empty State -->
+    <div class="empty-state" *ngIf="!selectedEmail">
+      <div class="empty-icon">&#9878;</div>
+      <h3>Select an email to review</h3>
+      <p>Choose an item from the queue to view details and take action</p>
+    </div>
+  </div>
+</div>

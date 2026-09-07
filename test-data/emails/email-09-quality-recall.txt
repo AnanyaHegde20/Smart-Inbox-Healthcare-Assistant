@@ -1,0 +1,40 @@
+From: supply.chain@medequip-solutions.com
+To: procurement@clinicverse.com
+Subject: Product Recall Notice - Surgical Gloves
+Date: 2025-09-02T13:15:00Z
+
+PRODUCT RECALL NOTIFICATION
+
+Recall Reference: PR-2025-0089
+Date: September 2, 2025
+
+Product Information:
+Product: SterileGuard Surgical Gloves, Size 7.5
+SKU: SG-SG-75-2025
+Lot Numbers: SGL-2025-0451 through SGL-2025-0478
+Manufacturing Date: 2025-06-15
+Expiry: 2028-06-14
+
+Reason for Recall:
+Routine quality testing identified that a portion of gloves in the above lot numbers fail to meet the ASTM D6319 standard for pinhole testing. Failure rate: 2.3% (acceptable: <0.5%).
+
+This may result in potential exposure to bloodborne pathogens during surgical procedures.
+
+Distribution:
+- 45,000 pairs distributed to 28 healthcare facilities
+- Primary distribution: Northeast region
+
+Actions Required:
+1. Immediately cease use of affected lots
+2. Quarantine remaining inventory
+3. Contact MedEquip Solutions for return authorization
+4. Check inventory for lot numbers listed above
+
+Replacement Product:
+Available immediately at no additional cost.
+Contact: 1-800-555-0167
+
+We apologize for any inconvenience this may cause.
+
+MedEquip Solutions Quality Assurance Team
+quality@medequip-solutions.com

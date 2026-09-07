@@ -1,0 +1,39 @@
+From: dr.elena.vasquez@meridian-general.org
+To: safety@clinicverse.com
+Subject: URGENT: Patient Fall Incident Report - Ward 3B
+Date: 2025-08-12T09:15:00Z
+
+Patient Incident Report
+
+Report ID: IR-2025-0847
+Date of Incident: 2025-08-11
+Time: 14:32
+
+Patient Information:
+Name: Marcus J. Thornton
+DOB: 03/15/1958
+MRN: MRN-44721
+Ward: 3B - Medical Surgical
+
+Incident Details:
+Patient was found on the floor beside the bed at approximately 14:32.
+Patient had been prescribed Metoprolol 50mg twice daily and Diazepam 5mg at bedtime.
+Nurse on duty: Angela Torres, RN
+Post-fall assessment completed. No visible injuries. Vital signs stable.
+Patient was assisted back to bed. Neurological observations initiated.
+
+Product/Device Involved:
+Bed rails were in the UP position at time of incident.
+Call bell was within reach but not activated.
+
+Actions Taken:
+1. Attending physician notified: Dr. R. Vasquez
+2. Fall risk reassessment completed (score increased to High)
+3. 1:1 observation initiated
+4. Family notified - contact: (555) 012-7890
+5. Incident report filed with Risk Management
+
+Outcome: Patient recovered without injury. Monitoring continues.
+
+Reported by: Angela Torres, RN
+Witness: CNA David Kim
