@@ -1,0 +1,303 @@
+{
+  "document_type": "text",
+  "extracted_text": "From: pharmacovigilance@nordic-pharma.com\nTo: safety@clinicverse.com\nSubject: ICSR - Serious Adverse Event - Stevens-Johnson Syndrome - Celecoxib\nDate: 2025-09-08T11:00:00Z\n\nINDIVIDUAL CASE SAFETY REPORT (ICSR)\nInitial Report - Serious\n\nReport Reference: AE-2025-4471\nReport Date: 2025-09-08\nSource: Spontaneous (Healthcare Professional)\n\n=== PATIENT INFORMATION ===\nPatient ID: SYN-5578\nAge: 72 years\nSex: Female\nWeight: 64 kg\nHeight: 162 cm\nEthnicity: Caucasian\n\nMedical History:\n- Osteoarthritis (diagnosed 2019)\n- Hypertension (controlled with Lisinopril)\n- Type 2 Diabetes (managed with Metformin)\n- No history of autoimmune disease\n- No prior NSAID reactions documented\n\n=== SUSPECT PRODUCT ===\nProduct: Celebrex (celecoxib) 200mg capsules\nManufacturer: Nordic Pharmaceuticals\nLot Number: NP-CEL-2025-667\nNDC: 11111-222-33\nDose: 200mg once daily\nRoute: Oral\nIndication: Osteoarthritis pain\nStart Date: 2025-08-25\nStop Date: 2025-09-03 (discontinued due to event)\n\n=== CONCOMITANT MEDICATIONS ===\n1. Lisinopril 10mg daily (since 2020)\n2. Metformin 500mg BID (since 2018)\n3. Calcium carbonate 600mg daily (since 2022)\n4. Vitamin D3 1000 IU daily (since 2022)\n\n=== EVENT DESCRIPTION ===\nOnset Date: 2025-09-01 (Day 7 of celecoxib therapy)\nLocation: Patient's home, followed by hospital admission\n\nClinical Course:\nDay 7 (2025-09-01): Patient noticed \"sunburn-like\" rash on\n  trunk. Initially attributed to new laundry detergent.\n\nDay 8 (2025-09-02): Rash spread to arms, legs, and face.\n  Developed fever (38.9C / 102F). Oral blisters noted.\n  Patient went to Emergency Department.\n\nDay 8 ED Assessment:\n  - Vital Signs: T 38.9C, HR 102, BP 118/74, RR 18, SpO2 97%\n  - Skin: Erythematous maculopapular rash with targetoid lesions\n    covering approximately 35% BSA. Multiple oral erosions on\n    buccal mucosa and tongue. Two large blisters on forearms.\n  - Eyes: Conjunctival injection, bilateral. No corneal erosions.\n  - Nikolsky sign: Positive (skin slippage with gentle pressure)\n\nDay 8 Diagnosis: Stevens-Johnson Syndrome (SJS)\n  - Severity: SJS (not TEN - BSA involvement <10% with full-thickness)\n  - Causality Assessment: Probable (Naranjo score: 8)\n  - Suspected trigger: Celecoxib\n\nDay 8-14: Hospital Admission - Burn Unit/ICU\n  - Celecoxib discontinued immediately\n  - Wound care with silver sulfadiazine dressings\n  - IV fluids: Normal saline 125 mL/hr\n  - Pain management: Morphine PCA\n  - Ophthalmology consult: Artificial tears q2h, no corneal involvement\n  - Nutrition: NPO initially, then soft diet when oral lesions improved\n  - Infection prevention: Contact precautions, daily wound cultures\n\nDay 10: Skin biopsy results\n  - Histopathology: Full-thickness epidermal necrosis with subepidermal\n    blister formation. Consistent with SJS.\n  - Direct immunofluorescence: Negative\n\nDay 14 (2025-09-08): Discharged to home\n  - BSA involvement improved to approximately 10%\n  - Oral lesions healing\n  - Renal function normal (Cr 0.8 mg/dL)\n  - No ocular sequelae\n\n=== OUTCOME ===\nRecovering (not yet recovered at time of report)\nExpected sequelae: Minor scarring on forearms\nFollow-up: Dermatology in 2 weeks, Ophthalmology in 4 weeks\n\n=== SERIOUSNESS CRITERIA ===\n[X] Results in hospitalization (prolonged)\n[X] Is life-threatening\n[X] Other medically important condition\n\n=== CAUSAL ASSESSMENT ===\nReporter Assessment: Probable\nNaranjo Score: 8 (Probable)\nRationale:\n- Temporal relationship (7 days after initiation)\n- Known class effect of COX-2 inhibitors\n- Positive dechallenge (improved after discontinuation)\n- Alternative causes unlikely (no new medications, no infections)\n\n=== REPORTER INFORMATION ===\nName: Dr. Astrid Lindgren, MD\nSpecialty: Internal Medicine / Rheumatology\nFacility: Nordic Regional Medical Center\nEmail: a.lindgren@nordic-medical.org\nPhone: +46-8-555-0199\n\n=== REGULATORY ===\nReportable to: FDA, EMA, Nordic Regulatory Authority\nPatient consent obtained for reporting\n",
+  "language": "en",
+  "translated_text": null,
+  "summary": "From: pharmacovigilance@nordic-pharma. com To: safety@clinicverse. com Subject: ICSR - Serious Adverse Event - Stevens-Johnson Syndrome - Celecoxib Date: 2025-09-08T11:00:00Z  INDIVIDUAL CASE SAFETY REPORT (ICSR) Initial Report - Serious  Report Reference: AE-2025-4471 Report Date: 2025-09-08 Source: Spontaneous (Healthcare Professional)  === PATIENT INFORMATION === Patient ID: SYN-5578 Age: 72 years Sex: Female Weight: 64 kg Height: 162 cm Ethnicity: Caucasian  Medical History: - Osteoarthritis (diagnosed 2019) - Hypertension (controlled with Lisinopril) - Type 2 Diabetes (managed with Metformin) - No history of autoimmune disease - No prior NSAID reactions documented  === SUSPECT PRODUCT === Product: Celebrex (celecoxib) 200mg capsules Manufacturer: Nordic Pharmaceuticals Lot Number: NP-CEL-2025-667 NDC: 11111-222-33 Dose: 200mg once daily Route: Oral Indication: Osteoarthritis pain Start Date: 2025-08-25 Stop Date: 2025-09-03 (discontinued due to event)  === CONCOMITANT MEDICATIONS === 1.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.8,
+    "reasons": [
+      "Matched: adverse event",
+      "Matched: results",
+      "Matched: follow-up"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.8,
+        "reason": "Matched: adverse event"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.35,
+        "reason": "Matched: results"
+      },
+      {
+        "category": "QUALITY_COMPLAINT",
+        "confidence": 0.15,
+        "reason": "Matched: follow-up"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_date",
+      "value": "2025-09-08",
+      "confidence": 0.85
+    },
+    {
+      "key": "report_type",
+      "value": "Initial",
+      "confidence": 0.7
+    },
+    {
+      "key": "patient_name",
+      "value": "Dr. Astrid Lindgren, MD",
+      "confidence": 0.6
+    },
+    {
+      "key": "patient_age",
+      "value": "72",
+      "confidence": 0.9
+    },
+    {
+      "key": "patient_sex",
+      "value": "Female",
+      "confidence": 0.9
+    },
+    {
+      "key": "patient_weight",
+      "value": "64",
+      "confidence": 0.8
+    },
+    {
+      "key": "patient_height",
+      "value": "162",
+      "confidence": 0.85
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "- Osteoarthritis (diagnosed 2019)\n- Hypertension (controlled with Lisinopril)\n- Type 2 Diabetes (managed with Metformin)\n- No history of autoimmune disease\n- No prior NSAID reactions documented",
+      "confidence": 0.75
+    },
+    {
+      "key": "reporter_name",
+      "value": "pharmacovigilance@nordic-pharma.com",
+      "confidence": 0.5
+    },
+    {
+      "key": "reporter_role",
+      "value": "PATIENT",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "a.lindgren@nordic-medical.org",
+      "confidence": 0.8
+    },
+    {
+      "key": "product_name",
+      "value": "==",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "Nordic Pharmaceuticals",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_lot_number",
+      "value": "NP-CEL-2025-667",
+      "confidence": 0.9
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "200mg once daily",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_route",
+      "value": "Oral",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_indication",
+      "value": "Osteoarthritis pain",
+      "confidence": 0.8
+    },
+    {
+      "key": "reaction_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "2025-09-01 (Day 7 of celecoxib therapy)",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "==",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "SJS (not TEN - BSA involvement <10% with full-thickness)",
+      "confidence": 0.85
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "SJS (not TEN - BSA involvement <10% with full-thickness)",
+      "confidence": 0.8
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Life-Threatening",
+      "confidence": 0.8
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "- Vital Signs: T 38.9C, HR 102, BP 118/74, RR 18, SpO2 97%",
+      "confidence": 0.8
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 6.97,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'email-13-reaction-detailed.txt' contains approximately 528 words.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"From: pharmacovigilance@nordic-pharma.com To: safety@clinicverse.com Subject: ICSR - Serious Adverse Event - Stevens-Johnson Syndrome - Celecoxib Date: 2025-09-08T11:00:00Z  INDIVIDUAL CASE SAFETY REP\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Patient went to Emergency Department.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety, medication, adverse event, clinical documentation.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'went to Emergency Department'; product/device reference: 's'; dates mentioned: 46-8-555; reporter/author: 'ity'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"From: pharmacovigilance@nordic-pharma.com To: safety@clinicverse.com Subject: ICSR - Serious Adverse Event - Stevens-Johnson Syndrome - Celecoxib Date: 2025-09-08T11:00:00Z  INDIVIDUAL CASE SAFETY REP\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Vitamin D3 1000 IU daily (since 2022)  === EVENT DESCRIPTION === Onset Date: 2025-09-01 (Day 7 of celecoxib therapy) Location: Patient's home, followed by hospital admission  Clinical Course: Day 7 (2\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, INFO_REQUEST, QUALITY_COMPLAINT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The identified topics (patient safety, medication, adverse event) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The document contains substantial detail, providing a good basis for review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety",
+      "medication",
+      "adverse event",
+      "clinical documentation"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'email-13-reaction-detailed.txt' contains approximately 528 words. The document opens with the following content: \"From: pharmacovigilance@nordic-pharma.com To: safety@clinicverse.com Subject: ICSR - Serious Adverse Event - Stevens-Johnson Syndrome - Celecoxib Date: 2025-09-08T11:00:00Z  INDIVIDUAL CASE SAFETY REP\" Additional content includes: \"Patient went to Emergency Department.\" The document relates to the following topics: patient safety, medication, adverse event, clinical documentation. Key entities identified in the document include: patient/subject reference: 'went to Emergency Department'; product/device reference: 's'; dates mentioned: 46-8-555; reporter/author: 'ity'. Relevant case detail: \"From: pharmacovigilance@nordic-pharma.com To: safety@clinicverse.com Subject: ICSR - Serious Adverse Event - Stevens-Johnson Syndrome - Celecoxib Date: 2025-09-08T11:00:00Z  INDIVIDUAL CASE SAFETY REP\" Relevant case detail: \"Vitamin D3 1000 IU daily (since 2022)  === EVENT DESCRIPTION === Onset Date: 2025-09-01 (Day 7 of celecoxib therapy) Location: Patient's home, followed by hospital admission  Clinical Course: Day 7 (2\" This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, INFO_REQUEST, QUALITY_COMPLAINT, which supports its relevance to the review process. The identified topics (patient safety, medication, adverse event) are within the scope of healthcare document review. The document contains substantial detail, providing a good basis for review."
+  }
+}

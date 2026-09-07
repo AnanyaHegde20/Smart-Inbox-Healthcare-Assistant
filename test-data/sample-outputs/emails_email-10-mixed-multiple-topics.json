@@ -1,0 +1,171 @@
+{
+  "document_type": "text",
+  "extracted_text": "From: office.manager@wellness-clinic.com\nTo: info@clinicverse.com\nSubject: Mixed inquiries - multiple topics\nDate: 2025-09-04T11:30:00Z\n\nHello,\n\nI'm reaching out with a few different questions for our clinic:\n\n1. We had a patient complaint about long wait times last week. The patient was seen by Dr. Adams on August 28th and waited 90 minutes past their appointment time. We want to document this properly. What category should this be filed under?\n\n2. We're also looking for information about your document management system. Can it handle both English and Spanish documents? We serve a bilingual community.\n\n3. One of our nurses reported that the automatic blood pressure cuffs in Exam Room 3 and 4 seem to be giving inconsistent readings compared to manual measurements. This isn't a formal complaint yet, but we want to track it.\n\n4. We received a flyer about a new vaccine storage monitoring system. Is this something you handle or should we forward it elsewhere?\n\nOur practice manager is Sarah Collins. You can reach us at (555) 456-7890.\n\nThanks,\nOffice Manager\nWellness Family Clinic\n",
+  "language": "en",
+  "translated_text": null,
+  "summary": "From: office. manager@wellness-clinic. com To: info@clinicverse.",
+  "classification": {
+    "category": "QUALITY_COMPLAINT",
+    "subcategory": null,
+    "confidence": 0.99,
+    "reasons": [
+      "Matched: complaint, complain",
+      "Matched: question"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "QUALITY_COMPLAINT",
+        "confidence": 0.99,
+        "reason": "Matched: complaint, complain"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.85,
+        "reason": "Matched: question"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "product",
+      "value": "long wait times last week",
+      "confidence": 0.75
+    },
+    {
+      "key": "batch_lot_number",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "complaint_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "photo_mentioned",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "complaint_category",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "complainant_name",
+      "value": "office.manager@wellness-clinic.com",
+      "confidence": 0.8
+    },
+    {
+      "key": "complainant_contact",
+      "value": "office.manager@wellness-clinic.com",
+      "confidence": 0.9
+    },
+    {
+      "key": "date_received",
+      "value": "25-09-04",
+      "confidence": 0.6
+    },
+    {
+      "key": "expected_resolution",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 10.05,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'email-10-mixed-multiple-topics.txt' contains approximately 173 words.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"From: office.manager@wellness-clinic.com To: info@clinicverse.com Subject: Mixed inquiries - multiple topics Date: 2025-09-04T11:30:00Z  Hello,  I'm reaching out with a few different questions for our\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"We serve a bilingual community.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: information request.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'complaint about long wait times last week'; reporter/author: 'office'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"We had a patient complaint about long wait times last week.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"The patient was seen by Dr.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no specific product or device identified; no formal incident or report reference.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "Additional gaps include: no outcome information provided; no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 12,
+        "text": "The document was classified into the following categories: QUALITY_COMPLAINT, INFO_REQUEST, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 13,
+        "text": "The identified topics (information request) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 13,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "information request"
+    ],
+    "document_purpose": "Quality complaint or service issue report",
+    "narrative": "The document 'email-10-mixed-multiple-topics.txt' contains approximately 173 words. The document opens with the following content: \"From: office.manager@wellness-clinic.com To: info@clinicverse.com Subject: Mixed inquiries - multiple topics Date: 2025-09-04T11:30:00Z  Hello,  I'm reaching out with a few different questions for our\" Additional content includes: \"We serve a bilingual community.\" The document relates to the following topics: information request. Key entities identified in the document include: patient/subject reference: 'complaint about long wait times last week'; reporter/author: 'office'. Relevant case detail: \"We had a patient complaint about long wait times last week.\" Relevant case detail: \"The patient was seen by Dr.\" The following important information is missing or not clearly stated: no specific dates mentioned; no specific product or device identified; no formal incident or report reference. Additional gaps include: no outcome information provided; no recommended actions or follow-up stated. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: QUALITY_COMPLAINT, INFO_REQUEST, which supports its relevance to the review process. The identified topics (information request) are within the scope of healthcare document review."
+  }
+}

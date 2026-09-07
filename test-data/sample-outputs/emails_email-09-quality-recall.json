@@ -1,0 +1,93 @@
+{
+  "document_type": "text",
+  "extracted_text": "From: supply.chain@medequip-solutions.com\nTo: procurement@clinicverse.com\nSubject: Product Recall Notice - Surgical Gloves\nDate: 2025-09-02T13:15:00Z\n\nPRODUCT RECALL NOTIFICATION\n\nRecall Reference: PR-2025-0089\nDate: September 2, 2025\n\nProduct Information:\nProduct: SterileGuard Surgical Gloves, Size 7.5\nSKU: SG-SG-75-2025\nLot Numbers: SGL-2025-0451 through SGL-2025-0478\nManufacturing Date: 2025-06-15\nExpiry: 2028-06-14\n\nReason for Recall:\nRoutine quality testing identified that a portion of gloves in the above lot numbers fail to meet the ASTM D6319 standard for pinhole testing. Failure rate: 2.3% (acceptable: <0.5%).\n\nThis may result in potential exposure to bloodborne pathogens during surgical procedures.\n\nDistribution:\n- 45,000 pairs distributed to 28 healthcare facilities\n- Primary distribution: Northeast region\n\nActions Required:\n1. Immediately cease use of affected lots\n2. Quarantine remaining inventory\n3. Contact MedEquip Solutions for return authorization\n4. Check inventory for lot numbers listed above\n\nReplacement Product:\nAvailable immediately at no additional cost.\nContact: 1-800-555-0167\n\nWe apologize for any inconvenience this may cause.\n\nMedEquip Solutions Quality Assurance Team\nquality@medequip-solutions.com\n",
+  "language": "en",
+  "translated_text": null,
+  "summary": "From: supply. chain@medequip-solutions. com To: procurement@clinicverse.",
+  "classification": {
+    "category": "INFO_REQUEST",
+    "subcategory": null,
+    "confidence": 0.15,
+    "reasons": [
+      "Matched: refer"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.15,
+        "reason": "Matched: refer"
+      }
+    ]
+  },
+  "extracted_facts": [],
+  "source_references": [],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 4.29,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'email-09-quality-recall.txt' contains approximately 153 words.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"From: supply.chain@medequip-solutions.com To: procurement@clinicverse.com Subject: Product Recall Notice - Surgical Gloves Date: 2025-09-02T13:15:00Z  PRODUCT RECALL NOTIFICATION  Recall Reference: PR\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Quarantine remaining inventory 3.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "Key entities identified in the document include: product/device reference: 'RECALL NOTIFICATION'; reporter/author: 'supply'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no patient or subject identified; no formal incident or report reference.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Additional gaps include: no outcome information provided; no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "The document was classified into the following categories: INFO_REQUEST, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 9,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [],
+    "document_purpose": "Information request or inquiry",
+    "narrative": "The document 'email-09-quality-recall.txt' contains approximately 153 words. The document opens with the following content: \"From: supply.chain@medequip-solutions.com To: procurement@clinicverse.com Subject: Product Recall Notice - Surgical Gloves Date: 2025-09-02T13:15:00Z  PRODUCT RECALL NOTIFICATION  Recall Reference: PR\" Additional content includes: \"Quarantine remaining inventory 3.\" Key entities identified in the document include: product/device reference: 'RECALL NOTIFICATION'; reporter/author: 'supply'. The following important information is missing or not clearly stated: no specific dates mentioned; no patient or subject identified; no formal incident or report reference. Additional gaps include: no outcome information provided; no recommended actions or follow-up stated. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: INFO_REQUEST, which supports its relevance to the review process."
+  }
+}

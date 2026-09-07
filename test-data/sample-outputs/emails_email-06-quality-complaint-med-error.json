@@ -1,0 +1,302 @@
+{
+  "document_type": "text",
+  "extracted_text": "From: james.omalley@cityhospital.org\nTo: quality@clinicverse.com\nSubject: Complaint: Medication Dispensing Error\nDate: 2025-08-18T10:45:00Z\n\nIncident Report - Medication Error\n\nDate of Incident: 2025-08-17\nLocation: City Hospital, Pharmacy Department\n\nDetails:\nPatient Jane Smith (DOB: 05/22/1975, MRN: 789012) was dispensed Warfarin 5mg instead of the prescribed Warfarin 2.5mg.\n\nThe error was discovered during the second dose administration by nurse Patricia Lee.\nThe patient had received one incorrect dose (5mg instead of 2.5mg) before the error was caught.\n\nPatient Impact:\n- INR checked immediately: 3.2 (therapeutic range 2.0-3.0)\n- No bleeding events observed\n- Vitamin K administered prophylactically\n- Patient monitored for 24 hours\n\nRoot Cause Analysis:\n- Look-alike/sound-alike medications stored adjacent\n- Barcode scanning was bypassed due to scanner malfunction\n- Pharmacist was covering two stations simultaneously\n\nCorrective Actions:\n1. Barcode scanner replaced immediately\n2. Staff retrained on look-alike medication protocols\n3. Independent double-check for high-alert medications reinforced\n4. Physical separation of Warfarin strengths implemented\n\nThis incident has been reported to the hospital's Quality Improvement Committee.\n\nSubmitted by: James O'Malley, PharmD\nDirector of Pharmacy\nCity Hospital\n",
+  "language": "en",
+  "translated_text": null,
+  "summary": "From: james. omalley@cityhospital. org To: quality@clinicverse.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.9,
+    "reasons": [
+      "Matched: medication error",
+      "Matched: complaint, complain",
+      "Matched: pharmacy"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.9,
+        "reason": "Matched: medication error"
+      },
+      {
+        "category": "QUALITY_COMPLAINT",
+        "confidence": 0.6,
+        "reason": "Matched: complaint, complain"
+      },
+      {
+        "category": "NOT_RELEVANT",
+        "confidence": 0.35,
+        "reason": "Matched: pharmacy"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_date",
+      "value": "25-08-18",
+      "confidence": 0.6
+    },
+    {
+      "key": "report_type",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_weight",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_height",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_name",
+      "value": "james.omalley@cityhospital.org",
+      "confidence": 0.5
+    },
+    {
+      "key": "reporter_role",
+      "value": "Patient",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "james.omalley@cityhospital.org",
+      "confidence": 0.9
+    },
+    {
+      "key": "product_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_lot_number",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "5mg",
+      "confidence": 0.75
+    },
+    {
+      "key": "product_route",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_indication",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 5.78,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'email-06-quality-complaint-med-error.txt' contains approximately 171 words.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"From: james.omalley@cityhospital.org To: quality@clinicverse.com Subject: Complaint: Medication Dispensing Error Date: 2025-08-18T10:45:00Z  Incident Report - Medication Error  Date of Incident: 2025-\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Barcode scanner replaced immediately 2.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety, medication, personnel.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'monitored for 24 hours'; product/device reference: 'Dispensing Error'; dates mentioned: 05/22/1975; reporter/author: 'james'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"From: james.omalley@cityhospital.org To: quality@clinicverse.com Subject: Complaint: Medication Dispensing Error Date: 2025-08-18T10:45:00Z  Incident Report - Medication Error  Date of Incident: 2025-\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"The error was discovered during the second dose administration by nurse Patricia Lee.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no outcome information provided; no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, QUALITY_COMPLAINT, NOT_RELEVANT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (patient safety, medication, personnel) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety",
+      "medication",
+      "personnel"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'email-06-quality-complaint-med-error.txt' contains approximately 171 words. The document opens with the following content: \"From: james.omalley@cityhospital.org To: quality@clinicverse.com Subject: Complaint: Medication Dispensing Error Date: 2025-08-18T10:45:00Z  Incident Report - Medication Error  Date of Incident: 2025-\" Additional content includes: \"Barcode scanner replaced immediately 2.\" The document relates to the following topics: patient safety, medication, personnel. Key entities identified in the document include: patient/subject reference: 'monitored for 24 hours'; product/device reference: 'Dispensing Error'; dates mentioned: 05/22/1975; reporter/author: 'james'. Relevant case detail: \"From: james.omalley@cityhospital.org To: quality@clinicverse.com Subject: Complaint: Medication Dispensing Error Date: 2025-08-18T10:45:00Z  Incident Report - Medication Error  Date of Incident: 2025-\" Relevant case detail: \"The error was discovered during the second dose administration by nurse Patricia Lee.\" The following important information is missing or not clearly stated: no outcome information provided; no recommended actions or follow-up stated. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, QUALITY_COMPLAINT, NOT_RELEVANT, which supports its relevance to the review process. The identified topics (patient safety, medication, personnel) are within the scope of healthcare document review."
+  }
+}

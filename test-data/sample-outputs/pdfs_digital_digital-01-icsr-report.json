@@ -1,0 +1,306 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "INDIVIDUAL CASE SAFETY REPORT (ICSR)\nReport Information\nReport Reference: MSR-2025-0923\nReport Type: Initial Report\nSource: Healthcare Professional\nDate of Report: 2025-08-20\nReporter: Dr. Patricia Morales, MD, Internal Medicine\nFacility: Valley View Medical Center\nContact: p.morales@valleyview-med.org | (555) 321-4567\nPatient Information\nPatient Initials: A.B.\nDate of Birth: 04/12/1968\nSex: Male\nWeight: 78 kg\nHeight: 178 cm\nMedical History: Hypertension (2018), Hyperlipidemia\nNo known drug allergies prior to this event.\nSuspect Product\nProduct Name: CardioShield 40mg Tablets\nManufacturer: HeartCare Pharmaceuticals\nLot Number: HC-2025-0789\nNDC: 56789-012-34\nDose: 40mg once daily\nRoute: Oral\nIndication: Hypertension\nEvent Description\nPatient developed progressive muscle weakness starting 3 days after\n\ninitiating CardioShield 40mg. By day 7, patient reported difficulty\nclimbing stairs and lifting objects. CK levels elevated to 2,450 U/L\n(normal: 22-198 U/L).\nOnset Date: 2025-08-15\nResolution Date: Ongoing\nOutcome: Not recovered\nEvent Serious: Yes\nCriteria: Other medically important condition\nConcomitant Medications\n1. Lisinopril 20mg daily (since 2019)\n2. Atorvastatin 40mg daily (since 2020)\nTreatment and Outcome\nCardioShield discontinued on 2025-08-22.\nCK levels monitored weekly. Physical therapy initiated.\nCausality Assessment: Probable\nRationale: Temporal relationship, dechallenge positive",
+  "language": "en",
+  "translated_text": null,
+  "summary": "INDIVIDUAL CASE SAFETY REPORT (ICSR) Report Information Report Reference: MSR-2025-0923 Report Type: Initial Report Source: Healthcare Professional Date of Report: 2025-08-20 Reporter: Dr. Patricia Morales, MD, Internal Medicine Facility: Valley View Medical Center Contact: p. morales@valleyview-med.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.25,
+    "reasons": [
+      "Matched: harm",
+      "Matched: refer"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.25,
+        "reason": "Matched: harm"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.15,
+        "reason": "Matched: refer"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_date",
+      "value": "2025-08-20",
+      "confidence": 0.85
+    },
+    {
+      "key": "report_type",
+      "value": "Initial Report",
+      "confidence": 0.85
+    },
+    {
+      "key": "patient_name",
+      "value": "CardioShield 40mg Tablets",
+      "confidence": 0.6
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "Male",
+      "confidence": 0.9
+    },
+    {
+      "key": "patient_weight",
+      "value": "78",
+      "confidence": 0.8
+    },
+    {
+      "key": "patient_height",
+      "value": "178",
+      "confidence": 0.85
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "Hypertension (2018), Hyperlipidemia\nNo known drug allergies prior to this event.\nSuspect Product\nProduct Name: CardioShield 40mg Tablets\nManufacturer: HeartCare Pharmaceuticals\nLot Number: HC-2025-0789\nNDC: 56789-012-34\nDose: 40mg once daily\nRoute: Oral\nIndication: Hypertension\nEvent Description\nPatient developed progressive muscle weakness starting 3 days after",
+      "confidence": 0.75
+    },
+    {
+      "key": "reporter_name",
+      "value": "Dr. Patricia Morales, MD, Internal Medicine",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_role",
+      "value": "Patient",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "p.morales@valleyview-med.org | (555) 321-4567",
+      "confidence": 0.8
+    },
+    {
+      "key": "product_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "HeartCare Pharmaceuticals",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_lot_number",
+      "value": "HC-2025-0789",
+      "confidence": 0.9
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "40mg once daily",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_route",
+      "value": "Oral",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_indication",
+      "value": "Hypertension",
+      "confidence": 0.8
+    },
+    {
+      "key": "reaction_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "2025-08-15",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "Not recovered",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Yes",
+      "confidence": 0.85
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Probable",
+      "confidence": 0.8
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 86.21,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'digital-01-icsr-report.pdf' contains approximately 178 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"INDIVIDUAL CASE SAFETY REPORT (ICSR) Report Information Report Reference: MSR-2025-0923 Report Type: Initial Report Source: Healthcare Professional Date of Report: 2025-08-20 Reporter: Dr.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Onset Date: 2025-08-15 Resolution Date: Ongoing Outcome: Not recovered Event Serious: Yes Criteria: Other medically important condition Concomitant Medications 1.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety, medication.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'Information'; product/device reference: 'allergies prior to this event'; dates mentioned: 04/12/1968; reporter/author: 'Dr'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"INDIVIDUAL CASE SAFETY REPORT (ICSR) Report Information Report Reference: MSR-2025-0923 Report Type: Initial Report Source: Healthcare Professional Date of Report: 2025-08-20 Reporter: Dr.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Patricia Morales, MD, Internal Medicine Facility: Valley View Medical Center Contact: p.morales@valleyview-med.org | (555) 321-4567 Patient Information Patient Initials: A.B.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, INFO_REQUEST, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (patient safety, medication) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety",
+      "medication"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'digital-01-icsr-report.pdf' contains approximately 178 words across 2 pages. The document opens with the following content: \"INDIVIDUAL CASE SAFETY REPORT (ICSR) Report Information Report Reference: MSR-2025-0923 Report Type: Initial Report Source: Healthcare Professional Date of Report: 2025-08-20 Reporter: Dr.\" Additional content includes: \"Onset Date: 2025-08-15 Resolution Date: Ongoing Outcome: Not recovered Event Serious: Yes Criteria: Other medically important condition Concomitant Medications 1.\" The document relates to the following topics: patient safety, medication. Key entities identified in the document include: patient/subject reference: 'Information'; product/device reference: 'allergies prior to this event'; dates mentioned: 04/12/1968; reporter/author: 'Dr'. Relevant case detail: \"INDIVIDUAL CASE SAFETY REPORT (ICSR) Report Information Report Reference: MSR-2025-0923 Report Type: Initial Report Source: Healthcare Professional Date of Report: 2025-08-20 Reporter: Dr.\" Relevant case detail: \"Patricia Morales, MD, Internal Medicine Facility: Valley View Medical Center Contact: p.morales@valleyview-med.org | (555) 321-4567 Patient Information Patient Initials: A.B.\" The following important information is missing or not clearly stated: no recommended actions or follow-up stated. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, INFO_REQUEST, which supports its relevance to the review process. The identified topics (patient safety, medication) are within the scope of healthcare document review."
+  }
+}

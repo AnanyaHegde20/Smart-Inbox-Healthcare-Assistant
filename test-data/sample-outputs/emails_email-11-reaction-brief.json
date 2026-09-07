@@ -1,0 +1,149 @@
+{
+  "document_type": "text",
+  "extracted_text": "From: nurse.patel@sunrise-clinic.com\nTo: safety@clinicverse.com\nSubject: Quick note - patient rash after antibiotic\nDate: 2025-09-06T14:20:00Z\n\nHi,\n\nPatient developed a rash after starting Amoxicillin 500mg TID.\nRash appeared on day 3 of treatment. Red, raised, itchy.\nLocated on torso and arms.\n\nDrug stopped. Switched to Azithromycin.\n\nThanks,\nNurse Patel\nSunrise Family Clinic\n",
+  "language": "en",
+  "translated_text": null,
+  "summary": "From: nurse. patel@sunrise-clinic. com To: safety@clinicverse.",
+  "classification": {
+    "category": "NOT_RELEVANT",
+    "subcategory": null,
+    "confidence": 0.3,
+    "reasons": [
+      "No category matched with sufficient confidence"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "NOT_RELEVANT",
+        "confidence": 0.3,
+        "reason": "No category matched with sufficient confidence"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "reason",
+      "value": "Content does not match any healthcare safety, quality, or inquiry category",
+      "confidence": 0.5
+    },
+    {
+      "key": "detected_category",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "sender",
+      "value": "nurse.patel@sunrise-clinic.com",
+      "confidence": 0.8
+    },
+    {
+      "key": "subject",
+      "value": "Quick note - patient rash after antibiotic",
+      "confidence": 0.85
+    },
+    {
+      "key": "date_received",
+      "value": "2025-09-06T14:20:00Z",
+      "confidence": 0.75
+    },
+    {
+      "key": "is_spam",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "language",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 0.99,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'email-11-reaction-brief.txt' contains approximately 50 words.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"From: nurse.patel@sunrise-clinic.com To: safety@clinicverse.com Subject: Quick note - patient rash after antibiotic Date: 2025-09-06T14:20:00Z  Hi,  Patient developed a rash after starting Amoxicillin\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Located on torso and arms.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'rash after antibiotic'; product/device reference: 'stopped'; reporter/author: 'nurse'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"From: nurse.patel@sunrise-clinic.com To: safety@clinicverse.com Subject: Quick note - patient rash after antibiotic Date: 2025-09-06T14:20:00Z  Hi,  Patient developed a rash after starting Amoxicillin\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no formal incident or report reference; no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "Additional gaps include: no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The document was classified into the following categories: NOT_RELEVANT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 12,
+        "text": "The identified topics (patient safety) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 12,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety"
+    ],
+    "document_purpose": "Safety-related documentation",
+    "narrative": "The document 'email-11-reaction-brief.txt' contains approximately 50 words. The document opens with the following content: \"From: nurse.patel@sunrise-clinic.com To: safety@clinicverse.com Subject: Quick note - patient rash after antibiotic Date: 2025-09-06T14:20:00Z  Hi,  Patient developed a rash after starting Amoxicillin\" Additional content includes: \"Located on torso and arms.\" The document relates to the following topics: patient safety. Key entities identified in the document include: patient/subject reference: 'rash after antibiotic'; product/device reference: 'stopped'; reporter/author: 'nurse'. Relevant case detail: \"From: nurse.patel@sunrise-clinic.com To: safety@clinicverse.com Subject: Quick note - patient rash after antibiotic Date: 2025-09-06T14:20:00Z  Hi,  Patient developed a rash after starting Amoxicillin\" The following important information is missing or not clearly stated: no specific dates mentioned; no formal incident or report reference; no outcome information provided. Additional gaps include: no recommended actions or follow-up stated. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: NOT_RELEVANT, which supports its relevance to the review process. The identified topics (patient safety) are within the scope of healthcare document review."
+  }
+}

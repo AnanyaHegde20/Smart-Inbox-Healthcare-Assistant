@@ -1,0 +1,148 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "VALLEY VIEW MEDICAL CENTER - Laboratory Report\nPatient Information\nPatient: Marcus Thornton\nDOB: 03/15/1958\nMRN: SYN-44721\nCollection Date: 2025-08-12\nOrdering Physician: Dr. Elena Vasquez\nComplete Blood Count (CBC)\nComponent Result Units Reference Range\n-----------------------------------------------------------\nWBC 12.4 x10^3/uL 4.5-11.0 HIGH\nRBC 4.8 x10^6/uL 4.5-5.5\nHemoglobin 14.2 g/dL 13.5-17.5\nHematocrit 42.1 % 38.3-48.6\nMCV 87.7 fL 80.0-100.0\nPlatelet Count 245 x10^3/uL 150-400\nNeutrophils 78 % 40-70 HIGH\nLymphocytes 15 % 20-40 LOW\nBasic Metabolic Panel\nComponent Result Units Reference Range\n-----------------------------------------------------------\nGlucose 142 mg/dL 70-100 HIGH\nBUN 18 mg/dL 7-20\nCreatinine 1.1 mg/dL 0.7-1.3\nSodium 140 mEq/L 136-145\nPotassium 4.2 mEq/L 3.5-5.0\nChloride 102 mEq/L 98-106\nCO2 24 mEq/L 23-29\n\nCalcium 9.4 mg/dL 8.5-10.5\nLipid Panel\nComponent Result Units Reference Range\n-----------------------------------------------------------\nTotal Cholesterol 218 mg/dL <200 HIGH\nLDL 142 mg/dL <100 HIGH\nHDL 38 mg/dL >40 LOW\nTriglycerides 195 mg/dL <150 HIGH\nClinical Significance\nElevated WBC and neutrophils may indicate acute stress response\nor early infection. Lipid panel shows dyslipidemia - consider\nmedication adjustment. Glucose elevated - fasting specimen\nnot confirmed.\nElectronically verified by: Dr. Sarah Kim, MD, Pathology",
+  "language": "en",
+  "translated_text": null,
+  "summary": "VALLEY VIEW MEDICAL CENTER - Laboratory Report Patient Information Patient: Marcus Thornton DOB: 03/15/1958 MRN: SYN-44721 Collection Date: 2025-08-12 Ordering Physician: Dr. Elena Vasquez Complete Blood Count (CBC) Component Result Units Reference Range ----------------------------------------------------------- WBC 12. 4 x10^3/uL 4.",
+  "classification": {
+    "category": "INFO_REQUEST",
+    "subcategory": null,
+    "confidence": 0.15,
+    "reasons": [
+      "Matched: refer"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.15,
+        "reason": "Matched: refer"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "questions",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_topic",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "urgency",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "requester_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "requester_contact",
+      "value": "2025-08-12",
+      "confidence": 0.75
+    },
+    {
+      "key": "date_submitted",
+      "value": "2025-08-12",
+      "confidence": 0.75
+    },
+    {
+      "key": "preferred_response_format",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 75.55,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'digital-04-lab-results.pdf' contains approximately 178 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"VALLEY VIEW MEDICAL CENTER - Laboratory Report Patient Information Patient: Marcus Thornton DOB: 03/15/1958 MRN: SYN-44721 Collection Date: 2025-08-12 Ordering Physician: Dr.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Glucose elevated - fasting specimen not confirmed.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: medication.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'Information'; product/device reference: 'adjustment'; dates mentioned: 03/15/1958.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"VALLEY VIEW MEDICAL CENTER - Laboratory Report Patient Information Patient: Marcus Thornton DOB: 03/15/1958 MRN: SYN-44721 Collection Date: 2025-08-12 Ordering Physician: Dr.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "The following important information is missing or not clearly stated: no outcome information provided; no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "The document was classified into the following categories: INFO_REQUEST, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The identified topics (medication) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 10,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "medication"
+    ],
+    "document_purpose": "Information request or inquiry",
+    "narrative": "The document 'digital-04-lab-results.pdf' contains approximately 178 words across 2 pages. The document opens with the following content: \"VALLEY VIEW MEDICAL CENTER - Laboratory Report Patient Information Patient: Marcus Thornton DOB: 03/15/1958 MRN: SYN-44721 Collection Date: 2025-08-12 Ordering Physician: Dr.\" Additional content includes: \"Glucose elevated - fasting specimen not confirmed.\" The document relates to the following topics: medication. Key entities identified in the document include: patient/subject reference: 'Information'; product/device reference: 'adjustment'; dates mentioned: 03/15/1958. Relevant case detail: \"VALLEY VIEW MEDICAL CENTER - Laboratory Report Patient Information Patient: Marcus Thornton DOB: 03/15/1958 MRN: SYN-44721 Collection Date: 2025-08-12 Ordering Physician: Dr.\" The following important information is missing or not clearly stated: no outcome information provided; no recommended actions or follow-up stated. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: INFO_REQUEST, which supports its relevance to the review process. The identified topics (medication) are within the scope of healthcare document review."
+  }
+}

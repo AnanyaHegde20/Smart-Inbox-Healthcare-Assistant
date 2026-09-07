@@ -1,0 +1,306 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "CITY HOSPITAL - MEDICATION ERROR REPORT\nIncident Summary\nReport Date: 2025-08-18\nReport Number: MER-2025-0342\nReported By: James O'Malley, PharmD, Director of Pharmacy\nDate of Error: 2025-08-17\nTime Discovered: 14:45\nLocation: Pharmacy Department, Station 2\nPatient Information\nName: Jane Smith (pseudonym)\nDOB: 05/22/1975\nMRN: SYN-789012\nRoom: 412B\nAttending: Dr. Williams\nError Details\nError Type: Wrong dose dispensed\nMedication: Warfarin\nPrescribed Dose: 2.5mg\nDispensed Dose: 5.0mg\nRoute: Oral\nContributing Factors\n1. Look-alike packaging (2.5mg and 5mg stored adjacent)\n2. Barcode scanner malfunction (out of service for 3 hours)\n3. Pharmacist staffing: 1 pharmacist covering 2 stations\n4. High workload: 47 prescriptions pending\nError Detection\n\nDetected By: Patricia Lee, RN\nDetection Method: Independent double-check at bedside\nTime to Detection: After 1 dose administered\nPatient Impact\n- One dose of 5mg warfarin administered (intended: 2.5mg)\n- INR checked: 3.2 (therapeutic range 2.0-3.0)\n- No bleeding events\n- Vitamin K 2.5mg PO administered prophylactically\n- Patient monitored for 24 hours\nCorrective Actions\nAction | Responsible | Due Date | Status\nReplace barcode scanner | Biomed Engineering | 08/18 | Complete\nSeparate warfarin strengths | Pharmacy Manager | 08/19 | Complete\nStaff retraining on LASA | Education Dept | 08/25 | In Progress\nIndependent double-check | Pharmacy Director | 08/30 | Planned\nReview staffing model | Operations Manager | 09/15 | Planned",
+  "language": "en",
+  "translated_text": null,
+  "summary": "CITY HOSPITAL - MEDICATION ERROR REPORT Incident Summary Report Date: 2025-08-18 Report Number: MER-2025-0342 Reported By: James O'Malley, PharmD, Director of Pharmacy Date of Error: 2025-08-17 Time Discovered: 14:45 Location: Pharmacy Department, Station 2 Patient Information Name: Jane Smith (pseudonym) DOB: 05/22/1975 MRN: SYN-789012 Room: 412B Attending: Dr. Williams Error Details Error Type: Wrong dose dispensed Medication: Warfarin Prescribed Dose: 2. 5mg Dispensed Dose: 5.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.95,
+    "reasons": [
+      "Matched: medication error, wrong dose",
+      "Matched: pharmacy"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.95,
+        "reason": "Matched: medication error, wrong dose"
+      },
+      {
+        "category": "NOT_RELEVANT",
+        "confidence": 0.35,
+        "reason": "Matched: pharmacy"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "MER-2025-0342",
+      "confidence": 0.9
+    },
+    {
+      "key": "report_date",
+      "value": "2025-08-18",
+      "confidence": 0.85
+    },
+    {
+      "key": "report_type",
+      "value": "Wrong dose dispensed",
+      "confidence": 0.85
+    },
+    {
+      "key": "patient_name",
+      "value": "Jane Smith (pseudonym)",
+      "confidence": 0.6
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_weight",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_height",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_name",
+      "value": "James O'Malley, PharmD, Director of Pharmacy",
+      "confidence": 0.85
+    },
+    {
+      "key": "reporter_role",
+      "value": "Patient",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_name",
+      "value": "Warfarin",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_lot_number",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "2.5mg",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_route",
+      "value": "Oral",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_indication",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 72.01,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'digital-03-medication-error.pdf' contains approximately 216 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"CITY HOSPITAL - MEDICATION ERROR REPORT Incident Summary Report Date: 2025-08-18 Report Number: MER-2025-0342 Reported By: James O'Malley, PharmD, Director of Pharmacy Date of Error: 2025-08-17 Time D\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Barcode scanner malfunction (out of service for 3 hours) 3.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety, medication.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'Information'; product/device reference: 'ERROR REPORT'; dates mentioned: 05/22/1975.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"CITY HOSPITAL - MEDICATION ERROR REPORT Incident Summary Report Date: 2025-08-18 Report Number: MER-2025-0342 Reported By: James O'Malley, PharmD, Director of Pharmacy Date of Error: 2025-08-17 Time D\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Williams Error Details Error Type: Wrong dose dispensed Medication: Warfarin Prescribed Dose: 2.5mg Dispensed Dose: 5.0mg Route: Oral Contributing Factors 1.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, NOT_RELEVANT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (patient safety, medication) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety",
+      "medication"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'digital-03-medication-error.pdf' contains approximately 216 words across 2 pages. The document opens with the following content: \"CITY HOSPITAL - MEDICATION ERROR REPORT Incident Summary Report Date: 2025-08-18 Report Number: MER-2025-0342 Reported By: James O'Malley, PharmD, Director of Pharmacy Date of Error: 2025-08-17 Time D\" Additional content includes: \"Barcode scanner malfunction (out of service for 3 hours) 3.\" The document relates to the following topics: patient safety, medication. Key entities identified in the document include: patient/subject reference: 'Information'; product/device reference: 'ERROR REPORT'; dates mentioned: 05/22/1975. Relevant case detail: \"CITY HOSPITAL - MEDICATION ERROR REPORT Incident Summary Report Date: 2025-08-18 Report Number: MER-2025-0342 Reported By: James O'Malley, PharmD, Director of Pharmacy Date of Error: 2025-08-17 Time D\" Relevant case detail: \"Williams Error Details Error Type: Wrong dose dispensed Medication: Warfarin Prescribed Dose: 2.5mg Dispensed Dose: 5.0mg Route: Oral Contributing Factors 1.\" The following important information is missing or not clearly stated: no outcome information provided. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, NOT_RELEVANT, which supports its relevance to the review process. The identified topics (patient safety, medication) are within the scope of healthcare document review."
+  }
+}

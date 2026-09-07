@@ -1,0 +1,313 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "MEDICAL DEVICE MALFUNCTION REPORT\nReport Information\nReport Reference: DM-2025-0312\nDate: 2025-09-01\nFacility: Metro General Hospital\nDepartment: Emergency Medicine\nReporter: Sarah Kim, Biomedical Engineer\nDevice Information\nDevice: VitaCheck Pulse Oximeter\nModel: PX-500\nManufacturer: MedWatch Systems Inc.\nSerial Number: PX500-2024-3847\nPurchase Date: 2025-02-15\nLast Calibration: 2025-05-20\nMalfunction Description\nDuring routine use in the Emergency Department, the pulse oximeter\ndisplayed SpO2 reading of 98% for a patient who was subsequently\nfound to have SpO2 of 89% on arterial blood gas.\nThe device was used on a patient with:\n- Dark skin pigmentation\n- Poor peripheral perfusion (cold extremities)\n- Hypothermia (core temp 34.2C)\nThe reading remained at 98% for 15 minutes until the device was\nrepositioned to a different finger, where it displayed 91%.\nPatient Impact\nThe delayed accurate reading resulted in a 12-minute delay in\n\ninitiating supplemental oxygen therapy. Patient recovered without\npermanent harm. Incident reported to Risk Management.\nPatient condition at time of incident: Stable but hypoxic.\nFinal outcome: Full recovery after treatment.\nInvestigation\nPreliminary findings:\n1. Device was functioning within manufacturer specifications\n2. Low perfusion index (0.3%) below device accuracy threshold\n3. Manufacturer documentation states accuracy +/-5% when\nperfusion index <0.4%\n4. Staff training did not cover perfusion index limitations\nCorrective Actions:\n1. Issue clinical advisory on device limitations\n2. Update staff training to include perfusion index monitoring\n3. Consider alternative devices for low-perfusion patients\n4. Report to FDA MedWatch as required",
+  "language": "en",
+  "translated_text": null,
+  "summary": "MEDICAL DEVICE MALFUNCTION REPORT Report Information Report Reference: DM-2025-0312 Date: 2025-09-01 Facility: Metro General Hospital Department: Emergency Medicine Reporter: Sarah Kim, Biomedical Engineer Device Information Device: VitaCheck Pulse Oximeter Model: PX-500 Manufacturer: MedWatch Systems Inc. Serial Number: PX500-2024-3847 Purchase Date: 2025-02-15 Last Calibration: 2025-05-20 Malfunction Description During routine use in the Emergency Department, the pulse oximeter displayed SpO2 reading of 98% for a patient who was subsequently found to have SpO2 of 89% on arterial blood gas. The device was used on a patient with: - Dark skin pigmentation - Poor peripheral perfusion (cold extremities) - Hypothermia (core temp 34.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.45,
+    "reasons": [
+      "Matched: harm",
+      "Matched: delayed",
+      "Matched: refer"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.45,
+        "reason": "Matched: harm"
+      },
+      {
+        "category": "QUALITY_COMPLAINT",
+        "confidence": 0.2,
+        "reason": "Matched: delayed"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.15,
+        "reason": "Matched: refer"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_date",
+      "value": "25-09-01",
+      "confidence": 0.6
+    },
+    {
+      "key": "report_type",
+      "value": "Final",
+      "confidence": 0.7
+    },
+    {
+      "key": "patient_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_weight",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_height",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_name",
+      "value": "Sarah Kim, Biomedical Engineer",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_role",
+      "value": "patient",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_name",
+      "value": "VitaCheck Pulse Oximeter",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "MedWatch Systems Inc.",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_lot_number",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_route",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_indication",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "Full recovery after treatment.",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 91.71,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'qc-02-device-malfunction.pdf' contains approximately 232 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"MEDICAL DEVICE MALFUNCTION REPORT Report Information Report Reference: DM-2025-0312 Date: 2025-09-01 Facility: Metro General Hospital Department: Emergency Medicine Reporter: Sarah Kim, Biomedical Eng\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Investigation Preliminary findings: 1.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety, clinical documentation, equipment.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'who was subsequently'; product/device reference: 'MALFUNCTION REPORT'; reporter/author: 'Sarah Kim'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"MEDICAL DEVICE MALFUNCTION REPORT Report Information Report Reference: DM-2025-0312 Date: 2025-09-01 Facility: Metro General Hospital Department: Emergency Medicine Reporter: Sarah Kim, Biomedical Eng\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Serial Number: PX500-2024-3847 Purchase Date: 2025-02-15 Last Calibration: 2025-05-20 Malfunction Description During routine use in the Emergency Department, the pulse oximeter displayed SpO2 reading \"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, QUALITY_COMPLAINT, INFO_REQUEST, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (patient safety, clinical documentation, equipment) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety",
+      "clinical documentation",
+      "equipment"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'qc-02-device-malfunction.pdf' contains approximately 232 words across 2 pages. The document opens with the following content: \"MEDICAL DEVICE MALFUNCTION REPORT Report Information Report Reference: DM-2025-0312 Date: 2025-09-01 Facility: Metro General Hospital Department: Emergency Medicine Reporter: Sarah Kim, Biomedical Eng\" Additional content includes: \"Investigation Preliminary findings: 1.\" The document relates to the following topics: patient safety, clinical documentation, equipment. Key entities identified in the document include: patient/subject reference: 'who was subsequently'; product/device reference: 'MALFUNCTION REPORT'; reporter/author: 'Sarah Kim'. Relevant case detail: \"MEDICAL DEVICE MALFUNCTION REPORT Report Information Report Reference: DM-2025-0312 Date: 2025-09-01 Facility: Metro General Hospital Department: Emergency Medicine Reporter: Sarah Kim, Biomedical Eng\" Relevant case detail: \"Serial Number: PX500-2024-3847 Purchase Date: 2025-02-15 Last Calibration: 2025-05-20 Malfunction Description During routine use in the Emergency Department, the pulse oximeter displayed SpO2 reading \" The following important information is missing or not clearly stated: no specific dates mentioned; no recommended actions or follow-up stated. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, QUALITY_COMPLAINT, INFO_REQUEST, which supports its relevance to the review process. The identified topics (patient safety, clinical documentation, equipment) are within the scope of healthcare document review."
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "RIVERSIDE GENERAL HOSPITAL - DISCHARGE SUMMARY\nPatient Information\nPatient: Margaret Chen\nDOB: 07/22/1945\nMRN: SYN-890123\nAdmission Date: 2025-08-10\nDischarge Date: 2025-08-17\nAttending Physician: Dr. Robert Anderson, MD\nAdmitting Diagnosis\nAcute exacerbation of chronic heart failure (NYHA Class III)\nHospital Course\nPatient presented with 3-day history of progressive dyspnea, lower\nextremity edema, and weight gain of 4 kg over 2 weeks.\nEchocardiogram: EF 30% (baseline 35% 6 months ago).\nBNP: 2,840 pg/mL on admission.\nTreatment:\n- IV Furosemide 40mg BID for 4 days\n- Daily weight monitoring\n- Fluid restriction (1.5L/day)\n- Sodium restriction (<2g/day)\n- Carvedilol continued at 25mg BID\n- Lisinopril uptitrated from 10mg to 20mg daily\nDischarge Medications\n1. Furosemide 40mg PO daily\n2. Carvedilol 25mg PO BID\n3. Lisinopril 20mg PO daily\n\n4. Spironolactone 25mg PO daily\n5. Aspirin 81mg PO daily\nDischarge Instructions\n- Weigh yourself daily, same time, same scale\n- Call doctor if weight increases >2 kg in 24h or >4 kg in 1 week\n- Low sodium diet (<2g daily)\n- Fluid restriction: 1.5L daily\n- No NSAIDs\n- Resume cardiac rehabilitation in 2 weeks\nFollow-up\n- Cardiology: 2 weeks post-discharge\n- Primary Care: 1 week post-discharge\n- Labs: BMP in 1 week\nCondition at Discharge: Stable, ambulatory, SpO2 96% on room air",
+  "language": "en",
+  "translated_text": null,
+  "summary": "RIVERSIDE GENERAL HOSPITAL - DISCHARGE SUMMARY Patient Information Patient: Margaret Chen DOB: 07/22/1945 MRN: SYN-890123 Admission Date: 2025-08-10 Discharge Date: 2025-08-17 Attending Physician: Dr. Robert Anderson, MD Admitting Diagnosis Acute exacerbation of chronic heart failure (NYHA Class III) Hospital Course Patient presented with 3-day history of progressive dyspnea, lower extremity edema, and weight gain of 4 kg over 2 weeks. Echocardiogram: EF 30% (baseline 35% 6 months ago).",
+  "classification": {
+    "category": "QUALITY_COMPLAINT",
+    "subcategory": null,
+    "confidence": 0.15,
+    "reasons": [
+      "Matched: follow-up"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "QUALITY_COMPLAINT",
+        "confidence": 0.15,
+        "reason": "Matched: follow-up"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "product",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "batch_lot_number",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "complaint_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "photo_mentioned",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "complaint_category",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "complainant_name",
+      "value": "Margaret Chen",
+      "confidence": 0.7
+    },
+    {
+      "key": "complainant_contact",
+      "value": "2025-08-10",
+      "confidence": 0.75
+    },
+    {
+      "key": "date_received",
+      "value": "07/22/1945",
+      "confidence": 0.6
+    },
+    {
+      "key": "expected_resolution",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 65.12,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'digital-02-discharge-summary.pdf' contains approximately 210 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"RIVERSIDE GENERAL HOSPITAL - DISCHARGE SUMMARY Patient Information Patient: Margaret Chen DOB: 07/22/1945 MRN: SYN-890123 Admission Date: 2025-08-10 Discharge Date: 2025-08-17 Attending Physician: Dr.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Furosemide 40mg PO daily 2.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: medication, clinical documentation, personnel.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'Information'; product/device reference: 's'; dates mentioned: 07/22/1945; reporter/author: '10mg to 20mg daily'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"RIVERSIDE GENERAL HOSPITAL - DISCHARGE SUMMARY Patient Information Patient: Margaret Chen DOB: 07/22/1945 MRN: SYN-890123 Admission Date: 2025-08-10 Discharge Date: 2025-08-17 Attending Physician: Dr.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Robert Anderson, MD Admitting Diagnosis Acute exacerbation of chronic heart failure (NYHA Class III) Hospital Course Patient presented with 3-day history of progressive dyspnea, lower extremity edema,\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no specific product or device identified; no formal incident or report reference; no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: QUALITY_COMPLAINT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (medication, clinical documentation, personnel) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "medication",
+      "clinical documentation",
+      "personnel"
+    ],
+    "document_purpose": "Quality complaint or service issue report",
+    "narrative": "The document 'digital-02-discharge-summary.pdf' contains approximately 210 words across 2 pages. The document opens with the following content: \"RIVERSIDE GENERAL HOSPITAL - DISCHARGE SUMMARY Patient Information Patient: Margaret Chen DOB: 07/22/1945 MRN: SYN-890123 Admission Date: 2025-08-10 Discharge Date: 2025-08-17 Attending Physician: Dr.\" Additional content includes: \"Furosemide 40mg PO daily 2.\" The document relates to the following topics: medication, clinical documentation, personnel. Key entities identified in the document include: patient/subject reference: 'Information'; product/device reference: 's'; dates mentioned: 07/22/1945; reporter/author: '10mg to 20mg daily'. Relevant case detail: \"RIVERSIDE GENERAL HOSPITAL - DISCHARGE SUMMARY Patient Information Patient: Margaret Chen DOB: 07/22/1945 MRN: SYN-890123 Admission Date: 2025-08-10 Discharge Date: 2025-08-17 Attending Physician: Dr.\" Relevant case detail: \"Robert Anderson, MD Admitting Diagnosis Acute exacerbation of chronic heart failure (NYHA Class III) Hospital Course Patient presented with 3-day history of progressive dyspnea, lower extremity edema,\" The following important information is missing or not clearly stated: no specific product or device identified; no formal incident or report reference; no outcome information provided. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: QUALITY_COMPLAINT, which supports its relevance to the review process. The identified topics (medication, clinical documentation, personnel) are within the scope of healthcare document review."
+  }
+}

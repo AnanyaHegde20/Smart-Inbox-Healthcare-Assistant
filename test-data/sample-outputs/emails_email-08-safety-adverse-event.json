@@ -1,0 +1,290 @@
+{
+  "document_type": "text",
+  "extracted_text": "From: pharmacovigilance@globalpharma.com\nTo: safety@clinicverse.com\nSubject: Adverse Event Report - Anaphylaxis to Amoxicillin\nDate: 2025-08-28T16:30:00Z\n\nINDIVIDUAL CASE SAFETY REPORT (ICSR)\n\nReport ID: AE-2025-2847\nReport Type: Initial\nDate of Report: 2025-08-28\n\nPatient Information:\nName: Elena Rodriguez (pseudonym)\nDOB: 11/08/1982\nSex: Female\nWeight: 62 kg\nHeight: 165 cm\n\nMedical History:\n- Penicillin allergy (childhood, details unknown)\n- No other known allergies\n\nEvent Description:\nPatient developed anaphylaxis approximately 15 minutes after receiving first oral dose of Amoxicillin 500mg for dental prophylaxis.\n\nSymptoms:\n- Immediate onset urticaria (widespread)\n- Angioedema of lips and tongue\n- Bronchospasm\n- Hypotension (BP dropped from 120/80 to 85/50)\n- Tachycardia (HR 110 bpm)\n\nProduct Information:\nDrug: Amoxicillin\nManufacturer: Global Pharma Inc.\nLot: GP-AMX-2025-112\nNDC: 98765-432-10\nDose: 500mg oral\nRoute: Oral\nIndication: Dental prophylaxis\n\nTreatment of Event:\n- Epinephrine 0.3mg IM administered immediately\n- Diphenhydramine 50mg IV\n- Methylprednisolone 125mg IV\n- Normal saline 1L IV bolus\n- Supplemental oxygen\n\nOutcome: Recovered with sequelae (respiratory symptoms resolved within 4 hours, mild fatigue persisted for 3 days)\n\nReporter: Dr. Michael Chen, DDS\nFacility: Bright Smile Dental Clinic\nContact: dr.chen@brightsmile-dental.com\n",
+  "language": "en",
+  "translated_text": null,
+  "summary": "From: pharmacovigilance@globalpharma. com To: safety@clinicverse. com Subject: Adverse Event Report - Anaphylaxis to Amoxicillin Date: 2025-08-28T16:30:00Z  INDIVIDUAL CASE SAFETY REPORT (ICSR)  Report ID: AE-2025-2847 Report Type: Initial Date of Report: 2025-08-28  Patient Information: Name: Elena Rodriguez (pseudonym) DOB: 11/08/1982 Sex: Female Weight: 62 kg Height: 165 cm  Medical History: - Penicillin allergy (childhood, details unknown) - No other known allergies  Event Description: Patient developed anaphylaxis approximately 15 minutes after receiving first oral dose of Amoxicillin 500mg for dental prophylaxis.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.9,
+    "reasons": [
+      "Matched: adverse event"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.9,
+        "reason": "Matched: adverse event"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "AE-2025-2847",
+      "confidence": 0.9
+    },
+    {
+      "key": "report_date",
+      "value": "2025-08-28",
+      "confidence": 0.85
+    },
+    {
+      "key": "report_type",
+      "value": "Initial",
+      "confidence": 0.85
+    },
+    {
+      "key": "patient_name",
+      "value": "Elena Rodriguez (pseudonym)",
+      "confidence": 0.6
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "Female",
+      "confidence": 0.9
+    },
+    {
+      "key": "patient_weight",
+      "value": "62",
+      "confidence": 0.8
+    },
+    {
+      "key": "patient_height",
+      "value": "165",
+      "confidence": 0.85
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "- Penicillin allergy (childhood, details unknown)\n- No other known allergies",
+      "confidence": 0.75
+    },
+    {
+      "key": "reporter_name",
+      "value": "Dr. Michael Chen, DDS",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_role",
+      "value": "Patient",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "dr.chen@brightsmile-dental.com",
+      "confidence": 0.8
+    },
+    {
+      "key": "product_name",
+      "value": "Amoxicillin",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "Global Pharma Inc.",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_lot_number",
+      "value": "GP-AMX-2025-112",
+      "confidence": 0.9
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "500mg oral",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_route",
+      "value": "Oral",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_indication",
+      "value": "Dental prophylaxis",
+      "confidence": 0.8
+    },
+    {
+      "key": "reaction_description",
+      "value": "- Epinephrine 0.3mg IM administered immediately\n- Diphenhydramine 50mg IV\n- Methylprednisolone 125mg IV\n- Normal saline 1L IV bolus\n- Supplemental oxygen",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "Recovered with sequelae (respiratory symptoms resolved within 4 hours, mild fatigue persisted for 3 days)",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 4.68,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'email-08-safety-adverse-event.txt' contains approximately 178 words.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"From: pharmacovigilance@globalpharma.com To: safety@clinicverse.com Subject: Adverse Event Report - Anaphylaxis to Amoxicillin Date: 2025-08-28T16:30:00Z  INDIVIDUAL CASE SAFETY REPORT (ICSR)  Report \"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Lot: GP-AMX-2025-112 NDC: 98765-432-10 Dose: 500mg oral Route: Oral Indication: Dental prophylaxis  Treatment of Event: - Epinephrine 0.3mg IM administered immediately - Diphenhydramine 50mg IV - Meth\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety, medication, adverse event.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'developed anaphylaxis approximately 15 minutes after receiving first oral dose of Amoxicillin 500mg for dental prophylaxis'; product/device reference: 'Amoxicillin'; dates mentioned: 11/08/1982; reporter/author: 'Dr'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"From: pharmacovigilance@globalpharma.com To: safety@clinicverse.com Subject: Adverse Event Report - Anaphylaxis to Amoxicillin Date: 2025-08-28T16:30:00Z  INDIVIDUAL CASE SAFETY REPORT (ICSR)  Report \"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Lot: GP-AMX-2025-112 NDC: 98765-432-10 Dose: 500mg oral Route: Oral Indication: Dental prophylaxis  Treatment of Event: - Epinephrine 0.3mg IM administered immediately - Diphenhydramine 50mg IV - Meth\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (patient safety, medication, adverse event) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety",
+      "medication",
+      "adverse event"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'email-08-safety-adverse-event.txt' contains approximately 178 words. The document opens with the following content: \"From: pharmacovigilance@globalpharma.com To: safety@clinicverse.com Subject: Adverse Event Report - Anaphylaxis to Amoxicillin Date: 2025-08-28T16:30:00Z  INDIVIDUAL CASE SAFETY REPORT (ICSR)  Report \" Additional content includes: \"Lot: GP-AMX-2025-112 NDC: 98765-432-10 Dose: 500mg oral Route: Oral Indication: Dental prophylaxis  Treatment of Event: - Epinephrine 0.3mg IM administered immediately - Diphenhydramine 50mg IV - Meth\" The document relates to the following topics: patient safety, medication, adverse event. Key entities identified in the document include: patient/subject reference: 'developed anaphylaxis approximately 15 minutes after receiving first oral dose of Amoxicillin 500mg for dental prophylaxis'; product/device reference: 'Amoxicillin'; dates mentioned: 11/08/1982; reporter/author: 'Dr'. Relevant case detail: \"From: pharmacovigilance@globalpharma.com To: safety@clinicverse.com Subject: Adverse Event Report - Anaphylaxis to Amoxicillin Date: 2025-08-28T16:30:00Z  INDIVIDUAL CASE SAFETY REPORT (ICSR)  Report \" Relevant case detail: \"Lot: GP-AMX-2025-112 NDC: 98765-432-10 Dose: 500mg oral Route: Oral Indication: Dental prophylaxis  Treatment of Event: - Epinephrine 0.3mg IM administered immediately - Diphenhydramine 50mg IV - Meth\" The following important information is missing or not clearly stated: no recommended actions or follow-up stated. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, which supports its relevance to the review process. The identified topics (patient safety, medication, adverse event) are within the scope of healthcare document review."
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "INCIDENT REPORT FORM\nMeridian General Hospital\n\nDate: Aug 11, 2025 Ward: 3B\nPatient: Marcus Thorn... (last name unclear)\nTime: approx 2:30 PM\n\nDESCRIPTION OF INCIDENT:\n\nPatient found on floor next to bed. Bed rails were up.\nCall bell was within reach but not activated.\n\nPatient says he was trying to go to bathroom.\n\nDid not call for help. No visible injuries.\n\nVS stable. Patient had fallen asleep in chair\n\nand tried to get up without assistance.\n\nWitness: David Kim (CNA)\nNurse: Angela Torres, RN\n\nAssessment:\n\nPatient ambulatory x1 with walker.\nMorse Fall Scale score 45 (high risk).\nCurrently on Metoprolol and Diazepam.\nNeuro checks g4h x24h.\n\nActions Taken:\n\n1. Dr. Vasquez notified\n\n2. Family calied - (555) 012-7890\n\n3. Fall precautions initiated\n\n4. Incident report to Risk Management\n\nNotes: Patient embarrassed. States he should have\nwaited for help. Will reinforce call bell use.\n\n[Signature illegible]\nRECEIVED BY RISK MANAGEMENT\nDate starnp: AUG 13 2025",
+  "language": "en",
+  "translated_text": null,
+  "summary": "INCIDENT REPORT FORM Meridian General Hospital  Date: Aug 11, 2025 Ward: 3B Patient: Marcus Thorn. (last name unclear) Time: approx 2:30 PM  DESCRIPTION OF INCIDENT:  Patient found on floor next to bed. Bed rails were up.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.5,
+    "reasons": [
+      "Matched: fallen",
+      "Matched: waited"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.5,
+        "reason": "Matched: fallen"
+      },
+      {
+        "category": "QUALITY_COMPLAINT",
+        "confidence": 0.2,
+        "reason": "Matched: waited"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_type",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_name",
+      "value": "Marcus Thorn... (last name unclear)",
+      "confidence": 0.85
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_weight",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_height",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_role",
+      "value": "Patient",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_lot_number",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_route",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_indication",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Patient ambulatory x1 with walker.",
+      "confidence": 0.8
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Patient embarrassed. States he should have\nwaited for help. Will reinforce call bell use.",
+      "confidence": 0.75
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": "OCR",
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [
+    {
+      "description": "Image #1 on page 1: 2512x3530 png image (description pending LLM)",
+      "page": 1,
+      "image_index": 1
+    }
+  ],
+  "processing_time_ms": 14935.79,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'scanned-01-incident-report.pdf' contains approximately 154 words across 1 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"INCIDENT REPORT FORM Meridian General Hospital  Date: Aug 11, 2025 Ward: 3B Patient: Marcus Thorn...\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Morse Fall Scale score 45 (high risk).\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'Marcus Thorn'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"INCIDENT REPORT FORM Meridian General Hospital  Date: Aug 11, 2025 Ward: 3B Patient: Marcus Thorn...\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"(last name unclear) Time: approx 2:30 PM  DESCRIPTION OF INCIDENT:  Patient found on floor next to bed.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no specific product or device identified; no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "Additional gaps include: no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 12,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, QUALITY_COMPLAINT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 13,
+        "text": "The identified topics (patient safety) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 13,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'scanned-01-incident-report.pdf' contains approximately 154 words across 1 pages. The document opens with the following content: \"INCIDENT REPORT FORM Meridian General Hospital  Date: Aug 11, 2025 Ward: 3B Patient: Marcus Thorn...\" Additional content includes: \"Morse Fall Scale score 45 (high risk).\" The document relates to the following topics: patient safety. Key entities identified in the document include: patient/subject reference: 'Marcus Thorn'. Relevant case detail: \"INCIDENT REPORT FORM Meridian General Hospital  Date: Aug 11, 2025 Ward: 3B Patient: Marcus Thorn...\" Relevant case detail: \"(last name unclear) Time: approx 2:30 PM  DESCRIPTION OF INCIDENT:  Patient found on floor next to bed.\" The following important information is missing or not clearly stated: no specific dates mentioned; no specific product or device identified; no outcome information provided. Additional gaps include: no recommended actions or follow-up stated. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, QUALITY_COMPLAINT, which supports its relevance to the review process. The identified topics (patient safety) are within the scope of healthcare document review."
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "INFORME DE INCIDENTE DE SEGURIDAD DEL PACIENTE\nInformacion del Hospital\nHospital General Metropolitano\nDepartamento de Calidad y Seguridad\nNumero de Reporte: IS-2025-0456\nFecha del Incidente: 2025-08-14\nFecha del Reporte: 2025-08-15\nInformacion del Paciente\nNombre: Maria Garcia Lopez (seudonimo)\nFecha de Nacimiento: 22/03/1970\nNumero de Expediente: EXP-890123\nServicio: Medicina Interna\nCama: 412-B\nDescripcion del Incidente\nEl paciente fue encontrado en el suelo junto a la cama a las\n14:30 horas. La enfermera de guardia, Ana Martinez, RC, fue\nalertada por el sistema de monitoreo.\nDetalles:\n- Paciente intentaba ir al bano sin asistencia\n- Barandal de la cama estaba en posicion arriba\n- Timbre de llamada estaba al alcance pero no fue utilizado\n- Paciente reporta que se resbalo al intentar levantarse\nEvaluacion Inicial\n- Sin lesiones visibles\n- Signos vitales estables\n- Conciencia intacta\n\n- Movilidad reducida temporalmente\nMedicamentos del Paciente:\n1. Metoprolol 50mg dos veces al dia\n2. Diazepam 5mg antes de dormir\n3. Lisinopril 20mg una vez al dia\nAsistencia Proporcionada\n1. Paciente asistido de vuelta a la cama\n2. Evaluacion post-caida completada\n3. Monitoreo neurologico cada 4 horas por 24 horas\n4. Notificado al Dr. Vasquez\n5. Familia contactada: telefono (555) 012-7890\nEvaluacion de Riesgo de Caida:\n- Escala Morse: 45 (riesgo alto)\n- Factores de riesgo: Medicamentos sedantes, movilidad reducida\nPlan de Accion\n1. Revisar medicamentos que contribuyen a caidas\n2. Evaluar necesidad de asistencia para movilidad\n3. Ensennar uso correcto del timbre de llamada\n4. Considerar alarma de cama si es necesario\n5. Seguimiento diario hasta alta\nResultado: Paciente se recupero sin lesiones. Monitoreo continua.\nReportado por: Ana Martinez, RC\nFirmado: Dr. Roberto Vasquez, MD",
+  "language": "es",
+  "translated_text": null,
+  "summary": "INFORME DE INCIDENTE DE SEGURIDAD DEL PACIENTE Informacion del Hospital Hospital General Metropolitano Departamento de Calidad y Seguridad Numero de Reporte: IS-2025-0456 Fecha del Incidente: 2025-08-14 Fecha del Reporte: 2025-08-15 Informacion del Paciente Nombre: Maria Garcia Lopez (seudonimo) Fecha de Nacimiento: 22/03/1970 Numero de Expediente: EXP-890123 Servicio: Medicina Interna Cama: 412-B Descripcion del Incidente El paciente fue encontrado en el suelo junto a la cama a las 14:30 horas. La enfermera de guardia, Ana Martinez, RC, fue alertada por el sistema de monitoreo. Detalles: - Paciente intentaba ir al bano sin asistencia - Barandal de la cama estaba en posicion arriba - Timbre de llamada estaba al alcance pero no fue utilizado - Paciente reporta que se resbalo al intentar levantarse Evaluacion Inicial - Sin lesiones visibles - Signos vitales estables - Conciencia intacta  - Movilidad reducida temporalmente Medicamentos del Paciente: 1.",
+  "classification": {
+    "category": "NOT_RELEVANT",
+    "subcategory": null,
+    "confidence": 0.3,
+    "reasons": [
+      "No category matched with sufficient confidence"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "NOT_RELEVANT",
+        "confidence": 0.3,
+        "reason": "No category matched with sufficient confidence"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "reason",
+      "value": "Content does not match any healthcare safety, quality, or inquiry category",
+      "confidence": 0.5
+    },
+    {
+      "key": "detected_category",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "sender",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "subject",
+      "value": "Maria Garcia Lopez (seudonimo)",
+      "confidence": 0.85
+    },
+    {
+      "key": "date_received",
+      "value": "25-08-14",
+      "confidence": 0.6
+    },
+    {
+      "key": "is_spam",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "language",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 83.6,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'non-english-01-spanish.pdf' contains approximately 270 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"INFORME DE INCIDENTE DE SEGURIDAD DEL PACIENTE Informacion del Hospital Hospital General Metropolitano Departamento de Calidad y Seguridad Numero de Reporte: IS-2025-0456 Fecha del Incidente: 2025-08-\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Key entities identified in the document include: dates mentioned: 22/03/1970.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "Relevant case detail: \"INFORME DE INCIDENTE DE SEGURIDAD DEL PACIENTE Informacion del Hospital Hospital General Metropolitano Departamento de Calidad y Seguridad Numero de Reporte: IS-2025-0456 Fecha del Incidente: 2025-08-\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Relevant case detail: \"Detalles: - Paciente intentaba ir al bano sin asistencia - Barandal de la cama estaba en posicion arriba - Timbre de llamada estaba al alcance pero no fue utilizado - Paciente reporta que se resbalo a\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "The following important information is missing or not clearly stated: no patient or subject identified; no specific product or device identified; no formal incident or report reference.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Additional gaps include: no outcome information provided; no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document does not appear to be directly relevant to healthcare safety, quality, or information requests (confidence: 30%).",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: NOT_RELEVANT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 10,
+    "is_relevant": false,
+    "relevance_confidence": 0.3,
+    "key_topics": [],
+    "document_purpose": "Safety-related documentation",
+    "narrative": "The document 'non-english-01-spanish.pdf' contains approximately 270 words across 2 pages. The document opens with the following content: \"INFORME DE INCIDENTE DE SEGURIDAD DEL PACIENTE Informacion del Hospital Hospital General Metropolitano Departamento de Calidad y Seguridad Numero de Reporte: IS-2025-0456 Fecha del Incidente: 2025-08-\" Key entities identified in the document include: dates mentioned: 22/03/1970. Relevant case detail: \"INFORME DE INCIDENTE DE SEGURIDAD DEL PACIENTE Informacion del Hospital Hospital General Metropolitano Departamento de Calidad y Seguridad Numero de Reporte: IS-2025-0456 Fecha del Incidente: 2025-08-\" Relevant case detail: \"Detalles: - Paciente intentaba ir al bano sin asistencia - Barandal de la cama estaba en posicion arriba - Timbre de llamada estaba al alcance pero no fue utilizado - Paciente reporta que se resbalo a\" The following important information is missing or not clearly stated: no patient or subject identified; no specific product or device identified; no formal incident or report reference. Additional gaps include: no outcome information provided; no recommended actions or follow-up stated. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document does not appear to be directly relevant to healthcare safety, quality, or information requests (confidence: 30%). The document was classified into the following categories: NOT_RELEVANT, which supports its relevance to the review process."
+  }
+}

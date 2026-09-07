@@ -1,0 +1,167 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "PHARMACURE LABORATORIES - Internal Quality Audit Report\nAudit Information\nAudit Reference: QA-2025-0078\nAudit Date: 2025-08-15 to 2025-08-16\nAudit Type: Annual GMP Compliance Audit\nLead Auditor: Jennifer Wu, Quality Control Manager\nScope: Manufacturing operations, Building 2, Lines 1-4\nOverall Rating: SATISFACTORY with observations\nTotal Findings: 12 (Critical: 0, Major: 3, Minor: 9)\nFinding #1 - MAJOR\nCategory: Documentation\nArea: Packaging Department\nDescription: Batch packaging records for Lot PC-2025-3201 show\nunsigned entries for in-process checks on 2025-08-10.\nRequirement: 21 CFR 211.188\nCorrective Action Due: 2025-09-15\nFinding #2 - MAJOR\nCategory: Equipment\nArea: Tablet Press Line 2\nDescription: Preventive maintenance log shows Tablet Press TP-02\nwas not calibrated per schedule. Last calibration: 2025-05-20\n(due: 2025-08-01).\nRequirement: 21 CFR 211.68\nCorrective Action Due: 2025-09-01\nFinding #3 - MAJOR\nCategory: Personnel\nArea: Warehouse\n\nDescription: 4 warehouse staff have expired forklift certification\n(expired 2025-07-31).\nRequirement: SOP-WH-003, OSHA 1910.178\nCorrective Action Due: 2025-08-31\nMinor Findings (#4-#12)\n#4 HVAC excursion to 76F in Room 204 (spec: 68-72F), 45 min\n#5 SOP-QC-012 rev 7 not distributed to all analysts\n#6 Two drums of Avicel PH-102 missing secondary labels\n#7-12 Additional minor documentation and labeling observations\nCorrective Action Summary\nFinding | Type | Action | Owner | Due | Status\n#1 | Major| Secondary review for pkg records | QA Manager | 09/15 | Open\n#2 | Major| Calibrate TP-02, review PM | Engineering | 09/01 | In Progress\n#3 | Major| Recertify warehouse staff | HR/Training | 08/31 | In Progress\n#4 | Minor| HVAC inspection | Facilities | 09/30 | Open\n#5 | Minor| Distribute current SOP rev | Doc Control | 09/15 | Open\n#6 | Minor| Relabel affected material | Warehouse Mgr | 09/01 | Open\nConclusion\nThe facility demonstrates overall compliance with GMP requirements.\nThe three major findings require immediate attention and corrective\naction plans should be submitted within 15 business days.\nAudit Report Approved By: Jennifer Wu, QC Manager\nDate: 2025-08-20",
+  "language": "en",
+  "translated_text": null,
+  "summary": "PHARMACURE LABORATORIES - Internal Quality Audit Report Audit Information Audit Reference: QA-2025-0078 Audit Date: 2025-08-15 to 2025-08-16 Audit Type: Annual GMP Compliance Audit Lead Auditor: Jennifer Wu, Quality Control Manager Scope: Manufacturing operations, Building 2, Lines 1-4 Overall Rating: SATISFACTORY with observations Total Findings: 12 (Critical: 0, Major: 3, Minor: 9) Finding #1 - MAJOR Category: Documentation Area: Packaging Department Description: Batch packaging records for Lot PC-2025-3201 show unsigned entries for in-process checks on 2025-08-10. Requirement: 21 CFR 211. 188 Corrective Action Due: 2025-09-15 Finding #2 - MAJOR Category: Equipment Area: Tablet Press Line 2 Description: Preventive maintenance log shows Tablet Press TP-02 was not calibrated per schedule.",
+  "classification": {
+    "category": "INFO_REQUEST",
+    "subcategory": null,
+    "confidence": 0.3,
+    "reasons": [
+      "Matched: schedule",
+      "Matched: harm"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.3,
+        "reason": "Matched: schedule"
+      },
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.25,
+        "reason": "Matched: harm"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "questions",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_topic",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "urgency",
+      "value": "Critical",
+      "confidence": 0.75
+    },
+    {
+      "key": "requester_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "requester_contact",
+      "value": "2025-0078",
+      "confidence": 0.75
+    },
+    {
+      "key": "date_submitted",
+      "value": "2025-08-15 to 2025-08-16",
+      "confidence": 0.75
+    },
+    {
+      "key": "preferred_response_format",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 99.27,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'digital-05-quality-audit.pdf' contains approximately 317 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"PHARMACURE LABORATORIES - Internal Quality Audit Report Audit Information Audit Reference: QA-2025-0078 Audit Date: 2025-08-15 to 2025-08-16 Audit Type: Annual GMP Compliance Audit Lead Auditor: Jenni\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Requirement: 21 CFR 211.68 Corrective Action Due: 2025-09-01 Finding #3 - MAJOR Category: Personnel Area: Warehouse  Description: 4 warehouse staff have expired forklift certification (expired 2025-07\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: equipment, personnel.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Relevant case detail: \"PHARMACURE LABORATORIES - Internal Quality Audit Report Audit Information Audit Reference: QA-2025-0078 Audit Date: 2025-08-15 to 2025-08-16 Audit Type: Annual GMP Compliance Audit Lead Auditor: Jenni\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"Requirement: 21 CFR 211.188 Corrective Action Due: 2025-09-15 Finding #2 - MAJOR Category: Equipment Area: Tablet Press Line 2 Description: Preventive maintenance log shows Tablet Press TP-02 was not \"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no patient or subject identified; no specific product or device identified.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "Additional gaps include: no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The document was classified into the following categories: INFO_REQUEST, SAFETY_REPORT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 12,
+        "text": "The identified topics (equipment, personnel) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 12,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "equipment",
+      "personnel"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'digital-05-quality-audit.pdf' contains approximately 317 words across 2 pages. The document opens with the following content: \"PHARMACURE LABORATORIES - Internal Quality Audit Report Audit Information Audit Reference: QA-2025-0078 Audit Date: 2025-08-15 to 2025-08-16 Audit Type: Annual GMP Compliance Audit Lead Auditor: Jenni\" Additional content includes: \"Requirement: 21 CFR 211.68 Corrective Action Due: 2025-09-01 Finding #3 - MAJOR Category: Personnel Area: Warehouse  Description: 4 warehouse staff have expired forklift certification (expired 2025-07\" The document relates to the following topics: equipment, personnel. Relevant case detail: \"PHARMACURE LABORATORIES - Internal Quality Audit Report Audit Information Audit Reference: QA-2025-0078 Audit Date: 2025-08-15 to 2025-08-16 Audit Type: Annual GMP Compliance Audit Lead Auditor: Jenni\" Relevant case detail: \"Requirement: 21 CFR 211.188 Corrective Action Due: 2025-09-15 Finding #2 - MAJOR Category: Equipment Area: Tablet Press Line 2 Description: Preventive maintenance log shows Tablet Press TP-02 was not \" The following important information is missing or not clearly stated: no specific dates mentioned; no patient or subject identified; no specific product or device identified. Additional gaps include: no outcome information provided. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: INFO_REQUEST, SAFETY_REPORT, which supports its relevance to the review process. The identified topics (equipment, personnel) are within the scope of healthcare document review."
+  }
+}

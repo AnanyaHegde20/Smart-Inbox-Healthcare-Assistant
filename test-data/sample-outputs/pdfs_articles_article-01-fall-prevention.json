@@ -1,0 +1,312 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "Journal of Patient Safety & Risk Management\nArticle Information\nVolume 28, Issue 3, pp. 145-158 (2025)\nFalls in Acute Care Settings: A Comprehensive Review of\nRisk Factors and Prevention Strategies\nAuthors:\nSarah Mitchell, RN, PhD - School of Nursing, Meridian University\nDavid Park, MD, MPH - Dept of Internal Medicine, City General Hospital\nElena Rodriguez, PharmD - Dept of Pharmacy, Valley Medical Center\nAbstract\nBackground: Falls remain one of the most common patient safety\nevents in acute care hospitals, with rates ranging from 2.2 to 8.3\nfalls per 1,000 patient days.\nMethods: Systematic search of PubMed, CINAHL, and Cochrane Library\nfor studies published 2018-2024. 42 studies met inclusion criteria.\nResults: Key modifiable risk factors: medication effects (OR 2.3),\nmobility impairment (OR 3.1), environmental hazards (OR 1.7).\nMultifactorial interventions showed greatest effectiveness (RR 0.62).\nConclusions: Evidence supports multifactorial fall prevention programs\ncombining medication review, environmental modifications, and\npatient education.\nCase Example - Fictional Patient\nPatient: Harold M. Thompson, 72-year-old male\nAdmission: Elective hip replacement, City General Hospital\nFall Date: Day 3 post-operative\nCircumstances: Patient arose from bed at 02:15 AM to use restroom\nwithout calling for nurse. Bed alarm activated. Patient found on\n\nfloor by nursing assistant. No injuries detected. Morse Fall Scale\nscore: 55 (high risk).\nRisk Factors Identified:\n- Post-surgical mobility impairment\n- Sedative use (oxazepam 15mg at bedtime)\n- History of falls (2 previous)\n- Cognitive impairment (MMSE 24/30)\nIntervention: 1:1 observation, fall precautions, toileting schedule,\nmedication review by pharmacist.\nOutcome: No further falls during stay. Discharged with home care.\nEvidence-Based Recommendations\n1. Implement multifactorial fall prevention programs (Strong evidence)\n2. Conduct pharmacist-led medication review within 48 hours\n3. Initiate early mobilization protocols\n4. Ensure consistent environmental safety measures\n5. Provide patient and family education\n6. Use validated fall risk assessment tools",
+  "language": "en",
+  "translated_text": null,
+  "summary": "Journal of Patient Safety & Risk Management Article Information Volume 28, Issue 3, pp. 145-158 (2025) Falls in Acute Care Settings: A Comprehensive Review of Risk Factors and Prevention Strategies Authors: Sarah Mitchell, RN, PhD - School of Nursing, Meridian University David Park, MD, MPH - Dept of Internal Medicine, City General Hospital Elena Rodriguez, PharmD - Dept of Pharmacy, Valley Medical Center Abstract Background: Falls remain one of the most common patient safety events in acute care hospitals, with rates ranging from 2. 2 to 8.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.45,
+    "reasons": [
+      "Matched: harm",
+      "Matched: schedule",
+      "Matched: pharmacy"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.45,
+        "reason": "Matched: harm"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.35,
+        "reason": "Matched: schedule"
+      },
+      {
+        "category": "NOT_RELEVANT",
+        "confidence": 0.35,
+        "reason": "Matched: pharmacy"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_type",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_name",
+      "value": "Harold M. Thompson, 72-year-old male",
+      "confidence": 0.85
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "male",
+      "confidence": 0.7
+    },
+    {
+      "key": "patient_weight",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_height",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_role",
+      "value": "Patient",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_lot_number",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "15mg",
+      "confidence": 0.75
+    },
+    {
+      "key": "product_route",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_indication",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "No further falls during stay. Discharged with home care.",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 457.32,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'article-01-fall-prevention.pdf' contains approximately 294 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"Journal of Patient Safety & Risk Management Article Information Volume 28, Issue 3, pp.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"No injuries detected.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety, medication.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'safety'; product/device reference: 'review'; reporter/author: '2'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"Journal of Patient Safety & Risk Management Article Information Volume 28, Issue 3, pp.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"145-158 (2025) Falls in Acute Care Settings: A Comprehensive Review of Risk Factors and Prevention Strategies Authors: Sarah Mitchell, RN, PhD - School of Nursing, Meridian University David Park, MD, \"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no formal incident or report reference; no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, INFO_REQUEST, NOT_RELEVANT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (patient safety, medication) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety",
+      "medication"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'article-01-fall-prevention.pdf' contains approximately 294 words across 2 pages. The document opens with the following content: \"Journal of Patient Safety & Risk Management Article Information Volume 28, Issue 3, pp.\" Additional content includes: \"No injuries detected.\" The document relates to the following topics: patient safety, medication. Key entities identified in the document include: patient/subject reference: 'safety'; product/device reference: 'review'; reporter/author: '2'. Relevant case detail: \"Journal of Patient Safety & Risk Management Article Information Volume 28, Issue 3, pp.\" Relevant case detail: \"145-158 (2025) Falls in Acute Care Settings: A Comprehensive Review of Risk Factors and Prevention Strategies Authors: Sarah Mitchell, RN, PhD - School of Nursing, Meridian University David Park, MD, \" The following important information is missing or not clearly stated: no specific dates mentioned; no formal incident or report reference; no recommended actions or follow-up stated. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, INFO_REQUEST, NOT_RELEVANT, which supports its relevance to the review process. The identified topics (patient safety, medication) are within the scope of healthcare document review."
+  }
+}

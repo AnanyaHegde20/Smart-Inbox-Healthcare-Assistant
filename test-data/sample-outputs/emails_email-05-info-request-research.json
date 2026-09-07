@@ -1,0 +1,157 @@
+{
+  "document_type": "text",
+  "extracted_text": "From: nora.kapoor@stanford.edu\nTo: support@clinicverse.com\nSubject: Question about research study enrollment criteria\nDate: 2025-09-03T15:20:00Z\n\nHello,\n\nI am a research coordinator at Stanford Medical Center working on a Phase III clinical trial for a new diabetes medication (Protocol #SC-2025-DIAB-001).\n\nI have a few questions about your system:\n\n1. Can your platform handle electronic informed consent documents?\n2. Do you support integration with REDCap for data capture?\n3. What formats do you accept for adverse event reports?\n\nWe are evaluating vendor solutions for our upcoming trial and would appreciate any information you can provide.\n\nTimeline: We need to make a decision by October 15, 2025.\n\nBest regards,\nNora Kapoor\nResearch Coordinator\nStanford Medical Center\nnora.kapoor@stanford.edu\n(650) 555-0142\n",
+  "language": "en",
+  "translated_text": null,
+  "summary": "From: nora. kapoor@stanford. edu To: support@clinicverse.",
+  "classification": {
+    "category": "INFO_REQUEST",
+    "subcategory": null,
+    "confidence": 0.95,
+    "reasons": [
+      "Matched: question",
+      "Matched: adverse event"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.95,
+        "reason": "Matched: question"
+      },
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.35,
+        "reason": "Matched: adverse event"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "questions",
+      "value": "1. Can your platform handle electronic informed consent documents? | 2. Do you support integration with REDCap for data capture? | 3. What formats do you accept for adverse event reports?",
+      "confidence": 0.7
+    },
+    {
+      "key": "product_topic",
+      "value": "Question about research study enrollment criteria",
+      "confidence": 0.85
+    },
+    {
+      "key": "urgency",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "requester_name",
+      "value": "nora.kapoor@stanford.edu",
+      "confidence": 0.8
+    },
+    {
+      "key": "requester_contact",
+      "value": "nora.kapoor@stanford.edu",
+      "confidence": 0.9
+    },
+    {
+      "key": "date_submitted",
+      "value": "2025-09-03T15:20:00Z",
+      "confidence": 0.75
+    },
+    {
+      "key": "preferred_response_format",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 2.88,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'email-05-info-request-research.txt' contains approximately 114 words.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"From: nora.kapoor@stanford.edu To: support@clinicverse.com Subject: Question about research study enrollment criteria Date: 2025-09-03T15:20:00Z  Hello,  I am a research coordinator at Stanford Medica\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"What formats do you accept for adverse event reports?\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: medication, adverse event, information request.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'Question about research study enrollment criteria'; reporter/author: 'nora'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"What formats do you accept for adverse event reports?\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no patient or subject identified; no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "Additional gaps include: no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The document was classified into the following categories: INFO_REQUEST, SAFETY_REPORT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 12,
+        "text": "The identified topics (medication, adverse event, information request) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 12,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "medication",
+      "adverse event",
+      "information request"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'email-05-info-request-research.txt' contains approximately 114 words. The document opens with the following content: \"From: nora.kapoor@stanford.edu To: support@clinicverse.com Subject: Question about research study enrollment criteria Date: 2025-09-03T15:20:00Z  Hello,  I am a research coordinator at Stanford Medica\" Additional content includes: \"What formats do you accept for adverse event reports?\" The document relates to the following topics: medication, adverse event, information request. Key entities identified in the document include: patient/subject reference: 'Question about research study enrollment criteria'; reporter/author: 'nora'. Relevant case detail: \"What formats do you accept for adverse event reports?\" The following important information is missing or not clearly stated: no specific dates mentioned; no patient or subject identified; no outcome information provided. Additional gaps include: no recommended actions or follow-up stated. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: INFO_REQUEST, SAFETY_REPORT, which supports its relevance to the review process. The identified topics (medication, adverse event, information request) are within the scope of healthcare document review."
+  }
+}

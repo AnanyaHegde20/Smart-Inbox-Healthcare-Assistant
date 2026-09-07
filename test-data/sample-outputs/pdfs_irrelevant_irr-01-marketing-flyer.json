@@ -1,0 +1,179 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "HealthTech Solutions - Special Offer\nMedBot Pro 3000\nTHE FUTURE OF HEALTHCARE MANAGEMENT IS HERE!\nIntroducing MedBot Pro 3000 - The World's Most Advanced\nAI Healthcare Assistant!\nARE YOU READY TO TRANSFORM YOUR PRACTICE?\nWhat Our Customers Say\n\"I saved 50% on administrative costs!\" - Dr. Smith, NYC\n\"Our efficiency increased by 200%!\" - Nurse Johnson, LA\n\"Best investment we ever made!\" - Hospital Admin, Chicago\n\"Patient satisfaction scores went through the roof!\" - Dr. Lee\nSpecial Limited-Time Offer\nSign up before September 30, 2025 and receive:\n50% OFF your first year (regular price $24,000/year)\nFREE implementation (valued at $10,000)\nFREE 24/7 premium support\nFREE annual training workshop for your entire staff\nFREE data migration from your current system\nTOTAL SAVINGS: Over $30,000!\nFeatures\n- Automated appointment scheduling\n- AI-powered patient communication\n- Real-time analytics dashboard\n- Voice-to-text clinical notes\n- Integration with 200+ EHR systems\n- Mobile app for providers and patients\n\n- Automated billing and coding assistance\n- Patient portal with secure messaging\nContact Us\nDON'T MISS OUT! This offer expires soon!\nCall now: 1-800-555-MEDS (6337)\nEmail: sales@healthtech-solutions.com\nWeb: www.healthtech-solutions.com/demo\nBest regards,\nThe HealthTech Solutions Team\nP.S. Remember, this offer is for a LIMITED TIME ONLY. Act now!\nTo unsubscribe: www.healthtech-solutions.com/unsubscribe",
+  "language": "en",
+  "translated_text": null,
+  "summary": "HealthTech Solutions - Special Offer MedBot Pro 3000 THE FUTURE OF HEALTHCARE MANAGEMENT IS HERE! Introducing MedBot Pro 3000 - The World's Most Advanced AI Healthcare Assistant! ARE YOU READY TO TRANSFORM YOUR PRACTICE? What Our Customers Say \"I saved 50% on administrative costs!\" - Dr. Smith, NYC \"Our efficiency increased by 200%!\" - Nurse Johnson, LA \"Best investment we ever made!\" - Hospital Admin, Chicago \"Patient satisfaction scores went through the roof!\" - Dr. Lee Special Limited-Time Offer Sign up before September 30, 2025 and receive: 50% OFF your first year (regular price $24,000/year) FREE implementation (valued at $10,000) FREE 24/7 premium support FREE annual training workshop for your entire staff FREE data migration from your current system TOTAL SAVINGS: Over $30,000! Features - Automated appointment scheduling - AI-powered patient communication - Real-time analytics dashboard - Voice-to-text clinical notes - Integration with 200+ EHR systems - Mobile app for providers and patients  - Automated billing and coding assistance - Patient portal with secure messaging Contact Us DON'T MISS OUT! This offer expires soon! Call now: 1-800-555-MEDS (6337) Email: sales@healthtech-solutions.",
+  "classification": {
+    "category": "NOT_RELEVANT",
+    "subcategory": null,
+    "confidence": 0.55,
+    "reasons": [
+      "Matched: unsubscribe",
+      "Matched: appointment",
+      "Matched: sale"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "NOT_RELEVANT",
+        "confidence": 0.55,
+        "reason": "Matched: unsubscribe"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.25,
+        "reason": "Matched: appointment"
+      },
+      {
+        "category": "QUALITY_COMPLAINT",
+        "confidence": 0.2,
+        "reason": "Matched: sale"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "reason",
+      "value": "Marketing/newsletter content; Promotional content",
+      "confidence": 0.75
+    },
+    {
+      "key": "detected_category",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "sender",
+      "value": "sales@healthtech-solutions.com",
+      "confidence": 0.75
+    },
+    {
+      "key": "subject",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "date_received",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "is_spam",
+      "value": "Yes",
+      "confidence": 0.9
+    },
+    {
+      "key": "language",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 72.91,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'irr-01-marketing-flyer.pdf' contains approximately 203 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"HealthTech Solutions - Special Offer MedBot Pro 3000 THE FUTURE OF HEALTHCARE MANAGEMENT IS HERE!\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Features - Automated appointment scheduling - AI-powered patient communication - Real-time analytics dashboard - Voice-to-text clinical notes - Integration with 200+ EHR systems - Mobile app for provi\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: billing, personnel.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'communication'; reporter/author: 'your current system'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"Smith, NYC \"Our efficiency increased by 200%!\" - Nurse Johnson, LA \"Best investment we ever made!\" - Hospital Admin, Chicago \"Patient satisfaction scores went through the roof!\" - Dr.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Features - Automated appointment scheduling - AI-powered patient communication - Real-time analytics dashboard - Voice-to-text clinical notes - Integration with 200+ EHR systems - Mobile app for provi\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no specific product or device identified; no formal incident or report reference.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "Additional gaps include: no outcome information provided; no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "This document appears to be relevant to healthcare operations with 62% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 12,
+        "text": "The document was classified into the following categories: NOT_RELEVANT, INFO_REQUEST, QUALITY_COMPLAINT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 13,
+        "text": "The identified topics (billing, personnel) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 13,
+    "is_relevant": true,
+    "relevance_confidence": 0.62,
+    "key_topics": [
+      "billing",
+      "personnel"
+    ],
+    "document_purpose": "Quality complaint or service issue report",
+    "narrative": "The document 'irr-01-marketing-flyer.pdf' contains approximately 203 words across 2 pages. The document opens with the following content: \"HealthTech Solutions - Special Offer MedBot Pro 3000 THE FUTURE OF HEALTHCARE MANAGEMENT IS HERE!\" Additional content includes: \"Features - Automated appointment scheduling - AI-powered patient communication - Real-time analytics dashboard - Voice-to-text clinical notes - Integration with 200+ EHR systems - Mobile app for provi\" The document relates to the following topics: billing, personnel. Key entities identified in the document include: patient/subject reference: 'communication'; reporter/author: 'your current system'. Relevant case detail: \"Smith, NYC \"Our efficiency increased by 200%!\" - Nurse Johnson, LA \"Best investment we ever made!\" - Hospital Admin, Chicago \"Patient satisfaction scores went through the roof!\" - Dr.\" Relevant case detail: \"Features - Automated appointment scheduling - AI-powered patient communication - Real-time analytics dashboard - Voice-to-text clinical notes - Integration with 200+ EHR systems - Mobile app for provi\" The following important information is missing or not clearly stated: no specific dates mentioned; no specific product or device identified; no formal incident or report reference. Additional gaps include: no outcome information provided; no recommended actions or follow-up stated. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document appears to be relevant to healthcare operations with 62% confidence. The document was classified into the following categories: NOT_RELEVANT, INFO_REQUEST, QUALITY_COMPLAINT, which supports its relevance to the review process. The identified topics (billing, personnel) are within the scope of healthcare document review."
+  }
+}

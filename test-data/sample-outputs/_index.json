@@ -1,0 +1,340 @@
+{
+  "description": "Sample extracted JSON outputs for all test documents",
+  "generated_at": "2026-09-07T06:11:20Z",
+  "total_documents": 33,
+  "successful": 33,
+  "failed": 0,
+  "total_processing_ms": 62362.15,
+  "documents": [
+    {
+      "file": "emails\\email-01-safety-fall-report.txt",
+      "output": "emails_email-01-safety-fall-report.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.75,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 23.18,
+      "success": true
+    },
+    {
+      "file": "emails\\email-02-quality-complaint.txt",
+      "output": "emails_email-02-quality-complaint.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.7,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 13.66,
+      "success": true
+    },
+    {
+      "file": "emails\\email-03-info-request.txt",
+      "output": "emails_email-03-info-request.json",
+      "category": "INFO_REQUEST",
+      "confidence": 0.99,
+      "facts_count": 7,
+      "summary_sentences": 11,
+      "processing_ms": 6.05,
+      "success": true
+    },
+    {
+      "file": "emails\\email-04-safety-device-recall.txt",
+      "output": "emails_email-04-safety-device-recall.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.99,
+      "facts_count": 0,
+      "summary_sentences": 11,
+      "processing_ms": 6.44,
+      "success": true
+    },
+    {
+      "file": "emails\\email-05-info-request-research.txt",
+      "output": "emails_email-05-info-request-research.json",
+      "category": "INFO_REQUEST",
+      "confidence": 0.95,
+      "facts_count": 7,
+      "summary_sentences": 12,
+      "processing_ms": 3.44,
+      "success": true
+    },
+    {
+      "file": "emails\\email-06-quality-complaint-med-error.txt",
+      "output": "emails_email-06-quality-complaint-med-error.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.9,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 6.82,
+      "success": true
+    },
+    {
+      "file": "emails\\email-07-marketing-irrelevant.txt",
+      "output": "emails_email-07-marketing-irrelevant.json",
+      "category": "NOT_RELEVANT",
+      "confidence": 0.75,
+      "facts_count": 7,
+      "summary_sentences": 9,
+      "processing_ms": 7.8,
+      "success": true
+    },
+    {
+      "file": "emails\\email-08-safety-adverse-event.txt",
+      "output": "emails_email-08-safety-adverse-event.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.9,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 5.2,
+      "success": true
+    },
+    {
+      "file": "emails\\email-09-quality-recall.txt",
+      "output": "emails_email-09-quality-recall.json",
+      "category": "INFO_REQUEST",
+      "confidence": 0.15,
+      "facts_count": 0,
+      "summary_sentences": 9,
+      "processing_ms": 4.77,
+      "success": true
+    },
+    {
+      "file": "emails\\email-10-mixed-multiple-topics.txt",
+      "output": "emails_email-10-mixed-multiple-topics.json",
+      "category": "QUALITY_COMPLAINT",
+      "confidence": 0.99,
+      "facts_count": 9,
+      "summary_sentences": 13,
+      "processing_ms": 10.52,
+      "success": true
+    },
+    {
+      "file": "emails\\email-11-reaction-brief.txt",
+      "output": "emails_email-11-reaction-brief.json",
+      "category": "NOT_RELEVANT",
+      "confidence": 0.3,
+      "facts_count": 7,
+      "summary_sentences": 12,
+      "processing_ms": 1.44,
+      "success": true
+    },
+    {
+      "file": "emails\\email-12-reaction-moderate.txt",
+      "output": "emails_email-12-reaction-moderate.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.6,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 6.71,
+      "success": true
+    },
+    {
+      "file": "emails\\email-13-reaction-detailed.txt",
+      "output": "emails_email-13-reaction-detailed.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.8,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 7.36,
+      "success": true
+    },
+    {
+      "file": "emails\\email-14-reaction-ambiguous.txt",
+      "output": "emails_email-14-reaction-ambiguous.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.3,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 4.73,
+      "success": true
+    },
+    {
+      "file": "pdfs\\articles\\article-01-fall-prevention.pdf",
+      "output": "pdfs_articles_article-01-fall-prevention.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.45,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 457.75,
+      "success": true
+    },
+    {
+      "file": "pdfs\\articles\\article-02-medication-reconciliation.pdf",
+      "output": "pdfs_articles_article-02-medication-reconciliation.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.6,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 87.87,
+      "success": true
+    },
+    {
+      "file": "pdfs\\articles\\article-03-adverse-drug-reaction.pdf",
+      "output": "pdfs_articles_article-03-adverse-drug-reaction.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.6,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 79.66,
+      "success": true
+    },
+    {
+      "file": "pdfs\\articles\\article-04-antibiotic-stewardship.pdf",
+      "output": "pdfs_articles_article-04-antibiotic-stewardship.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.65,
+      "facts_count": 0,
+      "summary_sentences": 13,
+      "processing_ms": 73.45,
+      "success": true
+    },
+    {
+      "file": "pdfs\\articles\\article-05-rare-adverse-event.pdf",
+      "output": "pdfs_articles_article-05-rare-adverse-event.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.99,
+      "facts_count": 0,
+      "summary_sentences": 11,
+      "processing_ms": 105.21,
+      "success": true
+    },
+    {
+      "file": "pdfs\\digital\\digital-01-icsr-report.pdf",
+      "output": "pdfs_digital_digital-01-icsr-report.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.25,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 86.75,
+      "success": true
+    },
+    {
+      "file": "pdfs\\digital\\digital-02-discharge-summary.pdf",
+      "output": "pdfs_digital_digital-02-discharge-summary.json",
+      "category": "QUALITY_COMPLAINT",
+      "confidence": 0.15,
+      "facts_count": 9,
+      "summary_sentences": 11,
+      "processing_ms": 65.43,
+      "success": true
+    },
+    {
+      "file": "pdfs\\digital\\digital-03-medication-error.pdf",
+      "output": "pdfs_digital_digital-03-medication-error.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.95,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 72.35,
+      "success": true
+    },
+    {
+      "file": "pdfs\\digital\\digital-04-lab-results.pdf",
+      "output": "pdfs_digital_digital-04-lab-results.json",
+      "category": "INFO_REQUEST",
+      "confidence": 0.15,
+      "facts_count": 7,
+      "summary_sentences": 10,
+      "processing_ms": 75.91,
+      "success": true
+    },
+    {
+      "file": "pdfs\\digital\\digital-05-quality-audit.pdf",
+      "output": "pdfs_digital_digital-05-quality-audit.json",
+      "category": "INFO_REQUEST",
+      "confidence": 0.3,
+      "facts_count": 7,
+      "summary_sentences": 12,
+      "processing_ms": 99.65,
+      "success": true
+    },
+    {
+      "file": "pdfs\\info-requests\\ir-01-storage-guidelines.pdf",
+      "output": "pdfs_info-requests_ir-01-storage-guidelines.json",
+      "category": "INFO_REQUEST",
+      "confidence": 0.99,
+      "facts_count": 7,
+      "summary_sentences": 13,
+      "processing_ms": 67.1,
+      "success": true
+    },
+    {
+      "file": "pdfs\\info-requests\\ir-02-system-capabilities.pdf",
+      "output": "pdfs_info-requests_ir-02-system-capabilities.json",
+      "category": "INFO_REQUEST",
+      "confidence": 0.99,
+      "facts_count": 7,
+      "summary_sentences": 13,
+      "processing_ms": 66.45,
+      "success": true
+    },
+    {
+      "file": "pdfs\\irrelevant\\irr-01-marketing-flyer.pdf",
+      "output": "pdfs_irrelevant_irr-01-marketing-flyer.json",
+      "category": "NOT_RELEVANT",
+      "confidence": 0.55,
+      "facts_count": 7,
+      "summary_sentences": 13,
+      "processing_ms": 73.23,
+      "success": true
+    },
+    {
+      "file": "pdfs\\non-english\\non-english-01-spanish.pdf",
+      "output": "pdfs_non-english_non-english-01-spanish.json",
+      "category": "NOT_RELEVANT",
+      "confidence": 0.3,
+      "facts_count": 7,
+      "summary_sentences": 10,
+      "processing_ms": 83.92,
+      "success": true
+    },
+    {
+      "file": "pdfs\\non-english\\non-english-02-french.pdf",
+      "output": "pdfs_non-english_non-english-02-french.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.4,
+      "facts_count": 36,
+      "summary_sentences": 9,
+      "processing_ms": 30292.59,
+      "success": true
+    },
+    {
+      "file": "pdfs\\quality-complaints\\qc-01-tablet-coating.pdf",
+      "output": "pdfs_quality-complaints_qc-01-tablet-coating.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.7,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 99.82,
+      "success": true
+    },
+    {
+      "file": "pdfs\\quality-complaints\\qc-02-device-malfunction.pdf",
+      "output": "pdfs_quality-complaints_qc-02-device-malfunction.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.45,
+      "facts_count": 36,
+      "summary_sentences": 11,
+      "processing_ms": 93.58,
+      "success": true
+    },
+    {
+      "file": "pdfs\\scanned\\scanned-01-incident-report.pdf",
+      "output": "pdfs_scanned_scanned-01-incident-report.json",
+      "category": "SAFETY_REPORT",
+      "confidence": 0.5,
+      "facts_count": 36,
+      "summary_sentences": 13,
+      "processing_ms": 15085.95,
+      "success": true
+    },
+    {
+      "file": "pdfs\\scanned\\scanned-02-faxed-complaint.pdf",
+      "output": "pdfs_scanned_scanned-02-faxed-complaint.json",
+      "category": "QUALITY_COMPLAINT",
+      "confidence": 0.6,
+      "facts_count": 9,
+      "summary_sentences": 11,
+      "processing_ms": 15123.09,
+      "success": true
+    }
+  ]
+}

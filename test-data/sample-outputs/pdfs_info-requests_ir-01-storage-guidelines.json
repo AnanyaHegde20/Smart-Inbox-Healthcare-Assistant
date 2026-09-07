@@ -1,0 +1,179 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "INFORMATION REQUEST - MEDICATION STORAGE\nGUIDELINES\nRequest Information\nDate: 2025-09-01\nFrom: Robert Chen, PharmD\nOrganization: Riverside Medical Center\nPhone: (555) 234-5678\nEmail: robert.chen@riverside-medical.org\nUrgency: Medium\nPreferred Response: Written document or reference links\nSubject\nRequest for clarification on insulin product storage requirements\nSpecific Questions\nWe are updating our pharmacy's cold chain management protocol and\nneed authoritative guidance on the following insulin products:\n1. Lantus (insulin glargine) - opened vials\n2. Humalog (insulin lispro) - opened pens\n3. NovoLog (insulin aspart) - unopened cartridges\nQuestions:\na) What is the maximum room temperature for storage after opening?\nb) What is the discard date after first use for each product?\nc) Are there any stability studies supporting extended use beyond\nmanufacturer guidelines?\nd) How should we handle insulin that has been at room temperature\nfor an unknown duration?\ne) What documentation is required for cold chain deviations?\n\nContext\nOur current policy references USP <797> but we want to ensure\nalignment with latest manufacturer recommendations. We serve a\nrural patient population where patients may have limited access\nto replacement insulin supplies.\nWe would also appreciate any guidance on:\n- Patient education materials for home storage\n- Documentation requirements for regulatory compliance\n- Emergency protocols for cold chain failures",
+  "language": "en",
+  "translated_text": null,
+  "summary": "INFORMATION REQUEST - MEDICATION STORAGE GUIDELINES Request Information Date: 2025-09-01 From: Robert Chen, PharmD Organization: Riverside Medical Center Phone: (555) 234-5678 Email: robert. chen@riverside-medical. org Urgency: Medium Preferred Response: Written document or reference links Subject Request for clarification on insulin product storage requirements Specific Questions We are updating our pharmacy's cold chain management protocol and need authoritative guidance on the following insulin products: 1.",
+  "classification": {
+    "category": "INFO_REQUEST",
+    "subcategory": null,
+    "confidence": 0.99,
+    "reasons": [
+      "Matched: question",
+      "Matched: pharmacy",
+      "Matched: harm"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.99,
+        "reason": "Matched: question"
+      },
+      {
+        "category": "NOT_RELEVANT",
+        "confidence": 0.35,
+        "reason": "Matched: pharmacy"
+      },
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.25,
+        "reason": "Matched: harm"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "questions",
+      "value": "a) What is the maximum room temperature for storage after opening? | b) What is the discard date after first use for each product? | manufacturer guidelines? | for an unknown duration? | e) What documentation is required for cold chain deviations?",
+      "confidence": 0.7
+    },
+    {
+      "key": "product_topic",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "urgency",
+      "value": "Medium",
+      "confidence": 0.8
+    },
+    {
+      "key": "requester_name",
+      "value": "Robert Chen, PharmD",
+      "confidence": 0.8
+    },
+    {
+      "key": "requester_contact",
+      "value": "(555) 234-5678",
+      "confidence": 0.8
+    },
+    {
+      "key": "date_submitted",
+      "value": "2025-09-01",
+      "confidence": 0.75
+    },
+    {
+      "key": "preferred_response_format",
+      "value": "Phone",
+      "confidence": 0.65
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 66.81,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'ir-01-storage-guidelines.pdf' contains approximately 203 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"INFORMATION REQUEST - MEDICATION STORAGE GUIDELINES Request Information Date: 2025-09-01 From: Robert Chen, PharmD Organization: Riverside Medical Center Phone: (555) 234-5678 Email: robert.chen@river\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"c) Are there any stability studies supporting extended use beyond manufacturer guidelines?\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: medication, information request.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'Request for clarification on insulin product storage requirements'; product/device reference: 'STORAGE'; reporter/author: 'Robert Chen'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"We serve a rural patient population where patients may have limited access to replacement insulin supplies.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"We would also appreciate any guidance on: - Patient education materials for home storage - Documentation requirements for regulatory compliance - Emergency protocols for cold chain failures\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no formal incident or report reference; no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "Additional gaps include: no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 12,
+        "text": "The document was classified into the following categories: INFO_REQUEST, NOT_RELEVANT, SAFETY_REPORT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 13,
+        "text": "The identified topics (medication, information request) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 13,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "medication",
+      "information request"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'ir-01-storage-guidelines.pdf' contains approximately 203 words across 2 pages. The document opens with the following content: \"INFORMATION REQUEST - MEDICATION STORAGE GUIDELINES Request Information Date: 2025-09-01 From: Robert Chen, PharmD Organization: Riverside Medical Center Phone: (555) 234-5678 Email: robert.chen@river\" Additional content includes: \"c) Are there any stability studies supporting extended use beyond manufacturer guidelines?\" The document relates to the following topics: medication, information request. Key entities identified in the document include: patient/subject reference: 'Request for clarification on insulin product storage requirements'; product/device reference: 'STORAGE'; reporter/author: 'Robert Chen'. Relevant case detail: \"We serve a rural patient population where patients may have limited access to replacement insulin supplies.\" Relevant case detail: \"We would also appreciate any guidance on: - Patient education materials for home storage - Documentation requirements for regulatory compliance - Emergency protocols for cold chain failures\" The following important information is missing or not clearly stated: no specific dates mentioned; no formal incident or report reference; no outcome information provided. Additional gaps include: no recommended actions or follow-up stated. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: INFO_REQUEST, NOT_RELEVANT, SAFETY_REPORT, which supports its relevance to the review process. The identified topics (medication, information request) are within the scope of healthcare document review."
+  }
+}

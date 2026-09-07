@@ -1,0 +1,311 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "British Journal of Clinical Pharmacology - Original Research\nArticle Information\nReceived: January 15, 2025\nAccepted: June 20, 2025\nPublished online: August 1, 2025\nIncidence and Predictors of Adverse Drug Reactions in\nHospitalized Elderly Patients: A Prospective Cohort Study\nAuthors:\nMichael Thompson, MD, PhD - London Royal Hospital\nAnna Kowalski, PharmD - University of Manchester\nJennifer Lee, RN, PhD - King's College London\nHiroshi Tanaka, MD - Tokyo Medical University\nAbstract\nObjective: To determine the incidence and predictors of adverse\ndrug reactions (ADRs) in hospitalized elderly patients.\nMethods: Prospective cohort study of 1,247 patients aged 65+\nadmitted to two teaching hospitals over 12 months.\nResults: ADR incidence was 18.3% (228/1,247). Most common\nagents: anticoagulants (23%), antibiotics (19%), opioids (15%).\nIndependent predictors: polypharmacy (OR 2.8), renal impairment\n(OR 2.1), history of ADR (OR 3.4), age >80 (OR 1.7).\nCase Vignette - Fictional Patient\nPatient: George P. Harrison, 82-year-old male\nAdmission: Hip fracture repair\nMedications on Admission:\n1. Warfarin 3mg daily (for atrial fibrillation)\n2. Digoxin 0.125mg daily\n\n3. Furosemide 40mg daily\n4. Amlodipine 5mg daily\n5. Omeprazole 20mg daily\n6. Paracetamol 1g QDS PRN\nADR Event: On day 4 post-surgery, patient developed confusion,\nnausea, and visual disturbances. Digoxin level: 2.8 ng/mL\n(therapeutic: 0.5-2.0).\nRoot Cause: Acute kidney injury from post-surgical dehydration\nreduced digoxin clearance. Furosemide dose not adjusted.\nManagement: Digoxin withheld, IV fluids initiated, renal function\nmonitored. Recovery in 48 hours.\nLesson: Drug level monitoring essential when renal function changes.\nConclusions\nADRs are common in elderly inpatients and significantly prolong\nhospital stay. Polypharmacy and renal impairment are major\npredictors. Pharmacist-led medication review reduces ADR risk.",
+  "language": "en",
+  "translated_text": null,
+  "summary": "British Journal of Clinical Pharmacology - Original Research Article Information Received: January 15, 2025 Accepted: June 20, 2025 Published online: August 1, 2025 Incidence and Predictors of Adverse Drug Reactions in Hospitalized Elderly Patients: A Prospective Cohort Study Authors: Michael Thompson, MD, PhD - London Royal Hospital Anna Kowalski, PharmD - University of Manchester Jennifer Lee, RN, PhD - King's College London Hiroshi Tanaka, MD - Tokyo Medical University Abstract Objective: To determine the incidence and predictors of adverse drug reactions (ADRs) in hospitalized elderly patients. Methods: Prospective cohort study of 1,247 patients aged 65+ admitted to two teaching hospitals over 12 months. Results: ADR incidence was 18.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.6,
+    "reasons": [
+      "Matched: injury, harm",
+      "Matched: pharmacy",
+      "Matched: results"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.6,
+        "reason": "Matched: injury, harm"
+      },
+      {
+        "category": "NOT_RELEVANT",
+        "confidence": 0.35,
+        "reason": "Matched: pharmacy"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.2,
+        "reason": "Matched: results"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_type",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_name",
+      "value": "George P. Harrison, 82-year-old male",
+      "confidence": 0.85
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "male",
+      "confidence": 0.7
+    },
+    {
+      "key": "patient_weight",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_height",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_role",
+      "value": "Patient",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_lot_number",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "3mg",
+      "confidence": 0.75
+    },
+    {
+      "key": "product_route",
+      "value": "IV",
+      "confidence": 0.75
+    },
+    {
+      "key": "product_indication",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_description",
+      "value": "On day 4 post-surgery, patient developed confusion,\nnausea, and visual disturbances. Digoxin level: 2.8 ng/mL\n(therapeutic: 0.5-2.0).\nRoot Cause: Acute kidney injury from post-surgical dehydration\nreduced digoxin clearance. Furosemide dose not adjusted.\nManagement: Digoxin withheld, IV fluids initiated, renal function\nmonitored. Recovery in 48 hours.\nLesson: Drug level monitoring essential when renal function changes.\nConclusions\nADRs are common in elderly inpatients and significantly prolong\nhospital stay. Polypharmacy and renal impairment are major\npredictors. Pharmacist-led medication review reduces ADR risk.",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Hospitalized",
+      "confidence": 0.8
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 79.16,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'article-03-adverse-drug-reaction.pdf' contains approximately 263 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"British Journal of Clinical Pharmacology - Original Research Article Information Received: January 15, 2025 Accepted: June 20, 2025 Published online: August 1, 2025 Incidence and Predictors of Adverse\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Omeprazole 20mg daily 6.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: medication.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 's'; product/device reference: 'Reactions in'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"British Journal of Clinical Pharmacology - Original Research Article Information Received: January 15, 2025 Accepted: June 20, 2025 Published online: August 1, 2025 Incidence and Predictors of Adverse\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Methods: Prospective cohort study of 1,247 patients aged 65+ admitted to two teaching hospitals over 12 months.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no outcome information provided; no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, NOT_RELEVANT, INFO_REQUEST, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (medication) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "medication"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'article-03-adverse-drug-reaction.pdf' contains approximately 263 words across 2 pages. The document opens with the following content: \"British Journal of Clinical Pharmacology - Original Research Article Information Received: January 15, 2025 Accepted: June 20, 2025 Published online: August 1, 2025 Incidence and Predictors of Adverse\" Additional content includes: \"Omeprazole 20mg daily 6.\" The document relates to the following topics: medication. Key entities identified in the document include: patient/subject reference: 's'; product/device reference: 'Reactions in'. Relevant case detail: \"British Journal of Clinical Pharmacology - Original Research Article Information Received: January 15, 2025 Accepted: June 20, 2025 Published online: August 1, 2025 Incidence and Predictors of Adverse\" Relevant case detail: \"Methods: Prospective cohort study of 1,247 patients aged 65+ admitted to two teaching hospitals over 12 months.\" The following important information is missing or not clearly stated: no specific dates mentioned; no outcome information provided; no recommended actions or follow-up stated. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, NOT_RELEVANT, INFO_REQUEST, which supports its relevance to the review process. The identified topics (medication) are within the scope of healthcare document review."
+  }
+}

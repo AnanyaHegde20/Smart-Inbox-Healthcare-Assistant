@@ -1,0 +1,135 @@
+{
+  "document_type": "text",
+  "extracted_text": "From: marketing@healthtech-solutions.com\nTo: info@clinicverse.com\nSubject: Revolutionary AI-Powered Healthcare Management - Special Offer!\nDate: 2025-09-05T09:00:00Z\n\nDear Healthcare Professional,\n\nARE YOU READY TO TRANSFORM YOUR PRACTICE?\n\nHealthTech Solutions presents the FUTURE of healthcare management!\n\nIntroducing MedBot Pro 3000 - The World's Most Advanced AI Healthcare Assistant!\n\nWHAT OUR CUSTOMERS SAY:\n\"I saved 50% on administrative costs!\" - Dr. Smith\n\"Our efficiency increased by 200%!\" - Nurse Johnson\n\nSPECIAL LIMITED-TIME OFFER:\nSign up before September 30, 2025 and receive:\n- 50% OFF your first year\n- FREE implementation (valued at $10,000)\n- FREE 24/7 premium support\n- FREE annual training workshop\n\nDON'T MISS OUT! This offer expires soon!\n\nCLICK HERE TO CLAIM YOUR FREE DEMO: www.healthtech-solutions.com/demo\n\nBest regards,\nThe HealthTech Solutions Team\n\nP.S. Remember, this offer is for a LIMITED TIME ONLY. Act now!\n\nTo unsubscribe from future emails, click here: www.healthtech-solutions.com/unsubscribe\n",
+  "language": "en",
+  "translated_text": null,
+  "summary": "From: marketing@healthtech-solutions. com To: info@clinicverse. com Subject: Revolutionary AI-Powered Healthcare Management - Special Offer! Date: 2025-09-05T09:00:00Z  Dear Healthcare Professional,  ARE YOU READY TO TRANSFORM YOUR PRACTICE?  HealthTech Solutions presents the FUTURE of healthcare management!  Introducing MedBot Pro 3000 - The World's Most Advanced AI Healthcare Assistant!  WHAT OUR CUSTOMERS SAY: \"I saved 50% on administrative costs!\" - Dr.",
+  "classification": {
+    "category": "NOT_RELEVANT",
+    "subcategory": null,
+    "confidence": 0.75,
+    "reasons": [
+      "Matched: unsubscribe",
+      "Matched: ?"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "NOT_RELEVANT",
+        "confidence": 0.75,
+        "reason": "Matched: unsubscribe"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.1,
+        "reason": "Matched: ?"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "reason",
+      "value": "Marketing/newsletter content; Promotional content",
+      "confidence": 0.75
+    },
+    {
+      "key": "detected_category",
+      "value": "marketing",
+      "confidence": 0.7
+    },
+    {
+      "key": "sender",
+      "value": "marketing@healthtech-solutions.com",
+      "confidence": 0.8
+    },
+    {
+      "key": "subject",
+      "value": "Revolutionary AI-Powered Healthcare Management - Special Offer!",
+      "confidence": 0.85
+    },
+    {
+      "key": "date_received",
+      "value": "2025-09-05T09:00:00Z",
+      "confidence": 0.75
+    },
+    {
+      "key": "is_spam",
+      "value": "Yes",
+      "confidence": 0.9
+    },
+    {
+      "key": "language",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 7.24,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'email-07-marketing-irrelevant.txt' contains approximately 139 words.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"From: marketing@healthtech-solutions.com To: info@clinicverse.com Subject: Revolutionary AI-Powered Healthcare Management - Special Offer!\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Smith \"Our efficiency increased by 200%!\" - Nurse Johnson  SPECIAL LIMITED-TIME OFFER: Sign up before September 30, 2025 and receive: - 50% OFF your first year - FREE implementation (valued at $10,000\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "Key entities identified in the document include: reporter/author: 'future emails'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no patient or subject identified; no specific product or device identified.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Additional gaps include: no formal incident or report reference; no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Due to the number of missing fields, this document may be incomplete and could benefit from additional detail.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "This document appears to be relevant to healthcare operations with 62% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "The document was classified into the following categories: NOT_RELEVANT, INFO_REQUEST, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 9,
+    "is_relevant": true,
+    "relevance_confidence": 0.62,
+    "key_topics": [],
+    "document_purpose": "Information request or inquiry",
+    "narrative": "The document 'email-07-marketing-irrelevant.txt' contains approximately 139 words. The document opens with the following content: \"From: marketing@healthtech-solutions.com To: info@clinicverse.com Subject: Revolutionary AI-Powered Healthcare Management - Special Offer!\" Additional content includes: \"Smith \"Our efficiency increased by 200%!\" - Nurse Johnson  SPECIAL LIMITED-TIME OFFER: Sign up before September 30, 2025 and receive: - 50% OFF your first year - FREE implementation (valued at $10,000\" Key entities identified in the document include: reporter/author: 'future emails'. The following important information is missing or not clearly stated: no specific dates mentioned; no patient or subject identified; no specific product or device identified. Additional gaps include: no formal incident or report reference; no outcome information provided. Due to the number of missing fields, this document may be incomplete and could benefit from additional detail. This document appears to be relevant to healthcare operations with 62% confidence. The document was classified into the following categories: NOT_RELEVANT, INFO_REQUEST, which supports its relevance to the review process."
+  }
+}

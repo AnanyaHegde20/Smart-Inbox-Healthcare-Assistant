@@ -1,0 +1,313 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "QUALITY COMPLAINT REPORT - PHARMACURE\nLABORATORIES\nComplaint Information\nComplaint Reference: QC-2025-1204\nDate Received: 2025-08-20\nPriority: High\nCategory: Manufacturing Defect / Product Quality\nReporter Information\nName: Jennifer Wu\nTitle: Quality Control Manager\nOrganization: PharmaCure Laboratories\nPhone: (555) 987-6543\nEmail: jennifer.wu@pharma-cure-labs.com\nProduct Information\nProduct: Neurocalm 25mg Tablets\nNDC: 12345-678-90\nLot Number: PC-2025-3391\nManufacturing Date: 2025-07-01\nExpiry: 2027-06-30\nBatch Size: 200,000 tablets\nComplaint Description\nDuring routine quality inspection, approximately 15% of tablets\nin Lot PC-2025-3391 exhibit uneven coating. The coating appears\nthinner on one side of the tablet. This may affect dissolution\nrates and bioequivalence.\nVisual inspection shows mottled appearance on affected tablets.\nStandard coating thickness specification: 50-80 microns\n\nAffected tablets measured: 25-45 microns (below specification)\nImpact Assessment\n- Product distributed to: 3 hospital pharmacies, 12 retail outlets\n- No patient adverse events reported to date\n- Remaining inventory under quarantine\n- Severity: Moderate (potential efficacy impact)\nInvestigation Findings\nRoot Cause: Coating pan temperature fluctuation during production\nrun on 2025-07-01. Temperature controller showed intermittent\ndrift of +5C above setpoint.\nContributing Factors:\n1. Preventive maintenance overdue on temperature controller\n2. Operator did not notice alarm threshold breach\n3. In-process checks did not include coating thickness\nRequested Action\n1. Root cause investigation - COMPLETE\n2. Recall assessment - NOT REQUIRED (contained to quarantined stock)\n3. Corrective action plan:\na. Recalibrate all coating pan temperature controllers\nb. Add coating thickness to in-process checks\nc. Retrain operators on alarm response\n4. Corrective action due within 30 days",
+  "language": "en",
+  "translated_text": null,
+  "summary": "QUALITY COMPLAINT REPORT - PHARMACURE LABORATORIES Complaint Information Complaint Reference: QC-2025-1204 Date Received: 2025-08-20 Priority: High Category: Manufacturing Defect / Product Quality Reporter Information Name: Jennifer Wu Title: Quality Control Manager Organization: PharmaCure Laboratories Phone: (555) 987-6543 Email: jennifer. wu@pharma-cure-labs. com Product Information Product: Neurocalm 25mg Tablets NDC: 12345-678-90 Lot Number: PC-2025-3391 Manufacturing Date: 2025-07-01 Expiry: 2027-06-30 Batch Size: 200,000 tablets Complaint Description During routine quality inspection, approximately 15% of tablets in Lot PC-2025-3391 exhibit uneven coating.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.7,
+    "reasons": [
+      "Matched: adverse event",
+      "Matched: complaint, complain",
+      "Matched: refer"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.7,
+        "reason": "Matched: adverse event"
+      },
+      {
+        "category": "QUALITY_COMPLAINT",
+        "confidence": 0.6,
+        "reason": "Matched: complaint, complain"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.15,
+        "reason": "Matched: refer"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "report_date",
+      "value": "25-08-20",
+      "confidence": 0.6
+    },
+    {
+      "key": "report_type",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_name",
+      "value": "Jennifer Wu",
+      "confidence": 0.6
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_weight",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_height",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_role",
+      "value": "Quality Control Manager",
+      "confidence": 0.8
+    },
+    {
+      "key": "reporter_organization",
+      "value": "PharmaCure Laboratories",
+      "confidence": 0.8
+    },
+    {
+      "key": "reporter_contact",
+      "value": "(555) 987-6543",
+      "confidence": 0.8
+    },
+    {
+      "key": "product_name",
+      "value": "Neurocalm 25mg Tablets",
+      "confidence": 0.85
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_lot_number",
+      "value": "PC-2025-3391",
+      "confidence": 0.9
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "25mg",
+      "confidence": 0.75
+    },
+    {
+      "key": "product_route",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_indication",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Moderate (potential efficacy impact)",
+      "confidence": 0.85
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Moderate (potential efficacy impact)",
+      "confidence": 0.8
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": null,
+      "offset": null
+    },
+    {
+      "page": 2,
+      "section": null,
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 99.14,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'qc-01-tablet-coating.pdf' contains approximately 240 words across 2 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"QUALITY COMPLAINT REPORT - PHARMACURE LABORATORIES Complaint Information Complaint Reference: QC-2025-1204 Date Received: 2025-08-20 Priority: High Category: Manufacturing Defect / Product Quality Rep\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Operator did not notice alarm threshold breach 3.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: quality complaint, adverse event, information request.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'adverse events reported to date'; product/device reference: 'Quality'; reporter/author: 'Information'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"QUALITY COMPLAINT REPORT - PHARMACURE LABORATORIES Complaint Information Complaint Reference: QC-2025-1204 Date Received: 2025-08-20 Priority: High Category: Manufacturing Defect / Product Quality Rep\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Standard coating thickness specification: 50-80 microns  Affected tablets measured: 25-45 microns (below specification) Impact Assessment - Product distributed to: 3 hospital pharmacies, 12 retail out\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no specific dates mentioned; no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, QUALITY_COMPLAINT, INFO_REQUEST, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (quality complaint, adverse event, information request) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "quality complaint",
+      "adverse event",
+      "information request"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'qc-01-tablet-coating.pdf' contains approximately 240 words across 2 pages. The document opens with the following content: \"QUALITY COMPLAINT REPORT - PHARMACURE LABORATORIES Complaint Information Complaint Reference: QC-2025-1204 Date Received: 2025-08-20 Priority: High Category: Manufacturing Defect / Product Quality Rep\" Additional content includes: \"Operator did not notice alarm threshold breach 3.\" The document relates to the following topics: quality complaint, adverse event, information request. Key entities identified in the document include: patient/subject reference: 'adverse events reported to date'; product/device reference: 'Quality'; reporter/author: 'Information'. Relevant case detail: \"QUALITY COMPLAINT REPORT - PHARMACURE LABORATORIES Complaint Information Complaint Reference: QC-2025-1204 Date Received: 2025-08-20 Priority: High Category: Manufacturing Defect / Product Quality Rep\" Relevant case detail: \"Standard coating thickness specification: 50-80 microns  Affected tablets measured: 25-45 microns (below specification) Impact Assessment - Product distributed to: 3 hospital pharmacies, 12 retail out\" The following important information is missing or not clearly stated: no specific dates mentioned; no outcome information provided. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, QUALITY_COMPLAINT, INFO_REQUEST, which supports its relevance to the review process. The identified topics (quality complaint, adverse event, information request) are within the scope of healthcare document review."
+  }
+}

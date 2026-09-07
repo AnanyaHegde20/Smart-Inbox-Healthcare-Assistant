@@ -1,0 +1,289 @@
+{
+  "document_type": "text",
+  "extracted_text": "From: dr.elena.vasquez@meridian-general.org\nTo: safety@clinicverse.com\nSubject: URGENT: Patient Fall Incident Report - Ward 3B\nDate: 2025-08-12T09:15:00Z\n\nPatient Incident Report\n\nReport ID: IR-2025-0847\nDate of Incident: 2025-08-11\nTime: 14:32\n\nPatient Information:\nName: Marcus J. Thornton\nDOB: 03/15/1958\nMRN: MRN-44721\nWard: 3B - Medical Surgical\n\nIncident Details:\nPatient was found on the floor beside the bed at approximately 14:32.\nPatient had been prescribed Metoprolol 50mg twice daily and Diazepam 5mg at bedtime.\nNurse on duty: Angela Torres, RN\nPost-fall assessment completed. No visible injuries. Vital signs stable.\nPatient was assisted back to bed. Neurological observations initiated.\n\nProduct/Device Involved:\nBed rails were in the UP position at time of incident.\nCall bell was within reach but not activated.\n\nActions Taken:\n1. Attending physician notified: Dr. R. Vasquez\n2. Fall risk reassessment completed (score increased to High)\n3. 1:1 observation initiated\n4. Family notified - contact: (555) 012-7890\n5. Incident report filed with Risk Management\n\nOutcome: Patient recovered without injury. Monitoring continues.\n\nReported by: Angela Torres, RN\nWitness: CNA David Kim\n",
+  "language": "en",
+  "translated_text": null,
+  "summary": "From: dr. elena. vasquez@meridian-general.",
+  "classification": {
+    "category": "SAFETY_REPORT",
+    "subcategory": null,
+    "confidence": 0.75,
+    "reasons": [
+      "Matched: patient fall"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.75,
+        "reason": "Matched: patient fall"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "report_id",
+      "value": "IR-2025-0847",
+      "confidence": 0.9
+    },
+    {
+      "key": "report_date",
+      "value": "25-08-12",
+      "confidence": 0.6
+    },
+    {
+      "key": "report_type",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_name",
+      "value": "Marcus J. Thornton",
+      "confidence": 0.6
+    },
+    {
+      "key": "patient_age",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_sex",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_weight",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_height",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "patient_medical_history",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_name",
+      "value": "Angela Torres, RN",
+      "confidence": 0.85
+    },
+    {
+      "key": "reporter_role",
+      "value": "Patient",
+      "confidence": 0.7
+    },
+    {
+      "key": "reporter_organization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reporter_contact",
+      "value": "(555) 012-7890",
+      "confidence": 0.8
+    },
+    {
+      "key": "product_name",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_manufacturer",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_lot_number",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_expiry_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_dosage",
+      "value": "50mg",
+      "confidence": 0.75
+    },
+    {
+      "key": "product_route",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "product_indication",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_onset_date",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "reaction_outcome",
+      "value": "Patient recovered without injury. Monitoring continues.",
+      "confidence": 0.85
+    },
+    {
+      "key": "reaction_seriousness",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_grade",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_description",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_hospitalization",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_life_threatening",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_death",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_disability",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_congenital_anomaly",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "severity_other_significant",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_summary",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_causality_assessment",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_action_taken",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "narrative_additional_information",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [],
+  "tables": [],
+  "image_descriptions": [],
+  "processing_time_ms": 18.74,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'email-01-safety-fall-report.txt' contains approximately 166 words.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"From: dr.elena.vasquez@meridian-general.org To: safety@clinicverse.com Subject: URGENT: Patient Fall Incident Report - Ward 3B Date: 2025-08-12T09:15:00Z  Patient Incident Report  Report ID: IR-2025-0\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Call bell was within reach but not activated.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: patient safety, personnel.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: patient/subject reference: 'Incident Report'; dates mentioned: 03/15/1958; reporter/author: 'dr'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"From: dr.elena.vasquez@meridian-general.org To: safety@clinicverse.com Subject: URGENT: Patient Fall Incident Report - Ward 3B Date: 2025-08-12T09:15:00Z  Patient Incident Report  Report ID: IR-2025-0\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"Thornton DOB: 03/15/1958 MRN: MRN-44721 Ward: 3B - Medical Surgical  Incident Details: Patient was found on the floor beside the bed at approximately 14:32.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no recommended actions or follow-up stated.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: SAFETY_REPORT, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (patient safety, personnel) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "patient safety",
+      "personnel"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'email-01-safety-fall-report.txt' contains approximately 166 words. The document opens with the following content: \"From: dr.elena.vasquez@meridian-general.org To: safety@clinicverse.com Subject: URGENT: Patient Fall Incident Report - Ward 3B Date: 2025-08-12T09:15:00Z  Patient Incident Report  Report ID: IR-2025-0\" Additional content includes: \"Call bell was within reach but not activated.\" The document relates to the following topics: patient safety, personnel. Key entities identified in the document include: patient/subject reference: 'Incident Report'; dates mentioned: 03/15/1958; reporter/author: 'dr'. Relevant case detail: \"From: dr.elena.vasquez@meridian-general.org To: safety@clinicverse.com Subject: URGENT: Patient Fall Incident Report - Ward 3B Date: 2025-08-12T09:15:00Z  Patient Incident Report  Report ID: IR-2025-0\" Relevant case detail: \"Thornton DOB: 03/15/1958 MRN: MRN-44721 Ward: 3B - Medical Surgical  Incident Details: Patient was found on the floor beside the bed at approximately 14:32.\" The following important information is missing or not clearly stated: no recommended actions or follow-up stated. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: SAFETY_REPORT, which supports its relevance to the review process. The identified topics (patient safety, personnel) are within the scope of healthcare document review."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "document_type": "pdf",
+  "extracted_text": "FAX TRANSMISSION\n\nFrom: PharmaCure Laboratories Quality Dept\nTo: ClinicVerse Complaints Department\nDate: 08/20/2025 14:32 Pages: 1/1\n\nRe: Quality Complaint QC-2025-1204\n\nQUALITY COMPLAINT FORM\n\nComplaint #: QC-2025-1204\nDate Received: 08/20/2025\nPriority: HIGH\n\nReporter: Jennifer Wu, QC Manager\nCompany: PharmaCure Labs\nPhone: (555) 987-6543\n\nEmail: j.wu@pharma-cure.com\n\nProduct: Neurocalm 25mg Tablets\nLot #: PC-2025-3391\nNDC: 12345-678-90\n\nDescription of Problem:\n\nApproximately 15% of tablets show Uneven coating.\nCoating measured 25-45 microns vs spec of 50-80.\nMottled appearance on affected tablets.\n\n[|X] Performance impact suspected\n[X] Product quarantined\n\nAttachments Referenced:\n[1] Inspection_Report.pdf\n[2] Measurement_Data.xlsx\n\nFollow up needed - J.W.\nTRANSMISSION SUCCESSFUL",
+  "language": "en",
+  "translated_text": null,
+  "summary": "FAX TRANSMISSION  From: PharmaCure Laboratories Quality Dept To: ClinicVerse Complaints Department Date: 08/20/2025 14:32 Pages: 1/1  Re: Quality Complaint QC-2025-1204  QUALITY COMPLAINT FORM  Complaint #: QC-2025-1204 Date Received: 08/20/2025 Priority: HIGH  Reporter: Jennifer Wu, QC Manager Company: PharmaCure Labs Phone: (555) 987-6543  Email: j. wu@pharma-cure. com  Product: Neurocalm 25mg Tablets Lot #: PC-2025-3391 NDC: 12345-678-90  Description of Problem:  Approximately 15% of tablets show Uneven coating.",
+  "classification": {
+    "category": "QUALITY_COMPLAINT",
+    "subcategory": null,
+    "confidence": 0.6,
+    "reasons": [
+      "Matched: complaint, complain",
+      "Matched: harm",
+      "Matched: refer"
+    ]
+  },
+  "classification_output": {
+    "categories": [
+      {
+        "category": "QUALITY_COMPLAINT",
+        "confidence": 0.6,
+        "reason": "Matched: complaint, complain"
+      },
+      {
+        "category": "SAFETY_REPORT",
+        "confidence": 0.25,
+        "reason": "Matched: harm"
+      },
+      {
+        "category": "INFO_REQUEST",
+        "confidence": 0.15,
+        "reason": "Matched: refer"
+      }
+    ]
+  },
+  "extracted_facts": [
+    {
+      "key": "product",
+      "value": "Neurocalm 25mg Tablets",
+      "confidence": 0.85
+    },
+    {
+      "key": "batch_lot_number",
+      "value": "PC-2025-3391",
+      "confidence": 0.9
+    },
+    {
+      "key": "complaint_description",
+      "value": "Approximately 15% of tablets show Uneven coating.\nCoating measured 25-45 microns vs spec of 50-80.\nMottled appearance on affected tablets.",
+      "confidence": 0.85
+    },
+    {
+      "key": "photo_mentioned",
+      "value": "Not stated",
+      "confidence": 0.0
+    },
+    {
+      "key": "complaint_category",
+      "value": "Performance",
+      "confidence": 0.7
+    },
+    {
+      "key": "complainant_name",
+      "value": "PharmaCure Laboratories Quality Dept",
+      "confidence": 0.8
+    },
+    {
+      "key": "complainant_contact",
+      "value": "(555) 987-6543",
+      "confidence": 0.8
+    },
+    {
+      "key": "date_received",
+      "value": "08/20/2025",
+      "confidence": 0.85
+    },
+    {
+      "key": "expected_resolution",
+      "value": "Not stated",
+      "confidence": 0.0
+    }
+  ],
+  "source_references": [
+    {
+      "page": 1,
+      "section": "OCR",
+      "offset": null
+    }
+  ],
+  "tables": [],
+  "image_descriptions": [
+    {
+      "description": "Image #1 on page 1: 2500x3522 png image (description pending LLM)",
+      "page": 1,
+      "image_index": 1
+    }
+  ],
+  "processing_time_ms": 14974.5,
+  "document_summary": {
+    "sentences": [
+      {
+        "index": 1,
+        "text": "The document 'scanned-02-faxed-complaint.pdf' contains approximately 96 words across 1 pages.",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 2,
+        "text": "The document opens with the following content: \"FAX TRANSMISSION  From: PharmaCure Laboratories Quality Dept To: ClinicVerse Complaints Department Date: 08/20/2025 14:32 Pages: 1/1  Re: Quality Complaint QC-2025-1204  QUALITY COMPLAINT FORM  Compla\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 3,
+        "text": "Additional content includes: \"Mottled appearance on affected tablets.\"",
+        "section": "overview",
+        "source_ref": null
+      },
+      {
+        "index": 4,
+        "text": "The document relates to the following topics: quality complaint.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 5,
+        "text": "Key entities identified in the document include: product/device reference: 'Neurocalm 25mg Tablets'; dates mentioned: 08/20/2025, 08/20/2025; reporter/author: 'PharmaCure Laboratories Quality Dept'.",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 6,
+        "text": "Relevant case detail: \"FAX TRANSMISSION  From: PharmaCure Laboratories Quality Dept To: ClinicVerse Complaints Department Date: 08/20/2025 14:32 Pages: 1/1  Re: Quality Complaint QC-2025-1204  QUALITY COMPLAINT FORM  Compla\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 7,
+        "text": "Relevant case detail: \"[|X] Performance impact suspected [X] Product quarantined  Attachments Referenced: [1] Inspection_Report.pdf [2] Measurement_Data.xlsx  Follow up needed - J.W.\"",
+        "section": "case_info",
+        "source_ref": null
+      },
+      {
+        "index": 8,
+        "text": "The following important information is missing or not clearly stated: no patient or subject identified; no formal incident or report reference; no outcome information provided.",
+        "section": "missing_info",
+        "source_ref": null
+      },
+      {
+        "index": 9,
+        "text": "This document appears to be relevant to healthcare operations with 95% confidence.",
+        "section": "relevance",
+        "source_ref": null
+      },
+      {
+        "index": 10,
+        "text": "The document was classified into the following categories: QUALITY_COMPLAINT, SAFETY_REPORT, INFO_REQUEST, which supports its relevance to the review process.",
+        "section": "reasoning",
+        "source_ref": null
+      },
+      {
+        "index": 11,
+        "text": "The identified topics (quality complaint) are within the scope of healthcare document review.",
+        "section": "reasoning",
+        "source_ref": null
+      }
+    ],
+    "total_sentences": 11,
+    "is_relevant": true,
+    "relevance_confidence": 0.95,
+    "key_topics": [
+      "quality complaint"
+    ],
+    "document_purpose": "Safety report or adverse event documentation",
+    "narrative": "The document 'scanned-02-faxed-complaint.pdf' contains approximately 96 words across 1 pages. The document opens with the following content: \"FAX TRANSMISSION  From: PharmaCure Laboratories Quality Dept To: ClinicVerse Complaints Department Date: 08/20/2025 14:32 Pages: 1/1  Re: Quality Complaint QC-2025-1204  QUALITY COMPLAINT FORM  Compla\" Additional content includes: \"Mottled appearance on affected tablets.\" The document relates to the following topics: quality complaint. Key entities identified in the document include: product/device reference: 'Neurocalm 25mg Tablets'; dates mentioned: 08/20/2025, 08/20/2025; reporter/author: 'PharmaCure Laboratories Quality Dept'. Relevant case detail: \"FAX TRANSMISSION  From: PharmaCure Laboratories Quality Dept To: ClinicVerse Complaints Department Date: 08/20/2025 14:32 Pages: 1/1  Re: Quality Complaint QC-2025-1204  QUALITY COMPLAINT FORM  Compla\" Relevant case detail: \"[|X] Performance impact suspected [X] Product quarantined  Attachments Referenced: [1] Inspection_Report.pdf [2] Measurement_Data.xlsx  Follow up needed - J.W.\" The following important information is missing or not clearly stated: no patient or subject identified; no formal incident or report reference; no outcome information provided. This document appears to be relevant to healthcare operations with 95% confidence. The document was classified into the following categories: QUALITY_COMPLAINT, SAFETY_REPORT, INFO_REQUEST, which supports its relevance to the review process. The identified topics (quality complaint) are within the scope of healthcare document review."
+  }
+}
