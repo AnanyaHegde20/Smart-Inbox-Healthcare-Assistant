@@ -1,0 +1,35 @@
+From: admin.ward5@central-hospital.org
+To: safety@clinicverse.com
+Subject: Possible medication reaction - unsure
+Date: 2025-09-09T16:10:00Z
+
+Hello,
+
+We had a patient on Ward 5 who may have had some kind of reaction,
+but I'm not sure if it qualifies as a reportable event.
+
+Patient: male, approximately 65 years old (I don't have the exact
+details right now - the chart is with the attending).
+
+He was on several medications including something for blood pressure
+and a diuretic. Around day 4 of admission he started looking a bit
+jaundiced - yellowish skin and eyes. The lab work showed elevated
+liver enzymes but I don't have the exact numbers.
+
+The attending thinks it might be related to the blood pressure
+medication but isn't certain. He said it could also be related to
+the patient's pre-existing liver condition.
+
+The diuretic was stopped "just in case" but the blood pressure
+medication was continued.
+
+I'm filing this because I wasn't sure what the threshold is for
+reporting. The patient is stable and not in any acute distress.
+He's scheduled for discharge tomorrow.
+
+Can someone advise if this needs a formal report?
+
+Thanks,
+Ward 5 Admin
+Central Hospital
+Phone: (555) 234-5678

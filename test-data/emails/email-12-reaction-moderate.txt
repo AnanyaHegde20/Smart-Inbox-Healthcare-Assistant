@@ -1,0 +1,44 @@
+From: dr.tanaka@valley-ortho.com
+To: safety@clinicverse.com
+Subject: Adverse Reaction - Ketorolac - Post-Surgical Patient
+Date: 2025-09-07T08:45:00Z
+
+Patient Adverse Drug Reaction Report
+
+Patient: Ellen R. Foster (synthetic ID: SYN-3391)
+Age: 58, Female
+Allergies: NKDA (prior to this event)
+Procedure: Right knee arthroscopy, 2025-09-05
+
+Post-Operative Medications:
+- Ketorolac 15mg IV q6h (started day of surgery)
+- Oxycodone 5mg PO q6h PRN
+- Ondansetron 4mg IV q8h PRN
+
+Reaction Onset: Day 2 post-op (2025-09-06)
+Time from first dose: Approximately 18 hours
+
+Symptoms:
+- Gross hematuria (visible blood in urine)
+- flank pain, right side
+- Decreased urine output (~200mL in 8 hours)
+- Serum creatinine elevated: 1.8 mg/dL (baseline 0.9)
+
+Assessment:
+Acute kidney injury likely secondary to ketorolac (NSAID)
+in a post-surgical patient with transient hypotension.
+
+Actions Taken:
+1. Ketorolac discontinued immediately
+2. IV fluid resuscitation started
+3. Urine output monitored hourly
+4. Nephrology consult placed
+5. Creatinine trended every 12 hours
+
+Outcome: Creatinine returned to 1.1 mg/dL by day 4.
+Urine cleared by day 3. Patient discharged on day 5
+with normal renal function.
+
+Reported by: Dr. Kenji Tanaka, Orthopedic Surgery
+Facility: Valley Orthopedic Center
+Phone: (555) 867-5309
