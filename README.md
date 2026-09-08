@@ -981,11 +981,6 @@ The patient was administered [uncertain]aspirin[/uncertain] 100mg daily.
 - [ ] Export to PDF/CSV
 - [ ] Accessibility (WCAG 2.1 AA)
 
----
-
-## License
-
-Internal use only - Clinevo Technologies.
 
 ---
 
