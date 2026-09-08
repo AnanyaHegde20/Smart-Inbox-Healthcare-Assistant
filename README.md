@@ -1,4 +1,4 @@
-# Smart Inbox Assistant
+# Smart Inbox Assistant for Healthcare
 
 Healthcare email and document management system with AI-powered classification, extraction, and review workflow.
 
