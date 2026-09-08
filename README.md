@@ -2,7 +2,6 @@
 
 Healthcare email and document management system with AI-powered classification, extraction, and review workflow.
 
-Built by **Clinevo Technologies**.
 
 ---
 
